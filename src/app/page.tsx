@@ -16,9 +16,6 @@ export default function Home() {
         />
         <p>this is the homepage</p>
       </main>
-      <footer className={styles.footer}>
-        <p>this is the footer</p>
-      </footer>
     </div>
   );
 }
