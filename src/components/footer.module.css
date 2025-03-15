@@ -1,0 +1,49 @@
+.youtube-logo {
+  color: #ff0200;
+}
+.twitter-logo {
+  color: white;
+}
+.inst-logo {
+  color: #fff;
+  background: #d6249f;
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+.github-logo {
+  color: white;
+  background-color: #86309f;
+  border: #86309f solid 4px;
+  border-radius: 50%;
+}
+.linkedin-logo {
+  color: #0c66c2;
+}
+.submit-button {
+  background-color: var(--brand-color);
+  color: var(--main-background-color);
+  padding: 7px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 16px;
+  border: none;
+}
+.submit-button:hover {
+  background-color: var(--highlight-color);
+  color: var(--secondary-color);
+}
+.footer-link:hover {
+  color: var(--highlight-color);
+}
+.ff-secfields {
+  display: flex !important;
+  flex-direction: column;
+}

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import styles from "./navbar.module.css";
 
 export default function Navbar() {
   const closeMenu = () => {
@@ -9,8 +10,10 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="navbar navbar-expand-md navbar-light fixed-top navbar-css">
-      <Link className="navbar-brand ms-3" href="/">
+    <nav
+      className={`navbar navbar-expand-md navbar-light fixed-top ${styles["navbar-css"]}`}
+    >
+      <Link className="ms-3" href="/">
         <img src="/logo-small.png" alt="Chameleon Studios logo" width={60} />
       </Link>
       <button
@@ -25,25 +28,31 @@ export default function Navbar() {
         <span className="navbar-toggler-icon"></span>
       </button>
       <div className="collapse navbar-collapse" id="navbarNav">
-        <ul className="navbar-nav me-auto navul">
-          <li className="nav-item mx-0">
-            <Link className="nav-link" href="/about">
-              About
+        <ul className={`navbar-nav me-auto ${styles["navul"]}`}>
+          <li className={`${styles["nav-item"]} mx-0`}>
+            <Link className={`${styles["nav-link"]} nav-link`} href="/about">
+              About me
             </Link>
           </li>
 
-          <li className="nav-item">
-            <Link className="nav-link" href="/voicecoach">
+          <li className={`${styles["nav-item"]}`}>
+            <Link
+              className={`${styles["nav-link"]} nav-link`}
+              href="/voicecoach"
+            >
               Private voice lessons
             </Link>
           </li>
-          <li className="nav-item">
-            <Link className="nav-link" href="/webdeveloper">
+          <li className={`${styles["nav-item"]}`}>
+            <Link
+              className={`${styles["nav-link"]} nav-link`}
+              href="/webdeveloper"
+            >
               Website development
             </Link>
           </li>
-          <li className="nav-item">
-            <Link className="nav-link" href="/contact">
+          <li className={`${styles["nav-item"]}`}>
+            <Link className={`${styles["nav-link"]} nav-link`} href="/contact">
               Contact
             </Link>
           </li>

@@ -1,0 +1,31 @@
+.navbar-css {
+  background-color: var(--brand-color);
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+  color: var(--secondary-color);
+  font-weight: 500;
+}
+.navul {
+  line-height: 200%;
+}
+.nav-link {
+  color: var(--secondary-background-color) !important;
+}
+.nav-item {
+  padding: 8px;
+  font-weight: 500;
+}
+.nav-item:hover {
+  background-color: var(--brand-color);
+  border-radius: 2px;
+}
+.link,
+.link:hover {
+  text-decoration: none;
+}
+.language {
+  margin-right: 60px;
+}
+.language:hover {
+  cursor: pointer;
+}
