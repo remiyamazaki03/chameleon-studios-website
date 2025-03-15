@@ -29,7 +29,7 @@ export default function Navbar() {
       </button>
       <div className="collapse navbar-collapse" id="navbarNav">
         <ul className={`navbar-nav me-auto ${styles["navul"]}`}>
-          <li className={`${styles["nav-item"]} mx-0`}>
+          <li className={`${styles["nav-item"]} ms-3`}>
             <Link className={`${styles["nav-link"]} nav-link`} href="/about">
               About me
             </Link>
