@@ -1,3 +1,5 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+
 :root {
   --brand-color: #6347ff;
   --secondary-color: #e0e0e0;
