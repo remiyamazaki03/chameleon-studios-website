@@ -20,7 +20,7 @@ li {
   list-style: none;
 }
 footer {
-  background-color: var(--main-background-color);
+  background-color: var(--secondary-background-color);
 }
 
 .containter1 {

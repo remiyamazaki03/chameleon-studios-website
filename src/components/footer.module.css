@@ -12,7 +12,7 @@
   color: black;
 }
 .instLogo {
-  color: #fff;
+  color: var(--secondary-color);
   background: #d6249f;
   background: radial-gradient(
     circle at 30% 107%,
@@ -25,13 +25,19 @@
   border-radius: 5px;
 }
 .githubLogo {
-  color: white;
+  color: var(--secondary-background-color);
   background-color: #86309f;
   border: #86309f solid 4px;
   border-radius: 50%;
 }
 .linkedinLogo {
   color: #0c66c2;
+}
+.email {
+  font-weight: 500;
+  font-size: 1.4rem;
+  color: var(--brand-color);
+  text-shadow: var(--box-shadow);
 }
 .submit-button {
   background-color: var(--brand-color);

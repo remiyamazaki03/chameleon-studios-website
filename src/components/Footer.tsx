@@ -75,7 +75,7 @@ export default function Footer() {
               />
             </a>
           </div>
-          <p className="mt-4 mb-2 mb-md-5 highlight ps-5">
+          <p className={`mt-5 mb-2 mb-md-5 ps-5 ${styles.email}`}>
             email: hello@chameleon-studios.com
           </p>
         </div>
