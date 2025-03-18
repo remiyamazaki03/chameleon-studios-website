@@ -25,7 +25,7 @@ export default function Voicecoach() {
             <Image
               src="/freebird.png"
               alt="vocal freedom"
-              className={`img-fluid p-4 d-block mx-auto ${styles.imgVoicecoach}`}
+              className={`img-fluid p-4 d-block mx-auto ${styles.voicecoachImg}`}
               width={400}
               height={400}
             />
@@ -63,7 +63,7 @@ export default function Voicecoach() {
             <Image
               src="/branchout.png"
               alt="rainbow chameleon"
-              className={`img-fluid p-4 d-block mx-auto ${styles.imgVoicecoach}`}
+              className={`img-fluid p-4 d-block mx-auto ${styles.voicecoachImg}`}
               width={400}
               height={400}
             />
@@ -74,7 +74,7 @@ export default function Voicecoach() {
             <Image
               src="/unicorn.png"
               alt="show off your singing"
-              className={`img-fluid p-4 d-block mx-auto ${styles.imgVoicecoach}`}
+              className={`img-fluid p-4 d-block mx-auto ${styles.voicecoachImg}`}
               width={400}
               height={400}
             />
