@@ -1,0 +1,21 @@
+.demoRow {
+  display: flex;
+  align-items: stretch;
+}
+.demo {
+  background-color: white;
+  margin: 0rem 5rem 2rem 5rem;
+  padding: 2em;
+  border-radius: 4px;
+  transition: transform 0.3s ease;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+.demo:hover {
+  transform: scale(1.05);
+}
+.demoThumbnail {
+  border-radius: 4px;
+  box-shadow: var(--box-shadow);
+}

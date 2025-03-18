@@ -22,6 +22,10 @@
   background-repeat: no-repeat;
   background-position-y: 100%;
 }
+.link,
+.link:hover {
+  text-decoration: none;
+}
 .logo {
   display: block;
   margin-left: auto;
