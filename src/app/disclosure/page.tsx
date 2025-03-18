@@ -1,8 +1,7 @@
+import Link from "next/link";
 import "../../globals.css";
 
 export default function Disclosure() {
-  const policiesUrl =
-    "https://docs.google.com/document/d/1yG2lIGjPvCpPJf0McNzMnhuWnsm4z5V4U9XJ994GOt8/edit?usp=sharing";
   return (
     <div>
       <h2 className="title m-0 d-flex align-items-center">
@@ -31,7 +30,7 @@ export default function Disclosure() {
           <div className="col-4">電話番号・Phone number</div>
           <div className="col-8">
             お電話でのお問い合わせは承っておりません。
-            <a href="/contact">お問合せページから</a>
+            <Link href="/contact">お問合せページから</Link>
             、もしくは記載のメールアドレスまでお問い合わせください。
             <br />
             ※特定商取引法に基づき、取引時にご請求があれば遅滞なくメール等により電話番号をご連絡いたします。
@@ -71,9 +70,7 @@ export default function Disclosure() {
           <div className="col-8">
             下記のURLをご覧ください。
             <br />
-            <a href={policiesUrl} target="_blank" rel="noreferrer">
-              Please refer to this policies link.
-            </a>
+            <Link href="/policies">Please refer to this policies link.</Link>
           </div>
         </div>
         <div className="row pb-2">
@@ -106,7 +103,7 @@ export default function Disclosure() {
             下記のボイストレーニングページに料金情報がございます。
             <br />
             Please refer to the pricing information on{" "}
-            <a href="/voicecoach">this page.</a>
+            <Link href="/voicecoach">this page.</Link>
           </div>
         </div>
       </div>
