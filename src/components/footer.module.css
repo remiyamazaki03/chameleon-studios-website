@@ -1,3 +1,8 @@
+.contact {
+  padding-top: 35px;
+  padding-right: 7.5%;
+  padding-left: 7.5%;
+}
 .youtube-logo {
   color: #ff0200;
 }
@@ -42,8 +47,4 @@
 }
 .footer-link:hover {
   color: var(--highlight-color);
-}
-.ff-secfields {
-  display: flex !important;
-  flex-direction: column;
 }
