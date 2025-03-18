@@ -7,7 +7,7 @@
   --overlay-color: #8763ffb0;
   --highlight-color: #8763ff;
   --secondary-background-color: #d2cce5;
-  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --box-shadow: 0 5px 5px rgba(0, 0, 0, 0.25);
 }
 
 html,
@@ -55,7 +55,7 @@ h3.homepage {
   font-weight: bold;
   color: var(--secondary-background-color);
   text-shadow: var(--box-shadow);
-  background-image: url(/images/chameleon-studios-logo.png),
+  background-image: url(/logo-mid.png),
     linear-gradient(
       to right,
       rgba(99, 71, 255, 0.9) 0%,

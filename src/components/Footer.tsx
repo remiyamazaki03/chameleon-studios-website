@@ -143,14 +143,14 @@ export default function Footer() {
           © 2024 &nbsp;
           <a
             href="https://github.com/remiyamazaki03/remi"
-            className="brand footer-link"
+            className={`brand ${styles.footerLink}`}
           >
             Open-source code
           </a>
           &nbsp; by <span className="fw-bold">Remi Yamazaki</span>&nbsp; |
           &nbsp;&nbsp;
-          <Link href={"/disclosure"} className="brand footer-link">
-            Disclosure
+          <Link href={"/disclosure"} className={`brand ${styles.footerLink}`}>
+            Commercial Disclosure
           </Link>
         </div>
       </footer>
