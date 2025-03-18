@@ -1,10 +1,18 @@
 import Link from "next/link";
 import styles from "./footer.module.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faInstagram,
+  faYoutube,
+  faXTwitter,
+  faLinkedin,
+  faGithub,
+} from "@fortawesome/free-brands-svg-icons";
 
 export default function Footer() {
   return (
     <div>
-      <div className="row contact">
+      <div className={`row ${styles.contact}`}>
         <div className="col-md-6 d-none d-md-block">
           <h1 className="ps-5 mt-5 mb-2 mb-md-5 homepage">
             Get <div className="brand">in touch</div>
@@ -17,7 +25,10 @@ export default function Footer() {
               target="_blank"
               rel="noreferrer"
             >
-              <i className="fa-brands fa-instagram inst-logo"></i>
+              <FontAwesomeIcon
+                icon={faInstagram}
+                className={`${styles.instLogo}`}
+              />
             </a>
             <a
               href="https://www.youtube.com/@remi03"
@@ -25,7 +36,10 @@ export default function Footer() {
               target="_blank"
               rel="noreferrer"
             >
-              <i className="fa-brands fa-youtube youtube-logo"></i>
+              <FontAwesomeIcon
+                icon={faYoutube}
+                className={`${styles.youtubeLogo}`}
+              />
             </a>
             <a
               href="https://twitter.com/03_remi"
@@ -33,7 +47,10 @@ export default function Footer() {
               target="_blank"
               rel="noreferrer"
             >
-              <i className="fa-brands fa-x-twitter twitter-logo"></i>
+              <FontAwesomeIcon
+                icon={faXTwitter}
+                className={`${styles.twitterLogo}`}
+              />
             </a>
             <a
               href="https://www.linkedin.com/in/remi-yamazaki-77580b55/"
@@ -41,7 +58,10 @@ export default function Footer() {
               target="_blank"
               rel="noreferrer"
             >
-              <i className="fa-brands fa-linkedin linkedin-logo"></i>
+              <FontAwesomeIcon
+                icon={faLinkedin}
+                className={`${styles.linkedinLogo}`}
+              />
             </a>
             <a
               href="https://github.com/remiyamazaki03"
@@ -49,7 +69,10 @@ export default function Footer() {
               target="_blank"
               rel="noreferrer"
             >
-              <i className="fa-brands fa-github github-logo"></i>
+              <FontAwesomeIcon
+                icon={faGithub}
+                className={`${styles.githubLogo}`}
+              />
             </a>
           </div>
           <p className="mt-4 mb-2 mb-md-5 highlight ps-5">

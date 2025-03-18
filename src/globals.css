@@ -19,15 +19,19 @@ body {
 li {
   list-style: none;
 }
+footer {
+  background-color: var(--main-background-color);
+}
+
 .containter1 {
   background-color: var(--secondary-color);
-  min-height: 80vh;
+  min-height: 100vh;
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
 .container2 {
   background-color: var(--secondary-background-color);
-  min-height: 80vh;
+  min-height: 100vh;
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
@@ -37,6 +41,12 @@ li {
 }
 .highlight {
   color: var(--secondary-color);
+}
+h1.homepage {
+  font-size: 96px;
+}
+h3.homepage {
+  font-size: 48px;
 }
 .title {
   height: 16.5rem;

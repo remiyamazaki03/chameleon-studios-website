@@ -6,13 +6,15 @@ import styles from "./page.module.css";
 export default function Home() {
   return (
     <main>
-      <div className="container2">
+      <div className={styles.hero}>
         <Image
           className={styles.logo}
           src="/logo.png"
           alt="Chameleon Studios logo スタジオカメレオン ロゴ"
-          width={600}
-          height={600}
+          fill={true}
+          style={{
+            objectFit: "contain",
+          }}
           priority
         />
       </div>

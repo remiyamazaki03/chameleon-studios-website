@@ -1,7 +1,16 @@
+.hero {
+  background-color: var(--secondary-background-color);
+  min-height: 100vh;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
 .logo {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 2rem;
+  max-width: 600px;
 }
 .launchButton {
   background-color: var(--brand-color);
