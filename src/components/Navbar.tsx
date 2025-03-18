@@ -13,7 +13,7 @@ export default function Navbar() {
     <nav
       className={`navbar navbar-expand-md navbar-light fixed-top ${styles["navbar-css"]}`}
     >
-      <Link className="ms-3" href="/">
+      <Link className={`${styles["navbar-icon"]} ms-3`} href="/">
         <img src="/logo-small.png" alt="Chameleon Studios logo" width={60} />
       </Link>
       <button

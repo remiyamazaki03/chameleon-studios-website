@@ -3,3 +3,62 @@
   margin-left: auto;
   margin-right: auto;
 }
+.launchButton {
+  background-color: var(--brand-color);
+  border: solid 1.5px var(--highlight-color);
+  color: var(--secondary-color);
+  opacity: 0.85;
+  transition: ease-in-out 100ms;
+  padding: 7px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 16px;
+  text-decoration: none;
+  box-shadow: var(--box-shadow);
+}
+.launchButton:hover {
+  background-color: var(--secondary-color);
+  color: var(--brand-color);
+}
+.overlay {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  background-color: var(--overlay-color);
+  color: var(--secondary-color);
+  text-shadow: var(--box-shadow);
+}
+.workImg {
+  position: relative;
+  background-color: var(--main-background-color);
+  min-height: 100vh;
+}
+.workImg:hover .overlay {
+  opacity: 1;
+}
+@media (hover: hover) {
+  .overlay {
+    opacity: 0;
+    transition: ease-in-out 120ms;
+  }
+}
+@media (hover: none) {
+  .overlay {
+    opacity: 1;
+  }
+  #vocal-overlay {
+    background-color: var(--overlay-color);
+    opacity: 1;
+    color: var(--secondary-color);
+  }
+  #vocal-button {
+    color: var(--secondary-color);
+    opacity: 1;
+  }
+}

@@ -19,16 +19,15 @@ body {
 li {
   list-style: none;
 }
-
 .containter1 {
   background-color: var(--secondary-color);
-  min-height: fit-content;
+  min-height: 80vh;
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
 .container2 {
   background-color: var(--secondary-background-color);
-  min-height: fit-content;
+  min-height: 80vh;
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
