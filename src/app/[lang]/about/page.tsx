@@ -1,8 +1,12 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 
-export default function About({ params }: { params: { lang: string } }) {
-  const { lang } = params;
+export default async function About({
+  params,
+}: {
+  params: Promise<{ lang: string }>;
+}) {
+  const { lang } = await params;
   return (
     <div>
       <h1 className="mt-5">{lang === "ja" ? "こんにちは" : "Hello"}</h1>
