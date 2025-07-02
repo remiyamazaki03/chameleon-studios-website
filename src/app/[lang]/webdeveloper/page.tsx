@@ -1,3 +1,4 @@
+import Image from "next/image";
 import styles from "./page.module.css";
 
 export default async function Webdeveloper({
@@ -22,16 +23,20 @@ export default async function Webdeveloper({
             <div className={styles.demo}>
               <a href="https://bwave-entertainment.com" className="link">
                 <h2 className="brand">Bwave Entertainment (description)</h2>
-
-                <img
-                  className={`img-fluid mt-4 mb-4 ${styles.demoThumbnail} d-none d-md-block`}
+                <Image
+                  className={`img-fluid mt-4 mb-4 mx-auto ${styles.demoThumbnail} d-none d-md-block`}
                   src="/bwave-demo.png"
                   alt="bwave ホームページ デモ"
+                  width={500}
+                  height={150}
                 />
-                <img
-                  className={`img-fluid mt-4 mb-4 ${styles.demoThumbnail} d-md-none`}
+
+                <Image
+                  className={`img-fluid mt-4 mb-4 mx-auto ${styles.demoThumbnail} d-md-none`}
                   src="/bwavemobile.jpg"
                   alt="bwave ホームページ デモ"
+                  width={300}
+                  height={450}
                 />
               </a>
               <p className="pt-2">description</p>
@@ -44,15 +49,19 @@ export default async function Webdeveloper({
                   <span style={{ fontStyle: "italic" }}>:D-Tokyo</span>
                   (description)
                 </h2>
-                <img
-                  className={`img-fluid mt-4 mb-4 ${styles.demoThumbnail} d-none d-md-block`}
+                <Image
+                  className={`img-fluid mt-4 mb-4 mx-auto ${styles.demoThumbnail} d-none d-md-block`}
                   src="/dtokyo-demo.png"
                   alt="dtokyo ホームページ デモ"
+                  width={500}
+                  height={150}
                 />
-                <img
-                  className={`img-fluid mt-4 mb-4 ${styles.demoThumbnail} d-md-none`}
+                <Image
+                  className={`img-fluid mt-4 mb-4 mx-auto ${styles.demoThumbnail} d-md-none`}
                   src="/dtokyomobile.jpg"
                   alt="dtokyo ホームページ デモ"
+                  width={300}
+                  height={450}
                 />
               </a>
               <p className="pt-2">description</p>
