@@ -1,7 +1,7 @@
 import Link from "next/link";
 import styles from "./navbar.module.css";
 
-export default function Navbar() {
+export default function Navbar({ lang }: { lang: string }) {
   const closeMenu = () => {
     const navbar = document.getElementById("navbarNav");
     if (navbar?.classList.contains("show")) {
@@ -53,7 +53,7 @@ export default function Navbar() {
           </li>
           <li className={`${styles["nav-item"]}`}>
             <Link className={`${styles["nav-link"]} nav-link`} href="/contact">
-              Contact
+              {lang === "ja" ? "お問い合わせ" : "Contact"}
             </Link>
           </li>
         </ul>

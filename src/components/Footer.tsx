@@ -9,13 +9,16 @@ import {
   faGithub,
 } from "@fortawesome/free-brands-svg-icons";
 
-export default function Footer() {
+export default function Footer({ lang }: { lang: string }) {
   return (
     <div>
       <div className={`row ${styles.contact}`}>
         <div className="col-md-6 d-none d-md-block">
           <h1 className="ps-5 mt-5 mb-2 mb-md-5 homepage">
-            Get <div className="brand">in touch</div>
+            <div className="brand">
+              <p>{lang === "ja" ? "こんにちは" : "Hello"}</p>
+              Let's get <br></br>in touch
+            </div>
           </h1>
 
           <div className="d-flex ps-5">
@@ -76,12 +79,12 @@ export default function Footer() {
             </a>
           </div>
           <p className={`mt-5 mb-2 mb-md-5 ps-5 ${styles.email}`}>
-            email: hello@chameleon-studios.com
+            hello@chameleon-studios.com
           </p>
         </div>
         <div className="col-md-6 d-flex flex-column">
           <h2 className="d-block d-md-none my-4 highlight fs-1">
-            get in touch
+            Let's get in touch
           </h2>
           <div className="d-flex d-block d-md-none mb-3 justify-content-center">
             <a

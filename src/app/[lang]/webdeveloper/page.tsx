@@ -1,9 +1,10 @@
-import "../../globals.css";
 import styles from "./page.module.css";
 
-export default function Webdeveloper() {
+export default function Webdeveloper({ params }: { params: { lang: string } }) {
+  const { lang } = params;
   return (
     <div>
+      <h1 className="mt-5">{lang === "ja" ? "こんにちは" : "Hello"}</h1>
       <h2 className="title m-0 d-flex align-items-center">Web developer</h2>
       <div className="container1">
         <p className="py-5 px-5 m-0 text-center fs-5">

@@ -1,11 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
-import "../globals.css";
 import styles from "./page.module.css";
 
-export default function Home() {
+export default function Home({ params }: { params: { lang: string } }) {
+  const { lang } = params;
   return (
     <main>
+      <h1 className="mt-5">{lang === "ja" ? "こんにちは" : "Hello"}</h1>
       <div className={styles.hero}>
         <Image
           className={styles.logo}

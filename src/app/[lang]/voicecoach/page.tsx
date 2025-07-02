@@ -1,10 +1,11 @@
 import Image from "next/image";
-import "../../globals.css";
 import styles from "./page.module.css";
 
-export default function Voicecoach() {
+export default function Voicecoach({ params }: { params: { lang: string } }) {
+  const { lang } = params;
   return (
     <div>
+      <h1 className="mt-5">{lang === "ja" ? "こんにちは" : "Hello"}</h1>
       <h2 className="title d-flex align-items-center m-0">Voice coach</h2>
       <div className="container1 row text-center align-items-center">
         <div className="col-md-8 p-5">

@@ -1,16 +1,17 @@
 import Image from "next/image";
-import "../../globals.css";
 import styles from "./page.module.css";
 
-export default function About() {
+export default function About({ params }: { params: { lang: string } }) {
+  const { lang } = params;
   return (
     <div>
+      <h1 className="mt-5">{lang === "ja" ? "こんにちは" : "Hello"}</h1>
       <h2 className="title m-0 d-flex align-items-center">About Remi</h2>
 
       <div className="container1 m-0 row text-center align-items-center">
         <Image
           className={`img-fluid col-md-4 d-block mx-auto ${styles.aboutImg}`}
-          src="/draft.jpg"
+          src="/Remi.jpg"
           alt="Remi"
           width={350}
           height={350}
