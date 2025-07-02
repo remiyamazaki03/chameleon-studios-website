@@ -17,7 +17,7 @@ export default function Footer({ lang }: { lang: string }) {
           <h1 className="ps-5 mt-5 mb-2 mb-md-5 homepage">
             <div className="brand">
               <p>{lang === "ja" ? "こんにちは" : "Hello"}</p>
-              Let's get <br></br>in touch
+              Get in touch
             </div>
           </h1>
 
@@ -84,7 +84,7 @@ export default function Footer({ lang }: { lang: string }) {
         </div>
         <div className="col-md-6 d-flex flex-column">
           <h2 className="d-block d-md-none my-4 highlight fs-1">
-            Let's get in touch
+            Get in touch
           </h2>
           <div className="d-flex d-block d-md-none mb-3 justify-content-center">
             <a

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import styles from "./navbar.module.css";
 
 export default function Navbar({ lang }: { lang: string }) {
@@ -14,7 +15,12 @@ export default function Navbar({ lang }: { lang: string }) {
       className={`navbar navbar-expand-md navbar-light fixed-top ${styles["navbar-css"]}`}
     >
       <Link className={`${styles["navbar-icon"]} ms-3`} href="/">
-        <img src="/logo-small.png" alt="Chameleon Studios logo" width={60} />
+        <Image
+          src="/logo-small.png"
+          alt="Chameleon Studios logo"
+          width={60}
+          height={60}
+        />
       </Link>
       <button
         className="navbar-toggler"
