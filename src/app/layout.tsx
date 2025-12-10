@@ -1,7 +1,7 @@
 import { ReactNode } from "react";
-import Navbar from "../../components/Navbar";
-import Footer from "../../components/Footer";
-import "../../globals.css";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
+import "../globals.css";
 
 import { config } from "@fortawesome/fontawesome-svg-core";
 import "@fortawesome/fontawesome-svg-core/styles.css";
