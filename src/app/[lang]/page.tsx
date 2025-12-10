@@ -1,16 +1,13 @@
 import Image from "next/image";
 import Link from "next/link";
 import styles from "./page.module.css";
+import { useTranslations } from "next-intl";
 
-export default async function Home({
-  params,
-}: {
-  params: Promise<{ lang: string }>;
-}) {
-  const { lang } = await params;
+export default function Home() {
+  const t = useTranslations();
   return (
     <main>
-      <h1 className="mt-5">{lang === "ja" ? "こんにちは" : "Hello"}</h1>
+      <h1 className="mt-5">{t("About.title")}</h1>
       <div className={styles.hero}>
         <Image
           className={styles.logo}

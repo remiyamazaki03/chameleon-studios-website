@@ -1,39 +1,30 @@
-import Navbar from "../../components/Navbar";
-import Footer from "../../components/Footer";
+import "../globals.css";
+import { NextIntlClientProvider } from "next-intl";
+import { getLocale, getMessages } from "next-intl/server";
+import { routing } from "@/i18n/routing";
+import { config } from "@fortawesome/fontawesome-svg-core";
+import "@fortawesome/fontawesome-svg-core/styles.css";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
-export function generateMetadata({ params }: { params: { lang: string } }) {
-  const { lang } = params;
+config.autoAddCss = false;
 
-  const translations = {
-    en: {
-      title: "My English Title",
-      description: "This is an English description.",
-    },
-    ja: {
-      title: "日本語のタイトル",
-      description: "これは日本語の説明です。",
-    },
-  };
-
-  return translations[lang] ?? translations.en;
-}
-
-export default function LangLayout({
+export default async function RootLayout({
   children,
-  params,
 }: {
   children: React.ReactNode;
-  params: { lang: string };
 }) {
-  const { lang } = params;
-
+  const lang = await getLocale();
+  const messages = await getMessages();
   return (
     <html lang={lang}>
-      <body>
-        <Navbar lang={lang} />
-        {children}
-        <Footer lang={lang} />
-      </body>
+      <NextIntlClientProvider messages={messages}>
+        <body>
+          <Navbar lang={lang} />
+          {children}
+          <Footer lang={lang} />
+        </body>
+      </NextIntlClientProvider>
     </html>
   );
 }

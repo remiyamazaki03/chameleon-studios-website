@@ -1,15 +1,10 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 
-export default async function About({
-  params,
-}: {
-  params: Promise<{ lang: string }>;
-}) {
-  const { lang } = await params;
+export default function About() {
   return (
     <div>
-      <h1 className="mt-5">{lang === "ja" ? "こんにちは" : "Hello"}</h1>
+      <h1 className="mt-5">hello</h1>
       <h2 className="title m-0 d-flex align-items-center">About Remi</h2>
 
       <div className="container1 m-0 row text-center align-items-center">

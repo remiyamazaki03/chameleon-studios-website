@@ -37,7 +37,7 @@ export default function Navbar({ lang }: { lang: string }) {
         <ul className={`navbar-nav me-auto ${styles["navul"]}`}>
           <li className={`${styles["nav-item"]} ms-3`}>
             <Link className={`${styles["nav-link"]} nav-link`} href="/about">
-              About me
+              {lang === "ja" ? "スタジオ紹介" : "About me"}
             </Link>
           </li>
 
@@ -46,7 +46,14 @@ export default function Navbar({ lang }: { lang: string }) {
               className={`${styles["nav-link"]} nav-link`}
               href="/voicecoach"
             >
-              Private voice lessons
+              {lang === "ja"
+                ? "個人ボイストレーニング"
+                : "Private voice lessons"}
+            </Link>
+          </li>
+          <li className={`${styles["nav-item"]}`}>
+            <Link className={`${styles["nav-link"]} nav-link`} href="/events">
+              {lang === "ja" ? "イベント" : "Events"}
             </Link>
           </li>
           <li className={`${styles["nav-item"]}`}>
@@ -54,7 +61,7 @@ export default function Navbar({ lang }: { lang: string }) {
               className={`${styles["nav-link"]} nav-link`}
               href="/webdeveloper"
             >
-              Website development
+              {lang === "ja" ? "ホームページ作成" : "Website development"}
             </Link>
           </li>
           <li className={`${styles["nav-item"]}`}>
