@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import styles from "./navbar.module.css";
+import LanguageSwitch from "./LanguageSwitch";
 
 export default function Navbar({ lang }: { lang: string }) {
   const closeMenu = () => {
@@ -12,9 +13,9 @@ export default function Navbar({ lang }: { lang: string }) {
 
   return (
     <nav
-      className={`navbar navbar-expand-md navbar-light fixed-top ${styles["navbar-css"]}`}
+      className={`navbar navbar-expand-md navbar-light fixed-top ${styles.navbarCss}`}
     >
-      <Link className={`${styles["navbar-icon"]} ms-3`} href="/">
+      <Link className={`${styles.navbarIcon} ms-3 my-1`} href="/">
         <Image
           src="/logo-small.png"
           alt="Chameleon Studios logo"
@@ -35,41 +36,36 @@ export default function Navbar({ lang }: { lang: string }) {
       </button>
       <div className="collapse navbar-collapse" id="navbarNav">
         <ul className={`navbar-nav me-auto ${styles["navul"]}`}>
-          <li className={`${styles["nav-item"]} ms-3`}>
-            <Link className={`${styles["nav-link"]} nav-link`} href="/about">
+          <li className={`${styles.navItem} ms-3`}>
+            <Link className={`${styles.navLink} nav-link`} href="/about">
               {lang === "ja" ? "スタジオ紹介" : "About me"}
             </Link>
           </li>
 
-          <li className={`${styles["nav-item"]}`}>
-            <Link
-              className={`${styles["nav-link"]} nav-link`}
-              href="/voicecoach"
-            >
+          <li className={`${styles.navItem}`}>
+            <Link className={`${styles.navLink} nav-link`} href="/voicecoach">
               {lang === "ja"
                 ? "個人ボイストレーニング"
                 : "Private voice lessons"}
             </Link>
           </li>
-          <li className={`${styles["nav-item"]}`}>
-            <Link className={`${styles["nav-link"]} nav-link`} href="/events">
+          <li className={`${styles.navItem}`}>
+            <Link className={`${styles.navLink} nav-link`} href="/events">
               {lang === "ja" ? "イベント" : "Events"}
             </Link>
           </li>
-          <li className={`${styles["nav-item"]}`}>
-            <Link
-              className={`${styles["nav-link"]} nav-link`}
-              href="/webdeveloper"
-            >
+          <li className={`${styles.navItem}`}>
+            <Link className={`${styles.navLink} nav-link`} href="/webdeveloper">
               {lang === "ja" ? "ホームページ作成" : "Website development"}
             </Link>
           </li>
-          <li className={`${styles["nav-item"]}`}>
-            <Link className={`${styles["nav-link"]} nav-link`} href="/contact">
+          <li className={`${styles.navItem}`}>
+            <Link className={`${styles.navLink} nav-link`} href="/contact">
               {lang === "ja" ? "お問い合わせ" : "Contact"}
             </Link>
           </li>
         </ul>
+        <LanguageSwitch />
       </div>
     </nav>
   );

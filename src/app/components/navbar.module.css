@@ -1,4 +1,4 @@
-.navbar-css {
+.navbarCss {
   background-color: var(--highlight-color);
   padding-top: 0px !important;
   padding-bottom: 0px !important;
@@ -7,26 +7,28 @@
 .navul {
   line-height: 200%;
 }
-.navbar-icon {
+.navbarIcon {
   transition: transform 0.2s ease-in-out;
 }
-.navbar-icon:hover {
+.navbarIcon:hover {
   transform: scale(1.1);
 }
-.nav-item {
-  padding: 8px;
+.navItem {
+  padding: 0.5rem;
   font-weight: 500;
   font-size: 1.2rem;
 }
-.nav-item:hover {
+.navItem:hover {
   background-color: var(--brand-color);
   border-radius: 2px;
 }
-.nav-link {
+.navLink,
+.transLink {
   color: var(--secondary-background-color) !important;
+  text-decoration: none;
 }
-.link,
-.link:hover {
+.navLink,
+.transLink:hover {
   text-decoration: none;
 }
 .language {
@@ -34,4 +36,11 @@
 }
 .language:hover {
   cursor: pointer;
+}
+@media (max-width: 767px) {
+  .language {
+    margin-left: 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+  }
 }
