@@ -1,6 +1,14 @@
 {
-  "About": {
-    "title": "こんにちは"
+  "Home": {
+    "title1": "シンガー",
+    "details1": "詳細１",
+    "button1": "ボタン１",
+    "title2": "生徒",
+    "details2": "詳細2",
+    "button2": "ボタン2",
+    "title3": "ウェブ",
+    "details3": "詳細3",
+    "button3": "ボタン3"
   },
   "Footer": {
     "cta1": "お問い合わせ",

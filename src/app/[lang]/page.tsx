@@ -31,10 +31,12 @@ export default function Home() {
             }}
           />
           <div className={`${styles.overlay}`}>
-            <h2>Singer</h2>
-            <h3 className="p-5 text-center fs-4 subheader">Singer</h3>
+            <h2>{t("Home.title1")}</h2>
+            <h3 className="p-5 text-center fs-4 subheader">
+              {t("Home.details1")}
+            </h3>
             <Link href="/about" className={`${styles.launchButton}`}>
-              Button1
+              {t("Home.button1")}
             </Link>
           </div>
         </div>
@@ -49,14 +51,16 @@ export default function Home() {
             }}
           />
           <div className={`${styles.overlay}`} id={`${styles.vocalOverlay}`}>
-            <h2 className="overlayTitle">Voice coach</h2>
-            <h3 className="p-5 text-center fs-4 subheader">Voice coach</h3>
+            <h2 className="overlayTitle">{t("Home.title2")}</h2>
+            <h3 className="p-5 text-center fs-4 subheader">
+              {t("Home.details2")}
+            </h3>
             <Link
               href="/voicecoach"
               className={`${styles.launchButton}`}
               id={`${styles.vocalButton}`}
             >
-              Button2
+              {t("Home.button2")}
             </Link>
           </div>
         </div>
@@ -71,11 +75,13 @@ export default function Home() {
             }}
           />
           <div className={`${styles.overlay}`}>
-            <h2 className="overlayTitle">Web developer</h2>
-            <h3 className="p-4 text-center fs-4 subheader">Web developer</h3>
+            <h2 className="overlayTitle">{t("Home.title3")}</h2>
+            <h3 className="p-5 text-center fs-4 subheader">
+              {t("Home.details3")}
+            </h3>
 
             <Link href="/webdeveloper" className={`${styles.launchButton}`}>
-              Button 3
+              {t("Home.button3")}
             </Link>
           </div>
         </div>
