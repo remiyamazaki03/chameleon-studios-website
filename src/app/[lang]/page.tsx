@@ -7,7 +7,6 @@ export default function Home() {
   const t = useTranslations();
   return (
     <main>
-      <h1 className="mt-5">{t("About.title")}</h1>
       <div className={styles.hero}>
         <Image
           className={styles.logo}

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { useTranslations } from "next-intl";
 import styles from "./footer.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -10,14 +11,15 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 
 export default function Footer({ lang }: { lang: string }) {
+  const t = useTranslations();
   return (
     <div>
       <div className={`row ${styles.contact}`}>
         <div className="col-md-6 d-none d-md-block">
           <h1 className="ps-5 mt-5 mb-2 mb-md-5 homepage">
             <div className="brand">
-              <p>{lang === "ja" ? "こんにちは" : "Hello"}</p>
-              Get in touch
+              <div>{t("Footer.cta1")}</div>
+              {t("Footer.cta2")}
             </div>
           </h1>
 
@@ -84,7 +86,7 @@ export default function Footer({ lang }: { lang: string }) {
         </div>
         <div className="col-md-6 d-flex flex-column">
           <h2 className="d-block d-md-none text-center my-4 brand fs-1">
-            Get in touch
+            {t("Footer.ctas")}
           </h2>
           <div className="d-flex d-block d-md-none mb-3 justify-content-center">
             <a

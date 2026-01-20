@@ -38,15 +38,13 @@ export default function Navbar({ lang }: { lang: string }) {
         <ul className={`navbar-nav me-auto ${styles["navul"]}`}>
           <li className={`${styles.navItem} ms-3`}>
             <Link className={`${styles.navLink} nav-link`} href="/about">
-              {lang === "ja" ? "スタジオ紹介" : "About me"}
+              {lang === "ja" ? "スタジオ紹介" : "About"}
             </Link>
           </li>
 
           <li className={`${styles.navItem}`}>
             <Link className={`${styles.navLink} nav-link`} href="/voicecoach">
-              {lang === "ja"
-                ? "個人ボイストレーニング"
-                : "Private voice lessons"}
+              {lang === "ja" ? "ボイスレッスン" : "Voice lessons"}
             </Link>
           </li>
           <li className={`${styles.navItem}`}>
@@ -56,7 +54,7 @@ export default function Navbar({ lang }: { lang: string }) {
           </li>
           <li className={`${styles.navItem}`}>
             <Link className={`${styles.navLink} nav-link`} href="/webdeveloper">
-              {lang === "ja" ? "ホームページ作成" : "Website development"}
+              {lang === "ja" ? "ホームページ作成" : "Web development"}
             </Link>
           </li>
           <li className={`${styles.navItem}`}>
