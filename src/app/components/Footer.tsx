@@ -83,7 +83,7 @@ export default function Footer({ lang }: { lang: string }) {
           </p>
         </div>
         <div className="col-md-6 d-flex flex-column">
-          <h2 className="d-block d-md-none my-4 highlight fs-1">
+          <h2 className="d-block d-md-none text-center my-4 brand fs-1">
             Get in touch
           </h2>
           <div className="d-flex d-block d-md-none mb-3 justify-content-center">
@@ -129,15 +129,20 @@ export default function Footer({ lang }: { lang: string }) {
             </a>
           </div>
           <div className="d-flex d-block d-md-none mb-3 justify-content-center">
-            email: hello03remi@gmail.com
+            email: hello@chameleon-studios.com
           </div>
-          <div className="me-sm-5">
-            <div id="ff-compose"></div>
-            <script
-              async
-              defer
-              src="https://formfacade.com/include/100240402409090706097/form/1FAIpQLScGNmvJZi7y5zQztyhrSeGIe_HVPr-uCRwYfh4U0UDX8XQXtA/classic.js?div=ff-compose"
-            ></script>
+          <div
+            className="me-sm-5 d-flex align-items-center justify-content-center"
+            style={{ height: "100vh", width: "100%" }}
+          >
+            <iframe
+              src="https://docs.google.com/forms/d/e/1FAIpQLScGNmvJZi7y5zQztyhrSeGIe_HVPr-uCRwYfh4U0UDX8XQXtA/viewform?embedded=true"
+              width="100%"
+              style={{ height: "100vh" }}
+              allowFullScreen
+            >
+              Loading…
+            </iframe>
           </div>
         </div>
       </div>
