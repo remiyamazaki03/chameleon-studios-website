@@ -16,7 +16,7 @@
   border: solid 1.5px var(--highlight-color);
   color: var(--secondary-color);
   opacity: 0.85;
-  transition: ease-in-out 100ms;
+  transition: ease-in-out 160ms;
   padding: 7px;
   padding-left: 15px;
   padding-right: 15px;

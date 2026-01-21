@@ -40,19 +40,6 @@
 .footerLink:hover {
   color: var(--highlight-color);
 }
-.submit-button {
-  background-color: var(--brand-color);
-  color: var(--main-background-color);
-  padding: 7px;
-  padding-left: 15px;
-  padding-right: 15px;
-  border-radius: 16px;
-  border: none;
-}
-.submit-button:hover {
-  background-color: var(--highlight-color);
-  color: var(--secondary-color);
-}
-.footer-link:hover {
-  color: var(--highlight-color);
+.copyright {
+  background-color: var(--secondary-background-color);
 }

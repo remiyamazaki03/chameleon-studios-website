@@ -148,7 +148,7 @@ export default function Footer({ lang }: { lang: string }) {
           </div>
         </div>
       </div>
-      <footer>
+      <footer className={`${styles.copyright}`}>
         <div className="brand pt-2">
           © 2024 &nbsp;
           <a
