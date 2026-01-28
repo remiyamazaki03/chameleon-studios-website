@@ -17,14 +17,10 @@ export default function Policies() {
         <br /> If you need to cancel or reschedule an
         <strong> in person </strong>lesson, please do so at least 8 days in
         advance of the scheduled lesson. If a lesson is cancelled or rescheduled
-        less than 8 days in advance but more than 0 days in advance,
-        cancellation/administration fees will apply as below. No shows and
-        lessons cancelled after this period will be fully charged as a scheduled
-        attended lesson: <br />
-        <br />9 or more days in advance：Y0 <br />
-        6~8 days in advance ： Y250 <br />
-        4~5 days in advance： Y500 <br />
-        2~3 days in advance： Y1000 <br />1 day in advance：Y1500
+        less than 8 days in advance, a Y1500 fee will apply. (The timeframe may
+        vary depending on the location - please inquire regarding your specific
+        location.) No shows and lessons cancelled the day before or the day of
+        will be fully charged as a scheduled attended lesson.
         <br />
         <br /> If the instructor needs to cancel or reschedule, as much advance
         notice will be given as possible. The student will be entitled to
@@ -40,7 +36,7 @@ export default function Policies() {
         <br />
         <strong> 📋Accepted payment methods</strong> <br />
         <br />
-        Credit card, bank transfer, Paypal
+        Credit card, bank transfer, Paypal, PayPay
         <br />
         (Tokyo in person lessons only: Cash also accepted) <br />
         <br />
@@ -61,16 +57,9 @@ export default function Policies() {
         この期間後にキャンセルされたレッスンや無言欠席は、受講済みレッスンとして扱われ、全額請求されます。
         <br />
         <br />
-        対面レッスンをキャンセルまたは変更する必要がある場合は、予定されているレッスンの10日前までにご連絡ください。
-        10日前から1日前までにレッスンをキャンセルまたは変更された場合、以下のキャンセル料・事務手数料が発生いたします。
-        この期間後にキャンセルされたレッスンや無言欠席は、受講済みレッスンとして扱われ、全額請求されます。
-        <br />
-        <br />
-        9日前〜：Y0 <br />
-        6日前〜8日前 ： Y250 <br />
-        4日前〜5日前 ： Y500 <br />
-        2日前〜3日前 ： Y1000 <br />
-        前日：Y1500
+        対面レッスンをキャンセルまたは変更する必要がある場合は、予定されているレッスンの8日前までにご連絡ください。
+        8日間以下にレッスンをキャンセルまたは変更された場合、Y1500のキャンセル料・事務手数料が発生いたします。(期間は場所によって異なることもあるため、別途ご連絡ください。)
+        前日・当日キャンセルされたレッスンや無言欠席は、受講済みレッスンとして扱われ、全額請求されます。
         <br />
         <br />
         インストラクター（代表者）がキャンセルまたはスケジュールを変更する場合は、可能な限り事前に連絡されます。インストラクターと生徒様（お客様）のスケジュール次第、リスケジュールもしくは返金が提供されます。また、双方の合意があれば別の体型も可能。
@@ -84,7 +73,7 @@ export default function Policies() {
         <br />
         <strong>📋ご利用いただけるお支払い方法</strong>
         <br />
-        <br /> クレジットカード、銀行振込、PayPal
+        <br /> クレジットカード、銀行振込、PayPal、PayPay
         <br />
         （東京対面式レッスンのみ：現金も可） <br />
         <br />

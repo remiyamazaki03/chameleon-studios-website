@@ -14,7 +14,7 @@ export default function About() {
         <div className="col-md-8 p-5">
           <h2 className="mt-2 fs-3">{t("About.Chameleon")}</h2>
           <div className={`mt-4 ${styles.bio}`}>
-            <p>{t("About.studio.p1")}</p>
+            <p style={{ whiteSpace: "pre-line" }}>{t("About.studio.p1")}</p>
             <p>
               {t.rich("About.studio.p2", {
                 strong: (chunks) => <strong>{chunks}</strong>,
@@ -26,7 +26,7 @@ export default function About() {
               })}
             </p>
             <p>{t("About.studio.p4")}</p>
-            <p>
+            <p style={{ whiteSpace: "pre-line" }}>
               {t.rich("About.studio.p5", {
                 strong: (chunks) => <strong>{chunks}</strong>,
               })}
@@ -58,8 +58,8 @@ export default function About() {
       <div className="container1 m-0 row text-center align-items-center">
         <Image
           className={`img-fluid col-md-4 d-block mx-auto ${styles.aboutImg}`}
-          src="/Remi.jpg"
-          alt="Remi"
+          src="/Remi2.jpg"
+          alt="Remi2"
           width={350}
           height={350}
         />

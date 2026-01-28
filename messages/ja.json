@@ -31,6 +31,11 @@
       "cta": "For a detailed performance/arts resume or for voice samples, please place a request via the form below."
     }
   },
+  "Events": {
+    "top": "イベント",
+    "p1": "description with link",
+    "cta": "cta"
+  },
   "Footer": {
     "cta1": "お問い合わせ",
     "cta2": "→",

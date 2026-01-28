@@ -4,7 +4,6 @@ import styles from "./page.module.css";
 export default function Voicecoach() {
   return (
     <div>
-      <h1 className="mt-5">hello</h1>
       <h2 className="title d-flex align-items-center m-0">Voice coach</h2>
       <div className="container1 row text-center align-items-center">
         <div className="col-md-8 p-5">
