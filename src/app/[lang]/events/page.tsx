@@ -19,8 +19,6 @@ export default function Events() {
             <iframe
               title="Chameleon Studios Recital Highlights video"
               src="https://www.youtube.com/embed/NttEhG1qiQs"
-              width="300"
-              height="200"
               allowFullScreen
             />
           </div>
