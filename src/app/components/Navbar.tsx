@@ -1,5 +1,6 @@
-import Link from "next/link";
 import Image from "next/image";
+import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/routing";
 import styles from "./navbar.module.css";
 import LanguageSwitch from "./LanguageSwitch";
 
@@ -10,7 +11,7 @@ export default function Navbar({ lang }: { lang: string }) {
       navbar.classList.remove("show");
     }
   };
-
+  const t = useTranslations();
   return (
     <nav
       className={`navbar navbar-expand-md navbar-light fixed-top ${styles.navbarCss}`}
@@ -37,29 +38,28 @@ export default function Navbar({ lang }: { lang: string }) {
       <div className="collapse navbar-collapse" id="navbarNav">
         <ul className={`navbar-nav me-auto ${styles["navul"]}`}>
           <li className={`${styles.navItem} ms-3`}>
-            <Link className={`${styles.navLink} nav-link`} href="/about">
-              {lang === "ja" ? "スタジオ紹介" : "About"}
-            </Link>
-          </li>
-
-          <li className={`${styles.navItem}`}>
             <Link className={`${styles.navLink} nav-link`} href="/voicecoach">
-              {lang === "ja" ? "ボイスレッスン" : "Voice lessons"}
+              {t("Navbar.Voice")}
             </Link>
           </li>
           <li className={`${styles.navItem}`}>
             <Link className={`${styles.navLink} nav-link`} href="/events">
-              {lang === "ja" ? "イベント" : "Events"}
+              {t("Navbar.Events")}
+            </Link>
+          </li>
+          <li className={`${styles.navItem}`}>
+            <Link className={`${styles.navLink} nav-link`} href="/about">
+              {t("Navbar.About")}
             </Link>
           </li>
           <li className={`${styles.navItem}`}>
             <Link className={`${styles.navLink} nav-link`} href="/webdeveloper">
-              {lang === "ja" ? "ホームページ作成" : "Web development"}
+              {t("Navbar.Web")}
             </Link>
           </li>
           <li className={`${styles.navItem}`}>
             <Link className={`${styles.navLink} nav-link`} href="/contact">
-              {lang === "ja" ? "お問い合わせ" : "Contact"}
+              {t("Navbar.Contact")}
             </Link>
           </li>
         </ul>
