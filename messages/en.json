@@ -11,7 +11,17 @@
     "button3": "button3"
   },
   "About": {
-    "top": "About Chameleon Studios",
+    "top": "About Remi",
+    "Remi": "About the instructor",
+    "teacher": {
+      "p1": "Former member of the multiple Grammy Award-winning gospel choir, the <btc>Brooklyn Tabernacle Choir</btc>, Remi has shared the stage with renowned gospel and contemporary Christian artists like <mcdowell>William McDowell</mcdowell> and <grant>Natalie Grant</grant>. She has also performed in New York City, including Off-Broadway venue <below>54 Below</below> and various jazz clubs.",
+      "p2": "Remi began singing gospel music as a member and soloist of her school choir and was a member of her church worship band by her teens. By her senior year of high school, she was directing an a cappella choir of eight singers, performing at various functions including an international Kanto (regional) choir festival in Tokyo.",
+      "p3": "She earned her Bachelor's Degree in Comparative Literature (with a focus on theatrical literature) from Princeton University, where she also received classical vocal training from <cappon>Ronald Cappon</cappon>. As a member of the <chapel>Princeton University Chapel Choir</chapel>, she performed at St. Stephen's Cathedral in Vienna and as a soloist at the University Chapel. She also continued directing - this time for an a cappella group specializing in Southern African gospel and Afropop/Afrobeat.",
+      "p4": "After relocating to New York City, she continued performing and classical training while expanding her musical horizons. Now back in Tokyo, she has performed in live concerts featuring pop and Jpop music, continues her classical choral work, and directs a contemporary/gospel choir at <tuc>Tokyo Union Church</tuc>. She is also represented as a voice actor/voiceover artist with creative agency <ssp>SSP</ssp>."
+    }
+  },
+  "Voice": {
+    "top": "Voice lessons",
     "Chameleon": "Why \"Chameleon\" ? 🦎",
     "studio": {
       "p1": "Chameleon Studios was founded in March 2024 by Remi Yamazaki.\nThe name “Chameleon” reflects Remi’s teaching style and teaching philosophy:",
@@ -19,22 +29,18 @@
       "p3": "<strong>Teaching philosophy:</strong> Remi believes that everyone has a rainbow inside of them!  🌈 Bringing out all the different “colors” of students' voices - even the ones we don't realize we have - is one of her favorite things to do.",
       "p4": "Remi was born into a teachers' family and has been teaching for about 15 years. Her teaching experience includes directing a children's program (ages 4+) and training children's teachers. Her vocal students have a wonderful time and her lessons are often the highlight of their week.",
       "p5": "<strong>Lesson flow:</strong>\n<strong>1) targeted warm-ups:</strong> customized to individual student strengths and needs \n<strong>2) targeted vocal exercises:</strong> this is where the hard work happens. Students work on targeted exercises to help them acquire new abilities and progress towards their personal singing goals and dreams.\n<strong>3) song work:</strong> students practice applying learned vocal techniques to a song of their choice.",
-      "p6": "<strong>For kids:</strong> In addition to the above, kids' lessons include lesson goal setting and progress tracking in a notebook. After each lesson, students receive a sticker and parents receive a lesson report.",
-      "cta": "Read student testimonials <voicecoach>here</voicecoach>."
-    },
-    "Remi": "About the instructor",
-    "teacher": {
-      "p1": "Former member of the multiple Grammy Award-winning gospel choir, the <btc>Brooklyn Tabernacle Choir</btc>, Remi has shared the stage with renowned gospel and contemporary Christian artists like <mcdowell>William McDowell</mcdowell> and <grant>Natalie Grant</grant>. She has also performed in New York City, including Off-Broadway venue <below>54 Below</below> and various jazz clubs.",
-      "p2": "Remi began singing gospel music as a member and soloist of her school choir and was a member of her church worship band by her teens. By her senior year of high school, she was directing an a cappella choir of eight singers, performing at various functions including an international Kanto (regional) choir festival in Tokyo.",
-      "p3": "She earned her Bachelor's Degree in Comparative Literature (with a focus on theatrical literature) from Princeton University, where she also received classical vocal training from <cappon>Ronald Cappon</cappon>. As a member of the <chapel>Princeton University Chapel Choir</chapel>, she performed at St. Stephen's Cathedral in Vienna and as a soloist at the University Chapel. She also continued directing - this time for an a cappella group specializing in Southern African gospel and Afropop/Afrobeat.",
-      "p4": "After relocating to New York City, she continued performing and classical training while expanding her musical horizons. Now back in Tokyo, she has performed in live concerts featuring pop and Jpop music, continues her classical choral work, and directs a contemporary/gospel choir at <tuc>Tokyo Union Church</tuc>. She is also represented as a voice actor/voiceover artist with creative agency <ssp>SSP</ssp>.",
-      "cta": "For a detailed performance/arts resume or for voice samples, please place a request via the form below."
+      "p6": "<strong>For kids:</strong> In addition to the above, kids' lessons include lesson goal setting and progress tracking in a notebook. After each lesson, students receive a sticker and parents receive a lesson report."
     }
   },
   "Events": {
     "top": "Events",
-    "p1": "description with link",
-    "cta": "cta"
+    "p1": "Chameleon Studios held its first annual student recital for Tokyo students in on November 22, 2025. \nThank you to everyone who participated and supported!",
+    "p2": "We had a varied program of selections from musicals, R&B/Soul, other pop including Jpop and contemporary Christian ballads, performed both by kids and adults.",
+    "cta": "Check out the <youtube>highlights video</youtube>!"
+  },
+  "Web": {
+    "p1": "I am currently taking a limited number of inquiries. If you would like to chat about (re-)designing your website or making an existing design come to life, please contact me via the form below.",
+    "examples": "Here are a couple examples of my work:"
   },
   "Footer": {
     "cta1": "Let's",

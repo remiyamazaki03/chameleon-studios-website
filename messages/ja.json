@@ -11,30 +11,38 @@
     "button3": "ボタン3"
   },
   "About": {
-    "top": "About Chameleon Studios nihongo",
-    "Chameleon": "Why \"Chameleon\" ? 🦎",
-    "studio": {
-      "p1": "Chameleon Studios was founded in March 2024 by Remi Yamazaki.\n\nThe name “Chameleon” reflects Remi’s teaching style and teaching philosophy:",
-      "p2": "<strong> Teaching style: </strong> Vocal command and agility require intricate inner muscle coordination, so using easy-to-remember animals to capture complex anatomical concepts is one of the reasons her lessons are both effective and entertaining, as well as kid-friendly (ages 8+).",
-      "p3": "<strong>Teaching philosophy:</strong> Remi believes that everyone has a rainbow inside of them!  🌈 Bringing out all the different “colors” of students' voices - even the ones we don't realize we have - is one of her favorite things to do.",
-      "p4": "Remi was born into a teachers' family and has been teaching for about 15 years. Her teaching experience includes directing a children's program (ages 4+) and training children's teachers. Her vocal students at !link! Chameleon Studios !link! have a wonderful time and her lessons are often the highlight of their week.",
-      "p5": "<strong>Lesson flow:</strong>\n\n<strong>1) targeted warm-ups:</strong> customized to individual student strengths and needs \n\n<strong>2) targeted vocal exercises:</strong> this is where the hard work happens. Students work on targeted exercises to help them acquire new abilities and progress towards their personal singing goals and dreams.\n\n<strong>3) song work:</strong> students practice applying learned vocal techniques to a song of their choice.",
-      "p6": "<strong>For kids:</strong> In addition to the above, kids' lessons include lesson goal setting and progress tracking in a notebook. After each lesson, students receive a sticker and parents receive a lesson report.",
-      "cta": "Read student testimonials !link! here !link!"
-    },
+    "top": "About Remi nihongo",
     "Remi": "About the instructor",
     "teacher": {
       "p1": "Former member of the multiple Grammy Award-winning gospel choir, the <btc>Brooklyn Tabernacle Choir</btc>, Remi has shared the stage with renowned gospel and contemporary Christian artists like <mcdowell>William McDowell</mcdowell> and <grant>Natalie Grant</grant>. She has also performed in New York City, including Off-Broadway venue <below>54 Below</below> and various jazz clubs.",
       "p2": "Remi began singing gospel music as a member and soloist of her school choir and was a member of her church worship band by her teens. By her senior year of high school, she was directing an a cappella choir of eight singers, performing at various functions including an international Kanto (regional) choir festival in Tokyo.",
       "p3": "She earned her Bachelor's Degree in Comparative Literature (with a focus on theatrical literature) from Princeton University, where she also received classical vocal training from <cappon>Ronald Cappon</cappon>. As a member of the <chapel>Princeton University Chapel Choir</chapel>, she performed at St. Stephen's Cathedral in Vienna and as a soloist at the University Chapel. She also continued directing - this time for an a cappella group specializing in Southern African gospel and Afropop/Afrobeat.",
-      "p4": "After relocating to New York City, she continued performing and classical training while expanding her musical horizons. Now back in Tokyo, she has performed in live concerts featuring pop and Jpop music, continues her classical choral work, and directs a contemporary/gospel choir at <tuc>Tokyo Union Church</tuc>. She is also represented as a voice actor/voiceover artist with creative agency <ssp>SSP</ssp>.",
-      "cta": "For a detailed performance/arts resume or for voice samples, please place a request via the form below."
+      "p4": "After relocating to New York City, she continued performing and classical training while expanding her musical horizons. Now back in Tokyo, she has performed in live concerts featuring pop and Jpop music, continues her classical choral work, and directs a contemporary/gospel choir at <tuc>Tokyo Union Church</tuc>. She is also represented as a voice actor/voiceover artist with creative agency <ssp>SSP</ssp>."
+    }
+  },
+  "Voice": {
+    "top": "Voice lessons nihongo",
+    "Chameleon": "Why \"Chameleon\" ? 🦎",
+    "studio": {
+      "p1": "Chameleon Studios was founded in March 2024 by Remi Yamazaki.\nThe name “Chameleon” reflects Remi’s teaching style and teaching philosophy:",
+      "p2": "<strong> Teaching style: </strong> Vocal command and agility require intricate inner muscle coordination, so using easy-to-remember animals to capture complex anatomical concepts is one of the reasons her lessons are both effective and entertaining, as well as kid-friendly (ages 8+).",
+      "p3": "<strong>Teaching philosophy:</strong> Remi believes that everyone has a rainbow inside of them!  🌈 Bringing out all the different “colors” of students' voices - even the ones we don't realize we have - is one of her favorite things to do.",
+      "p4": "Remi was born into a teachers' family and has been teaching for about 15 years. Her teaching experience includes directing a children's program (ages 4+) and training children's teachers. Her vocal students have a wonderful time and her lessons are often the highlight of their week.",
+      "p5": "<strong>Lesson flow:</strong>\n<strong>1) targeted warm-ups:</strong> customized to individual student strengths and needs \n<strong>2) targeted vocal exercises:</strong> this is where the hard work happens. Students work on targeted exercises to help them acquire new abilities and progress towards their personal singing goals and dreams.\n<strong>3) song work:</strong> students practice applying learned vocal techniques to a song of their choice.",
+      "p6": "<strong>For kids:</strong> In addition to the above, kids' lessons include lesson goal setting and progress tracking in a notebook. After each lesson, students receive a sticker and parents receive a lesson report."
     }
   },
   "Events": {
-    "top": "イベント",
-    "p1": "description with link",
-    "cta": "cta"
+    "top": "Events nihongo",
+    "p1": "Chameleon Studios held its first annual student recital for Tokyo students in on November 22, 2025. \nThank you to everyone who participated and supported!",
+    "p2": "We had a varied program of selections from musicals, R&B/Soul, other pop including Jpop and contemporary Christian ballads, performed both by kids and adults.",
+    "cta": "Check out the <youtube>highlights video</youtube>!"
+  },
+  "Web": {
+    "p1": "アーティスト向けのホームページ作成サービスを行っております。このようなアーティストやグループの方におすすめです：\n\n・信頼感を高めたい\n・イベント情報を共有しやすくしたい\n・SNSアカウントを持ってい方にも簡単に共有できるものが欲しい\n・デザインやアイディアなどはあるが、作る時間がない（または、作り方がわからない）\n\nお求め・ご質問やご不明点がある場合、下記フォームからお問い合わせください。\nヒアリングを行い、あなたのブランドやアイデンティティをオンラインの皆様に印象づけするホームページを一緒に作成いたします。",
+    "examples": "過去事例：",
+    "bwave": "依頼内容：インスタのフィードを埋め込んだ、家族や子供向けのアットホームなホームページ",
+    "dtokyo": "依頼内容：PVを背景に埋め込んだ、白・黒・真っ赤を中心とした、3D感があるホームページ"
   },
   "Footer": {
     "cta1": "お問い合わせ",

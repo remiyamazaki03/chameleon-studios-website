@@ -1,14 +1,40 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import { useTranslations } from "next-intl";
 
 export default function Voicecoach() {
+  const t = useTranslations();
   return (
     <div>
-      <h2 className="title d-flex align-items-center m-0">Voice coach</h2>
-      <div className="container1 row text-center align-items-center">
+      <h2 className="title d-flex align-items-center m-0">{t("Voice.top")}</h2>
+
+      <div className="container2 row text-center align-items-center">
         <div className="col-md-8 p-5">
-          <h2 className="mt-2 fs-3">Why Chameleon?</h2>
-          <p className="mt-4 bio ">about about about</p>
+          <h2 className="mt-2 fs-3">{t("Voice.Chameleon")}</h2>
+          <div className={`mt-4 ${styles.bio}`}>
+            <p style={{ whiteSpace: "pre-line" }}>{t("Voice.studio.p1")}</p>
+            <p>
+              {t.rich("Voice.studio.p2", {
+                strong: (chunks) => <strong>{chunks}</strong>,
+              })}
+            </p>
+            <p>
+              {t.rich("Voice.studio.p3", {
+                strong: (chunks) => <strong>{chunks}</strong>,
+              })}
+            </p>
+            <p>{t("Voice.studio.p4")}</p>
+            <p style={{ whiteSpace: "pre-line" }}>
+              {t.rich("Voice.studio.p5", {
+                strong: (chunks) => <strong>{chunks}</strong>,
+              })}
+            </p>
+            <p>
+              {t.rich("Voice.studio.p6", {
+                strong: (chunks) => <strong>{chunks}</strong>,
+              })}
+            </p>
+          </div>
         </div>
         <Image
           className="img-fluid col-md-4 h-md-100 d-block mx-auto pe-5"
