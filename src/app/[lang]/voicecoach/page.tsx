@@ -1,5 +1,6 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import TestimonialsCarousel from "@/app/components/TestimonialsCarousel";
 import { useTranslations } from "next-intl";
 
 export default function Voicecoach() {
@@ -48,9 +49,7 @@ export default function Voicecoach() {
         <div className="row px-md-5 container1 d-flex align-items-center flex-wrap">
           <div>
             <div>
-              <h2 className="text-center px-4 px-md-0 pt-md-5">case 2</h2>
-              <p className="text-md-center px-5 px-md-2">carousel here</p>
-              <br />
+              <TestimonialsCarousel />
             </div>
           </div>
         </div>
