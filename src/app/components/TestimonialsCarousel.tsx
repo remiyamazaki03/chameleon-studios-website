@@ -1,10 +1,22 @@
 "use client";
 
 import useEmblaCarousel from "embla-carousel-react";
+import Autoplay from "embla-carousel-autoplay";
 import styles from "./testimonialsCarousel.module.css";
 
 export default function TestimonialsCarousel() {
-  const [emblaRef] = useEmblaCarousel({ loop: true });
+  const [emblaRef] = useEmblaCarousel(
+    {
+      loop: true,
+    },
+    [
+      Autoplay({
+        delay: 2000,
+        stopOnInteraction: false,
+        stopOnMouseEnter: true,
+      }),
+    ],
+  );
 
   return (
     <div className={`max-w-lg mx-auto ${styles.embla}`}>
