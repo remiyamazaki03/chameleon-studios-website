@@ -1,25 +1,15 @@
 "use client";
 
 import useEmblaCarousel from "embla-carousel-react";
-import Autoplay from "embla-carousel-autoplay";
 import Image from "next/image";
 import styles from "./testimonialsCarousel.module.css";
 import { useTranslations } from "next-intl";
 
 export default function WorshipCarousel() {
   const t = useTranslations();
-  const [emblaRef, emblaApi] = useEmblaCarousel(
-    {
-      loop: true,
-    },
-    [
-      Autoplay({
-        delay: 4000,
-        stopOnInteraction: false,
-        stopOnMouseEnter: true,
-      }),
-    ],
-  );
+  const [emblaRef, emblaApi] = useEmblaCarousel({
+    loop: true,
+  });
 
   return (
     <div className={`max-w-lg mx-auto ${styles.embla}`}>

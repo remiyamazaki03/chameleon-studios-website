@@ -56,6 +56,7 @@
   padding: 2rem;
   text-align: center;
 
+  border: var(--highlight-color) dotted 0.5px;
   box-shadow:
     0 2px 8px rgba(0, 0, 0, 0.04),
     0 8px 28px rgba(0, 0, 0, 0.06);
@@ -83,7 +84,7 @@
 }
 .quoteKids {
   font-size: clamp(1.1rem, 2.2vw, 1.35rem);
-  line-height: 1.25;
+  line-height: 1.5;
   font-weight: 500;
   color: #222;
   margin: 0;
