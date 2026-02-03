@@ -17,6 +17,9 @@
   }
 }
 @media (max-width: 992px) {
+  .voicecoachLogo {
+    width: 40%;
+  }
   .pricing {
     height: fit-content;
   }

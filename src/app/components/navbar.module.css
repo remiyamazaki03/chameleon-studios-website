@@ -37,10 +37,3 @@
 .language:hover {
   cursor: pointer;
 }
-@media (max-width: 767px) {
-  .language {
-    margin-left: 0.5rem;
-    margin-top: 1rem;
-    margin-bottom: 1.5rem;
-  }
-}

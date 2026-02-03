@@ -3,6 +3,8 @@ import { NextIntlClientProvider } from "next-intl";
 import { getLocale, getMessages } from "next-intl/server";
 import { config } from "@fortawesome/fontawesome-svg-core";
 import "@fortawesome/fontawesome-svg-core/styles.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import BootstrapClient from "../components/BootstrapClient";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
@@ -19,6 +21,7 @@ export default async function RootLayout({
     <html lang={lang}>
       <NextIntlClientProvider messages={messages}>
         <body>
+          <BootstrapClient />
           <Navbar lang={lang} />
           {children}
           <Footer lang={lang} />

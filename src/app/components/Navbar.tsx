@@ -14,7 +14,7 @@ export default function Navbar({ lang }: { lang: string }) {
   const t = useTranslations();
   return (
     <nav
-      className={`navbar navbar-expand-md navbar-light fixed-top ${styles.navbarCss}`}
+      className={`navbar navbar-expand-lg navbar-light fixed-top ${styles.navbarCss}`}
     >
       <Link className={`${styles.navbarIcon} ms-3 my-1`} href="/">
         <Image
@@ -36,8 +36,8 @@ export default function Navbar({ lang }: { lang: string }) {
         <span className="navbar-toggler-icon"></span>
       </button>
       <div className="collapse navbar-collapse" id="navbarNav">
-        <ul className={`navbar-nav me-auto ${styles["navul"]}`}>
-          <li className={`${styles.navItem} ms-3`}>
+        <ul className={`navbar-nav me-auto ${styles.navul}`}>
+          <li className={`${styles.navItem} ms-lg-3`}>
             <Link className={`${styles.navLink} nav-link`} href="/voicecoach">
               {t("Navbar.Voice")}
             </Link>
@@ -62,8 +62,13 @@ export default function Navbar({ lang }: { lang: string }) {
               {t("Navbar.Contact")}
             </Link>
           </li>
+          <li className={`d-block d-lg-none ${styles.navItem}`}>
+            <LanguageSwitch />
+          </li>
         </ul>
-        <LanguageSwitch />
+        <div className="d-none d-lg-block">
+          <LanguageSwitch />
+        </div>
       </div>
     </nav>
   );

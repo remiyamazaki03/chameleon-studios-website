@@ -9,7 +9,7 @@ export default function Voicecoach() {
       <h2 className="title d-flex align-items-center m-0">{t("Voice.top")}</h2>
 
       <div className="container2 row text-center align-items-center">
-        <div className="col-md-8 p-5">
+        <div className="col-lg-8 px-5 py-lg-5 order-2 order-lg-1">
           <h2 className="mt-2 fs-3">{t("Voice.Chameleon")}</h2>
           <div className={`mt-4 ${styles.bio}`}>
             <p style={{ whiteSpace: "pre-line" }}>{t("Voice.studio.p1")}</p>
@@ -37,7 +37,7 @@ export default function Voicecoach() {
           </div>
         </div>
         <Image
-          className="img-fluid col-md-4 h-md-100 d-block mx-auto pe-5"
+          className={`img-fluid col-lg-4 h-md-100 d-block mx-auto pe-md-5 order-1 order-lg-2 ${styles.voicecoachLogo}`}
           src="/logo.png"
           alt="logo"
           width={400}
@@ -45,53 +45,13 @@ export default function Voicecoach() {
         />
       </div>
       <div className="p-0 m-0">
-        <div className="row container2 px-md-5 d-flex align-items-center flex-wrap">
-          <div className="col-md-4">
-            <Image
-              src="/freebird.png"
-              alt="vocal freedom"
-              className={`img-fluid p-4 d-block mx-auto ${styles.voicecoachImg}`}
-              width={400}
-              height={400}
-            />
-          </div>
-          <div className="col-md-8">
-            <div>
-              <div>
-                <h2 className="text-center px-4 px-md-0 pt-md-5">case 1</h2>
-                <p className="text-md-center px-5 px-md-2 pb-4 fs-lg-5">
-                  <br />
-                  testimonial 1
-                  <br /> <br />
-                  testimonial 2
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
         <div className="row px-md-5 container1 d-flex align-items-center flex-wrap">
-          <div className="col-md-8 order-2 order-md-1">
+          <div>
             <div>
               <h2 className="text-center px-4 px-md-0 pt-md-5">case 2</h2>
-              <p className="text-md-center px-5 px-md-2">
-                <br />
-                testimonial 3
-                <br />
-                <br />
-                testimonial 4
-                <br />
-              </p>
+              <p className="text-md-center px-5 px-md-2">carousel here</p>
               <br />
             </div>
-          </div>
-          <div className="col-md-4 order-1 order-md-2">
-            <Image
-              src="/branchout.png"
-              alt="rainbow chameleon"
-              className={`img-fluid p-4 d-block mx-auto ${styles.voicecoachImg}`}
-              width={400}
-              height={400}
-            />
           </div>
         </div>
         <div className="row px-md-5 container2 d-flex align-items-center flex-wrap">
