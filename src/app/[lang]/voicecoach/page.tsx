@@ -1,8 +1,9 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import KidsCarousel from "@/app/components/KidsCarousel";
+import WorshipCarousel from "@/app/components/WorshipCarousel";
 import TestimonialsCarousel from "@/app/components/TestimonialsCarousel";
 import { useTranslations } from "next-intl";
-import { Link } from "@/i18n/routing";
 
 export default function Voicecoach() {
   const t = useTranslations();
@@ -58,23 +59,12 @@ export default function Voicecoach() {
               {t("Voice.kids.kids")}
             </h2>
             <p
-              className="text-md-center px-5 px-md-2 pt-4 pb-5"
+              className="text-md-center px-5 px-md-2 pt-4 pb-2"
               style={{ whiteSpace: "pre-line" }}
             >
               {t("Voice.kids.p1")}
             </p>{" "}
-            <p
-              className="text-md-center px-5 px-md-2 "
-              style={{ whiteSpace: "pre-line" }}
-            >
-              PUT THIS IN A BOX {t("Voice.kids.testimonial1")}
-            </p>
-            <p
-              className="text-md-center px-5 px-md-2 "
-              style={{ whiteSpace: "pre-line" }}
-            >
-              THIS ONE TOO {t("Voice.kids.testimonial2")}
-            </p>
+            <KidsCarousel />
           </div>
         </div>
       </div>
@@ -91,20 +81,7 @@ export default function Voicecoach() {
           </p>
         </div>
         <div className="col-md-8">
-          <div>
-            <p
-              className="text-center px-5 px-md-2"
-              style={{ whiteSpace: "pre-line" }}
-            >
-              {t("Voice.worship.testimonial1")}
-            </p>
-            <p
-              className="text-center px-5 px-md-2"
-              style={{ whiteSpace: "pre-line" }}
-            >
-              {t("Voice.worship.testimonial2")}
-            </p>
-          </div>
+          <WorshipCarousel />
         </div>
       </div>
 
