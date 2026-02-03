@@ -13,6 +13,7 @@ export default function Home() {
           src="/logo.png"
           alt="Chameleon Studios logo スタジオカメレオン ロゴ"
           fill={true}
+          sizes="50vw"
           style={{
             objectFit: "contain",
           }}
@@ -26,6 +27,7 @@ export default function Home() {
             src="/Remi-singer.jpg"
             alt="Remi singer"
             fill={true}
+            sizes="33vw"
             style={{
               objectFit: "cover",
             }}
@@ -46,6 +48,7 @@ export default function Home() {
             src="/microphone.jpg"
             alt="microphone"
             fill={true}
+            sizes="33vw"
             style={{
               objectFit: "cover",
             }}
@@ -70,6 +73,7 @@ export default function Home() {
             src="/Remi-developer.jpg"
             alt="Remi web developer"
             fill={true}
+            sizes="33vw"
             style={{
               objectFit: "cover",
             }}

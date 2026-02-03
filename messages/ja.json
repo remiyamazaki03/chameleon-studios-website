@@ -24,7 +24,8 @@
       "p1": "元 <btc>Brooklyn Tabernacle Choir</btc>（グラミー賞を複数回受賞したゴスペルクワイア）のメンバーとして、レミは <mcdowell>William McDowell</mcdowell> や <grant>Natalie Grant</grant>などのゴスペル・クリスチャンアーティストと共演しています。また、ニューヨーク市のオフ・ブロードウェイの <below>54 Below</below> や、さまざまなジャズクラブでもパフォーマンスを行ってきました。",
       "p2": "ゴスペル音楽は小学校のクワイアで初めて歌い、高校の頃には通っていた教会のバンドのボーカルのメンバーでした。高校卒業前には８人のアカペラクワイアを指揮し、関東地方の国際クワイアフェスティバルを含みさまざまなイベントで演奏しました。",
       "p3": "アメリカ プリンストン大学で比較文学（演劇文学焦点）の勉強をしつつ、<cappon>Ronald Cappon</cappon> からクラシック声楽のトレーニングも受けました。<chapel>プリンストン大学チャペルクワイア</chapel> のメンバーとしてウィーンの聖シュテファン大聖堂で演奏し、大学チャペルではソロイストとして出演しました。指揮も続け、南部アフリカのゴスペルやアフロポップ・アフロビートを専門とする大学アカペラグループを指揮しました。",
-      "p4": "卒業後、ニューヨーク市に移住し、クラシックのトレーニングを続けながら音楽の幅を広げていきました。帰国後、洋楽やJポップのライブコンサートを行い、クラシック合唱の活動を続けました。現在は、<tuc>東京ユニオンチャーチ</tuc>にてゴスペルクワイアの指導をしつつ、エンターテイメントカンパニー <ssp>SSP</ssp> で声優・ボイスオーバーアーティストとして活動をしています。"
+      "p4": "卒業後、ニューヨーク市に移住し、クラシックのトレーニングを続けながら音楽の幅を広げていきました。帰国後、洋楽やJポップのライブコンサートを行い、クラシック合唱の活動を続けました。現在は、<tuc>東京ユニオンチャーチ</tuc>にてゴスペルクワイアの指導をしつつ、エンターテイメントカンパニー <ssp>SSP</ssp> で声優・ボイスオーバーアーティストとして活動をしています。",
+      "p5": "ボイストレーナーのレミは講師の家庭で生まれ育ったため約15年間の指導経験を積み、その中、4歳以上の子ども向けプログラムの指導や教師のトレーニングも行ってきました。"
     }
   },
   "Voice": {
@@ -34,10 +35,28 @@
       "p1": "スタジオカメレオンは２０２４年３月に設立されました。\n「カメレオン」とは、創設者・講師、レミの教え方や指導理念を表した名前です：",
       "p2": "<strong> 指導理念：</strong> スタジオカメレオンでは、みんな一人ひとりの中に虹があると思っています 🌈 一人ひとりの「声」の（まだ気づいていない魅力も含めて）すべての「色」を引き出すことが、レミのとても楽しいミッションです。",
       "p3": "<strong>教え方：</strong> 声を上手くコントロールするには、内筋（特にインナーマッスル）の繊細な協調が必要となります。そのため、解剖学的な概念をそのまま学習するのではなく、動物などのイメージしやすい例えを使い、複雑な筋肉協調を直感的に理解し、覚え、再現できるように練習します。８歳以上の子どもにも親しみやすい内容になっています。",
-      "p4": "ボイストレーナーのレミは講師の家庭で生まれ育ったため約15年間の指導経験を積み、その中、4歳以上の子ども向けプログラムの指導や教師のトレーニングも行ってきました。スタジオカメレオンでのボイスレッスンは効果的だけでなく、子供も大人もレッスンを楽しみにして通っていただいております。",
-      "p5": "<strong>レッスンの流れ：</strong>\n<strong>１）ウオームアップ：</strong>生徒さんの長所と短所に合わせてカスタマイズ\n<strong>２）エクササイズ：</strong>特訓の時間です。カスタマイズされたエクササイズを熟していくことによって新しいスキルを身につけ、レベルを調整しながら、生徒さん自身の目標や夢に向かって一歩づつ進んでいきます。\n<strong>３）歌の練習：</strong>エクササイズで練習したテクニックを好きな歌で実践する。",
-      "p6": "<strong>子供のレッスン：</strong>上記に加え、ノートにレッスンの目標を書いたりレッスン中の進歩も一緒にチェックします。レッスン後は、お子様はシールをもらい、保護者様へはレッスンレポートが送られます。"
+      "p4": "<strong>レッスンの流れ：</strong>\n<strong>１）ウオームアップ：</strong>生徒さんの長所と短所に合わせてカスタマイズ\n<strong>２）エクササイズ：</strong>特訓の時間です。カスタマイズされたエクササイズを熟していくことによって新しいスキルを身につけ、レベルを調整しながら、生徒さん自身の目標や夢に向かって一歩づつ進んでいきます。\n<strong>３）歌の練習：</strong>エクササイズで練習したテクニックを好きな歌で実践する。"
+    },
+    "kids": {
+      "kids": "子供のレッスン 🥳",
+      "p1": "上記レッスンの流れに加え、お子様向けのレッスンは以下も含みます：\n\n・ノートでレッスンの記録\n・レッスンの終わりに好きなシールを選らんで貼る！\n・レッスンレポート（１３歳以下は各レッスン、１３〜１６歳は毎月）\n・曲が完成したら、ビデオ・録音を撮る（保護者様へ送られます）",
+      "testimonial1": "[My child] showed me how he does space and egg voice. He does it well! I’m happy to see he is enjoying your lessons. - parent of 8-year-old student",
+      "testimonial2": "She looks so happy and very expressive [in the video]. I love how [my child] seems more confident in her voice. - parent of 14-year-old student"
+    },
+    "worship": {
+      "worship": "For worship leaders",
+      "p1": "unique challenges of worship leaders outline",
+      "testimonial1": "I started taking online voice training because I wanted to sing more freely as a worship leader at my church. Before the lessons, I often struggled to connect my chest voice and head voice smoothly. Through the lessons, I learned not only how to control the transition between them but also how my body actually works when producing sound. Understanding the background of how the voice is made helped me sing with more awareness and confidence. Now I feel much more comfortable expressing myself while singing and truly enjoy using my voice in worship. - worship leader in Tokyo, Japan (online/in person hybrid)",
+      "testimonial2": "I regularly lead worship with voice and acoustic guitar for about a hundred people, but I've never liked the sound of my own voice. My voice didn't sound to me like other trained singers. I didn't even have the words to describe the difference. After a few months with Remi, I began to understand the difference I was hearing. A few more months after that, and the muscle memory started to take over. I started to really hear it in my own voice, that openness I associate with trained singers. I now like to listen to myself sing, which helps me trust that other people do, too! - worship leader in Seattle, USA (online)"
     }
+  },
+  "Carousel": {
+    "slide1": "During the lessons Remi always encouraged me. One of the exercises was making a pig face. She said “making an ugly face is part of the vocal lesson. Nothing to be ashamed of!” That's it. I had nothing to be ashamed of. After two months of training, I could sing songs which I never expected to sing.”\n- T. K. (online, Brazil)",
+    "slide2": "I didn't know I had this side of my voice!!! Given proper instruction, it was an amazing feeling to push past the limits I thought I had.\n- J. L. (online, USA)",
+    "slide3": "I've been singing in a choral way for more than 20 years and singing in a different style was very challenging for me. Remi's way of teaching was very fun and also very easy to understand. Now I can use my chest voice to sing powerful songs and I even performed in front of an audience!! Her lessons definitely gave me confidence in singing!\n- A. T. (online, Japan)",
+    "slide4": "I can’t believe I was able to do it… I thought [this song] was impossible. It was a dream come true to sing it.\n- Z. P. (in person, Japan)",
+    "slide5": "something \n- hello",
+    "slide6": "After Remi's coaching, [the coachee, one of the musical actors] sang notes I (thought I) knew he couldn't hit, all with 100% presence and confidence onstage. Remi encouraged and helped many of us to step up and boosted our production level, and I'm very grateful to have had the opportunity to work with her.\n- W. R-L. (Musical director, USA)"
   },
   "Events": {
     "top": "イベント",

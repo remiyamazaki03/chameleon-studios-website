@@ -1,5 +1,3 @@
-@import "bootstrap/dist/css/bootstrap.min.css";
-
 :root {
   --brand-color: #6347ff;
   --secondary-color: #e0e0e0;
@@ -8,6 +6,7 @@
   --highlight-color: #8763ff;
   --secondary-background-color: #d2cce5;
   --box-shadow: 0 5px 5px rgba(0, 0, 0, 0.25);
+  --heavy-box-shadow: 0 3px 3px rgba(0, 0, 0, 1);
 }
 
 html,
@@ -17,6 +16,9 @@ body {
 }
 li {
   list-style: none;
+}
+p {
+  font-size: 1.15rem;
 }
 .container1 {
   background-color: var(--secondary-color);

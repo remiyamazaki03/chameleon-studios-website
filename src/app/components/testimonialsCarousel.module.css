@@ -12,6 +12,31 @@
   flex: 0 0 100%;
   min-width: 0;
   border: solid;
+  font-size: 1.15rem;
   justify-content: center;
+  text-align: center;
   padding: 100px;
+  white-space: pre-wrap;
+}
+.embla__buttons {
+  display: flex;
+  justify-content: center;
+  gap: 0.75rem;
+  margin-top: 1.25rem;
+}
+
+.embla__button {
+  width: 40px;
+  height: 40px;
+  border-radius: 9999px;
+  border: none;
+  background-color: var(--secondary-background-color);
+  font-size: 1.5rem;
+  cursor: pointer;
+
+  transition: all 0.2s ease;
+}
+
+.embla__button:hover {
+  text-shadow: var(--heavy-box-shadow);
 }

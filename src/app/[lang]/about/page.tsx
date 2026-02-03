@@ -67,6 +67,7 @@ export default function About() {
               })}
             </p>
             <p>{t("About.teacher.p2")}</p>
+
             <p>
               {t.rich("About.teacher.p3", {
                 cappon: (chunks) => (
@@ -115,6 +116,7 @@ export default function About() {
                 ),
               })}
             </p>
+            <p>{t("About.teacher.p5")}</p>
           </div>
         </div>
       </div>
