@@ -11,7 +11,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 
 export default function Footer({ lang }: { lang: string }) {
-  const t = useTranslations();
+  const t = useTranslations("Footer");
   return (
     <div>
       <div className={`row ${styles.contact}`}>

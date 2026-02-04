@@ -6,7 +6,7 @@ import styles from "./testimonialsCarousel.module.css";
 import { useTranslations } from "next-intl";
 
 export default function WorshipCarousel() {
-  const t = useTranslations();
+  const t = useTranslations("Worshipc");
   const [emblaRef, emblaApi] = useEmblaCarousel({
     loop: true,
   });
@@ -24,10 +24,8 @@ export default function WorshipCarousel() {
                 height={72}
                 className={styles.avatar}
               />
-              <p className={styles.quote}> {t("Voice.worship.testimonial1")}</p>
-              <footer className={styles.name}>
-                {t("Voice.worship.name1")}
-              </footer>
+              <p className={styles.quote}> {t("testimonial1")}</p>
+              <footer className={styles.name}>{t("name1")}</footer>
             </article>
           </div>
           <div className={styles.embla__slide}>
@@ -39,10 +37,8 @@ export default function WorshipCarousel() {
                 height={72}
                 className={styles.avatar}
               />
-              <p className={styles.quote}>{t("Voice.worship.testimonial2")}</p>
-              <footer className={styles.name}>
-                {t("Voice.worship.name2")}
-              </footer>
+              <p className={styles.quote}>{t("testimonial2")}</p>
+              <footer className={styles.name}>{t("name2")}</footer>
             </article>
           </div>
         </div>

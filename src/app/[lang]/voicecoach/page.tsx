@@ -6,10 +6,10 @@ import TestimonialsCarousel from "@/app/components/TestimonialsCarousel";
 import { useTranslations } from "next-intl";
 
 export default function Voicecoach() {
-  const t = useTranslations();
+  const t = useTranslations("Voice");
   return (
     <div>
-      <h2 className="title d-flex align-items-center m-0">{t("Voice.top")}</h2>
+      <h1 className="title d-flex align-items-center m-0">{t("Voice.top")}</h1>
 
       <div className="container1 row align-items-center">
         <div className="col-lg-8 px-5 py-lg-5 order-2 order-lg-1">

@@ -8,7 +8,7 @@ import styles from "./testimonialsCarousel.module.css";
 import { useTranslations } from "next-intl";
 
 export default function TestimonialsCarousel() {
-  const t = useTranslations();
+  const t = useTranslations("Carousel");
   const [emblaRef, emblaApi] = useEmblaCarousel(
     {
       loop: true,

@@ -1,0 +1,21 @@
+{
+  "Voice": {
+    "top": "個人ボイスレッスン",
+    "Chameleon": "スタジオカメレオンとは？🦎",
+    "studio": {
+      "p1": "スタジオカメレオンは２０２４年３月に設立されました。\n「カメレオン」とは、創設者・講師、レミの教え方や指導理念を表した名前です：",
+      "p2": "<strong> 指導理念：</strong> スタジオカメレオンでは、みんな一人ひとりの中に虹があると思っています 🌈 一人ひとりの「声」の（まだ気づいていない魅力も含めて）すべての「色」を引き出すことが、レミのとても楽しいミッションです。",
+      "p3": "<strong>教え方：</strong> 声を上手くコントロールするには、内筋（特にインナーマッスル）の繊細な協調が必要となります。そのため、解剖学的な概念をそのまま学習するのではなく、動物などのイメージしやすい例えを使い、複雑な筋肉協調を直感的に理解し、覚え、再現できるように練習します。８歳以上の子どもにも親しみやすい内容になっています。",
+      "p4": "<strong>レッスンの流れ：</strong>\n<strong>１）ウオームアップ：</strong>生徒さんの長所と短所に合わせてカスタマイズ\n<strong>２）エクササイズ：</strong>特訓の時間です。カスタマイズされたエクササイズを熟していくことによって新しいスキルを身につけ、レベルを調整しながら、生徒さん自身の目標や夢に向かって一歩づつ進んでいきます。\n<strong>３）歌の練習：</strong>エクササイズで練習したテクニックを好きな歌で実践する。"
+    },
+    "kids": {
+      "kids": "子供のレッスン 🥳",
+      "p1": "上記レッスンの流れに加え、お子様向けのレッスンは以下も含みます：\n\n・ノートでレッスンの記録\n・レッスンの終わりに好きなシールを選らんで貼る！\n・レッスンレポート（１３歳以下は各レッスン、１３〜１６歳は毎月）\n・曲が完成したら、ビデオ・録音を撮る（保護者様へ送られます）"
+    },
+    "worship": {
+      "worship": "For worship leaders",
+      "p1": "Worship leaders sing in a special setting where singing is not a performance but an invitation to join in worship, as well as an act of worship itself.\n\nWith experience in various forms of church music including contemporary worship bands, gospel choirs as well as traditional hymn leading, Remi loves to help worship leaders develop their vocal skills to [FINISH THIS SENTENCE]."
+    },
+    "reviews": "生徒さんの感想："
+  }
+}

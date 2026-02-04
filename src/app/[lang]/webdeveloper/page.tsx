@@ -3,10 +3,10 @@ import styles from "./page.module.css";
 import { useTranslations } from "next-intl";
 
 export default function Webdeveloper() {
-  const t = useTranslations();
+  const t = useTranslations("Web");
   return (
     <div>
-      <h2 className="title m-0 d-flex align-items-center">Web developer</h2>
+      <h1 className="title m-0 d-flex align-items-center">Web developer</h1>
       <div className="container1">
         <p
           className="py-5 pt-5 m-0 text-center fs-5"

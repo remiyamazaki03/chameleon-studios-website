@@ -3,12 +3,12 @@ import styles from "./page.module.css";
 import { useTranslations } from "next-intl";
 
 export default function About() {
-  const t = useTranslations();
+  const t = useTranslations("About");
   return (
     <div>
-      <h2 className="title mt-2 mb-0 d-flex align-items-center">
+      <h1 className="title mt-2 mb-0 d-flex align-items-center">
         {t("About.top")}
-      </h2>
+      </h1>
 
       <div className="container1 m-0 row text-center align-items-center">
         <Image
@@ -21,7 +21,10 @@ export default function About() {
         <div className="col-md-8 p-5">
           <h2 className="mt-2 fs-3">{t("About.Remi")}</h2>
           <div className={`mt-4 ${styles.bio}`}>
+            <h3 className={styles.subhead}>hello hello</h3>
+            <h3 className={styles.subtitle}>hello hello</h3>
             <p>
+              helo
               {t.rich("About.teacher.p1", {
                 btc: (chunks) => (
                   <a

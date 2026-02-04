@@ -11,7 +11,7 @@ export default function Navbar({ lang }: { lang: string }) {
       navbar.classList.remove("show");
     }
   };
-  const t = useTranslations();
+  const t = useTranslations("Navbar");
   return (
     <nav
       className={`navbar navbar-expand-lg navbar-light fixed-top ${styles.navbarCss}`}
