@@ -22,32 +22,10 @@ export default function TestimonialsCarousel() {
     ],
   );
   const [selectedIndex, setSelectedIndex] = useState(0);
-  const slides = [
-    {
-      quote: t("Carousel.slide1"),
-      name: t("Carousel.name1"),
-    },
-    {
-      quote: t("Carousel.slide2"),
-      name: t("Carousel.name2"),
-    },
-    {
-      quote: t("Carousel.slide3"),
-      name: t("Carousel.name3"),
-    },
-    {
-      quote: t("Carousel.slide4"),
-      name: t("Carousel.name4"),
-    },
-    {
-      quote: t("Carousel.slide5"),
-      name: t("Carousel.name5"),
-    },
-    {
-      quote: t("Carousel.slide6"),
-      name: t("Carousel.name6"),
-    },
-  ];
+  const slides = t.raw("Carousel.slides") as {
+    quote: string;
+    name: string;
+  }[];
   const onSelect = useCallback(() => {
     if (!emblaApi) return;
     setSelectedIndex(emblaApi.selectedScrollSnap());
