@@ -102,8 +102,8 @@
 .embla__buttons {
   display: flex;
   justify-content: center;
+  margin-top: 1rem;
   gap: 0.75rem;
-  margin-top: 1.25rem;
 }
 
 .embla__button {
@@ -124,4 +124,31 @@
 
 .embla__button:hover {
   text-shadow: var(--heavy-box-shadow);
+}
+.embla__dots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.25rem;
+  gap: 8px;
+}
+
+.embla__dot {
+  display: block;
+  flex: none;
+  width: 8px;
+  height: 8px;
+  padding: 0;
+  border-radius: 50%;
+  background: var(--highlight-color);
+  border: none;
+  transition: all 0.2s ease;
+}
+.embla__dot:hover {
+  cursor: default;
+  transform: scale(1.2);
+}
+
+.embla__dotActive {
+  background: var(--brand-color);
 }
