@@ -35,6 +35,7 @@ export default function TestimonialsCarousel() {
                 className={styles.avatar}
               />
               <p className={styles.quote}>{t("Carousel.slide1")}</p>
+              <footer className={styles.name}>{t("Carousel.name1")}</footer>
             </article>
           </div>
           <div className={styles.embla__slide}>
@@ -47,6 +48,7 @@ export default function TestimonialsCarousel() {
                 className={styles.avatar}
               />
               <p className={styles.quote}>{t("Carousel.slide2")}</p>
+              <footer className={styles.name}>{t("Carousel.name2")}</footer>
             </article>
           </div>
           <div className={styles.embla__slide}>
@@ -59,6 +61,7 @@ export default function TestimonialsCarousel() {
                 className={styles.avatar}
               />
               <p className={styles.quote}>{t("Carousel.slide3")}</p>
+              <footer className={styles.name}>{t("Carousel.name3")}</footer>
             </article>
           </div>
           <div className={styles.embla__slide}>
@@ -71,6 +74,7 @@ export default function TestimonialsCarousel() {
                 className={styles.avatar}
               />
               <p className={styles.quote}>{t("Carousel.slide4")}</p>
+              <footer className={styles.name}>{t("Carousel.name4")}</footer>
             </article>
           </div>
           <div className={styles.embla__slide}>
@@ -83,6 +87,7 @@ export default function TestimonialsCarousel() {
                 className={styles.avatar}
               />
               <p className={styles.quote}>{t("Carousel.slide5")}</p>
+              <footer className={styles.name}>{t("Carousel.name5")}</footer>
             </article>
           </div>
           <div className={styles.embla__slide}>
@@ -95,6 +100,7 @@ export default function TestimonialsCarousel() {
                 className={styles.avatar}
               />
               <p className={styles.quote}>{t("Carousel.slide6")}</p>
+              <footer className={styles.name}>{t("Carousel.name6")}</footer>
             </article>
           </div>
         </div>

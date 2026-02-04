@@ -25,6 +25,9 @@ export default function WorshipCarousel() {
                 className={styles.avatar}
               />
               <p className={styles.quote}> {t("Voice.worship.testimonial1")}</p>
+              <footer className={styles.name}>
+                {t("Voice.worship.name1")}
+              </footer>
             </article>
           </div>
           <div className={styles.embla__slide}>
@@ -37,6 +40,9 @@ export default function WorshipCarousel() {
                 className={styles.avatar}
               />
               <p className={styles.quote}>{t("Voice.worship.testimonial2")}</p>
+              <footer className={styles.name}>
+                {t("Voice.worship.name2")}
+              </footer>
             </article>
           </div>
         </div>

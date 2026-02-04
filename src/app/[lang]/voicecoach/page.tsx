@@ -44,18 +44,12 @@ export default function Voicecoach() {
       </div>
 
       <div className="row px-md-5 container2 d-flex align-items-center flex-wrap">
-        <div className="col-md-4">
-          <Image
-            src="/unicorn.png"
-            alt="show off your singing"
-            className={`img-fluid p-4 d-block mx-auto ${styles.voicecoachImg}`}
-            width={400}
-            height={400}
-          />
+        <div className="col-md-4 order-2 order-lg-1">
+          <KidsCarousel />
         </div>
-        <div className="col-md-8">
+        <div className="col-md-8 order-1 order-lg-2">
           <div>
-            <h2 className="text-center px-4 px-md-0 pt-md-5">
+            <h2 className="text-center px-4 px-md-0 pt-5">
               {t("Voice.kids.kids")}
             </h2>
             <p
@@ -64,7 +58,6 @@ export default function Voicecoach() {
             >
               {t("Voice.kids.p1")}
             </p>{" "}
-            <KidsCarousel />
           </div>
         </div>
       </div>
@@ -87,7 +80,7 @@ export default function Voicecoach() {
 
       <div className="row px-md-5 container2 d-flex align-items-center flex-wrap">
         <div>
-          <h3 className="text-center my-5">hello</h3>
+          <h3 className="text-center my-5">{t("Voice.reviews")}</h3>
           <div>
             <TestimonialsCarousel />
           </div>

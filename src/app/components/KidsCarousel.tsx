@@ -17,15 +17,28 @@ export default function WorshipCarousel() {
         <div className={styles.embla__container}>
           <div className={styles.embla__slide}>
             <article className={styles.cardKids}>
-              <p className={styles.quoteKids}>
-                {" "}
-                {t("Voice.kids.testimonial1")}
-              </p>
+              <Image
+                src="/unicorn.png"
+                alt="show off your singing"
+                className={`img-fluid p-4 d-block mx-auto ${styles.avatar}`}
+                width={200}
+                height={200}
+              />
+              <p className={styles.quoteKids}>{t("Voice.kids.testimonial1")}</p>
+              <footer className={styles.name}>{t("Voice.kids.name1")}</footer>
             </article>
           </div>
           <div className={styles.embla__slide}>
             <article className={styles.cardKids}>
+              <Image
+                src="/unicorn.png"
+                alt="show off your singing"
+                className={`img-fluid p-4 d-block mx-auto ${styles.avatar}`}
+                width={200}
+                height={200}
+              />
               <p className={styles.quoteKids}>{t("Voice.kids.testimonial2")}</p>
+              <footer className={styles.name}>{t("Voice.kids.name2")}</footer>
             </article>
           </div>
         </div>

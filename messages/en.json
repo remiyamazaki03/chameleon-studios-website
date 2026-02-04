@@ -41,23 +41,34 @@
     "kids": {
       "kids": "For kids 🥳",
       "p1": "In addition to the above lesson flow, kids' lessons also include:\n\n- progress tracking in a notebook\n- stickers for successfully completed lessons (yay!)\n- lesson reports (every lesson for kids under 13, and every month for ages 13 to 16)\n- a full video/recording of a song at completion (sent to parents)",
-      "testimonial1": "[My child] showed me how he does space and egg voice. He does it well! I’m happy to see he is enjoying your lessons.\n- parent of 8-year-old student",
-      "testimonial2": "She looks so happy and very expressive [in the video]. I love how [my child] seems more confident in her voice.\n- parent of 14-year-old student"
+      "testimonial1": "[My child] showed me how he does space and egg voice. He does it well! I’m happy to see he is enjoying your lessons.",
+      "name1": "- parent of 8-year-old student",
+      "testimonial2": "She looks so happy and very expressive [in the video]. I love how she seems more confident in her voice.",
+      "name2": "- parent of 14-year-old student"
     },
     "worship": {
       "worship": "For worship leaders",
       "p1": "Worship leaders sing in a special setting where singing is not a performance but an invitation to join in worship, as well as an act of worship itself.\n\nWith experience in various forms of church music including contemporary worship bands, gospel choirs as well as traditional hymn leading, Remi loves to help worship leaders develop their vocal skills to [FINISH THIS SENTENCE].",
-      "testimonial1": "I regularly lead worship, but I've never liked the sound of my own voice. I didn't even have the words to describe why, but after a few months with Remi, I began to understand. After that, the muscle memory started to take over. I started to really hear it in my own voice, that openness I associate with trained singers. I now like to listen to myself sing, which helps me trust that other people do, too!\n- worship leader in Seattle, USA (online)",
-      "testimonial2": "I started taking online voice training because I wanted to sing more freely as a worship leader at my church and to reach higher notes with ease. Through the lessons, I learned not only how to control the transition into my high range but also how my body actually works. Now I feel much more comfortable expressing myself while singing and truly enjoy using my voice in worship.\n- worship leader in Tokyo, Japan (online)"
-    }
+      "testimonial1": "I regularly lead worship, but I've never liked the sound of my own voice. I didn't even have the words to describe why, but after a few months with Remi, I began to understand. After that, the muscle memory started to take over. I started to really hear it in my own voice, that openness I associate with trained singers. I now like to listen to myself sing, which helps me trust that other people do, too!",
+      "name1": "- worship leader in Seattle, USA (online)",
+      "testimonial2": "I started taking online voice training because I wanted to sing more freely as a worship leader at my church and to reach higher notes with ease. Through the lessons, I learned not only how to control the transition into my high range but also how my body actually works. Now I feel much more comfortable expressing myself while singing and truly enjoy using my voice in worship.",
+      "name2": "- worship leader in Tokyo, Japan (online)"
+    },
+    "reviews": "What students are saying:"
   },
   "Carousel": {
-    "slide1": "During the lessons Remi always encouraged me. One of the exercises was making a pig face. She said “making an ugly face is part of the vocal lesson. Nothing to be ashamed of!” That's it. I had nothing to be ashamed of. After two months of training, I could sing songs which I never expected to sing.\n- T. K. (online, Brazil)",
-    "slide2": "I didn't know I had this side of my voice!!! Given proper instruction, it was an amazing feeling to push past the limits I thought I had.\n\n- J. L. (online, USA)",
-    "slide3": "I've been singing in a choral way for more than 20 years and singing in a different style was very challenging for me. Remi's way of teaching was very fun and also very easy to understand. Now I can use my chest voice to sing powerful songs and I even performed in front of an audience!! Her lessons definitely gave me confidence in singing!\n- A. T. (online, Japan)",
-    "slide4": "I can’t believe I was able to do it… I thought [this song] was impossible. It was a dream come true to sing it.\n\n- Z. P. (in person, Japan)",
-    "slide5": "something \n- hello",
-    "slide6": "After Remi's coaching, [the coachee, one of the musical actors] sang notes I (thought I) knew he couldn't hit, all with 100% presence and confidence onstage. Remi encouraged and helped many of us to step up and boosted our production level, and I'm very grateful to have had the opportunity to work with her.\n- W. R-L. (Musical director, USA)"
+    "slide1": "During the lessons Remi always encouraged me. One of the exercises was making a pig face. She said “making an ugly face is part of the vocal lesson. Nothing to be ashamed of!” That's it. I had nothing to be ashamed of. After two months of training, I could sing songs which I never expected to sing.",
+    "name1": "- T. K. (online, Brazil)",
+    "slide2": "I didn't know I had this side of my voice!!! Given proper instruction, it was an amazing feeling to push past the limits I thought I had.",
+    "name2": "- J. L. (online, USA)",
+    "slide3": "I've been singing in a choral way for more than 20 years and singing in a different style was very challenging for me. Remi's way of teaching was very fun and also very easy to understand. Now I can use my chest voice to sing powerful songs and I even performed in front of an audience!! Her lessons definitely gave me confidence in singing!",
+    "name3": "- A. T. (online, Japan)",
+    "slide4": "I can’t believe I was able to do it… I thought [this song] was impossible. It was a dream come true to sing it.",
+    "name4": "- Z. P. (in person, Japan)",
+    "slide5": "something",
+    "name5": "- hello",
+    "slide6": "After Remi's coaching, [the coachee, one of the musical actors] sang notes I (thought I) knew he couldn't hit, all with 100% presence and confidence onstage. Remi encouraged and helped many of us to step up and boosted our production level, and I'm very grateful to have had the opportunity to work with her.",
+    "name6": "- W. R-L. (Musical director, USA)"
   },
   "Events": {
     "top": "Events",

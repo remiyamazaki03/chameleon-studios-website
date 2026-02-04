@@ -53,7 +53,7 @@
   position: relative;
   max-width: 640px;
   border-radius: 1.25rem;
-  padding: 2rem;
+  padding: 2.75rem 2rem;
   text-align: center;
 
   border: var(--highlight-color) dotted 0.5px;
@@ -90,6 +90,13 @@
   margin: 0;
   max-width: 32ch;
   white-space: pre-wrap;
+}
+.name {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  font-weight: 600;
+  font-size: 1rem;
 }
 
 .embla__buttons {
