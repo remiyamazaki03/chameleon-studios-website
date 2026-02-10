@@ -5,7 +5,7 @@
   --overlay-color: #8763ffb0;
   --highlight-color: #8763ff;
   --secondary-background-color: #d2cce5;
-  --box-shadow: 0 5px 5px rgba(0, 0, 0, 0.25);
+  --box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
   --heavy-box-shadow: 0 3px 3px rgba(0, 0, 0, 1);
 }
 
@@ -37,7 +37,7 @@ body {
 .title {
   height: 16.5rem;
   padding-top: 75px;
-  padding-left: 15%;
+  padding-left: 18%;
   font-weight: bold;
   color: var(--secondary-background-color);
   text-shadow: var(--box-shadow);
@@ -45,9 +45,8 @@ body {
     url(/logo-mid.png),
     linear-gradient(
       to right,
-      rgba(99, 71, 255, 0.9) 0%,
-
-      rgba(145, 198, 61, 0.95) 100%
+      rgba(99, 71, 255, 0.95) 0%,
+      rgba(120, 170, 60, 0.85) 100%
     );
   background-size: 15%, 100%;
   background-repeat: no-repeat;
@@ -111,7 +110,13 @@ body {
 @media (max-width: 767px) {
   .title {
     height: fit-content;
-
+    background-image: linear-gradient(
+      to right,
+      rgba(99, 71, 255, 0.95),
+      rgba(120, 170, 60, 0.85)
+    );
+    color: var(--secondary-color);
+    background-size: 100%;
     padding-top: 100px;
     padding-bottom: 25px;
   }
@@ -120,9 +125,6 @@ body {
   .title {
     height: fit-content;
     padding-bottom: 25px;
-    background-color: var(--secondary-color);
-    color: var(--main-background-color);
-    background-image: none;
     padding-left: 1rem;
     padding-right: 1rem;
     justify-content: center;
