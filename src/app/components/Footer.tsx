@@ -150,7 +150,7 @@ export default function Footer({ lang }: { lang: string }) {
       </div>
       <footer className={`${styles.copyright}`}>
         <div className="brand pt-2">
-          © 2024 &nbsp;
+          © 2026 &nbsp;
           <a
             href="https://github.com/remiyamazaki03/remi"
             className={`brand ${styles.footerLink}`}

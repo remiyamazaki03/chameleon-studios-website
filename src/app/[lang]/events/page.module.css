@@ -1,7 +1,5 @@
-.desc {
-  font-size: 1.5rem;
-}
 .video {
+  margin: 3rem auto 3rem;
   max-width: 50%;
 }
 @media (max-width: 767px) {

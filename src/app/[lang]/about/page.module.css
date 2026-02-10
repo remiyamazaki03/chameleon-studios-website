@@ -2,29 +2,3 @@
   border-radius: 50px;
   max-width: 60%;
 }
-.subhead {
-  font-size: clamp(1.3rem, 2vw, 1.6rem);
-  font-weight: 600;
-  text-align: left;
-
-  letter-spacing: 0.02em;
-}
-.subtitle {
-  font-size: clamp(1.05rem, 1rem + 0.3vw, 1.25rem);
-  font-weight: 500;
-  color: #666;
-  text-align: left;
-  margin-top: 0.25rem;
-  margin-bottom: 1.25rem;
-  letter-spacing: 0.02em;
-}
-
-.bio {
-  text-align: left;
-  font-size: clamp(1.1rem, 1.2vw, 1.1rem);
-  line-height: 1.7;
-  color: #222;
-
-  max-width: 60ch;
-  margin: 0 auto 1.25rem auto;
-}

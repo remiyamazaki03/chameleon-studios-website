@@ -13,25 +13,21 @@ export default function Voicecoach() {
 
       <div className="container1 row align-items-center">
         <div className="col-lg-8 px-5 py-lg-5 order-2 order-lg-1">
-          <h2 className="mt-2 fs-3 text-center ">{t("Voice.Chameleon")}</h2>
-          <div className={`mt-4 text-center  ${styles.bio}`}>
-            <p style={{ whiteSpace: "pre-line" }}>{t("Voice.studio.p1")}</p>
-            <p>
-              {t.rich("Voice.studio.p2", {
-                strong: (chunks) => <strong>{chunks}</strong>,
-              })}
+          <h2 className="subhead">{t("Voice.Chameleon")}</h2>
+          <div>
+            <p className="bio mt-4" style={{ whiteSpace: "pre-line" }}>
+              {t("Voice.studio.p1")}
             </p>
-            <p>
-              {t.rich("Voice.studio.p3", {
-                strong: (chunks) => <strong>{chunks}</strong>,
-              })}
-            </p>
-
-            <p style={{ whiteSpace: "pre-line" }}>
-              {t.rich("Voice.studio.p4", {
-                strong: (chunks) => <strong>{chunks}</strong>,
-              })}
-            </p>
+            <h3 className="subtitle">Philosophy</h3>
+            <p className="bio">{t("Voice.studio.p2")}</p>
+            <h3 className="subtitle">Style</h3>
+            <p className="bio">{t.rich("Voice.studio.p3")}</p>
+            <h3 className="subtitle"> Lesson flow</h3>
+            <ol className="bio">
+              <li>Targeted warm-ups tailored to each student</li>
+              <li>Focused vocal exercises to build new skills</li>
+              <li>Song work to apply technique to real music</li>
+            </ol>
           </div>
         </div>
         <Image

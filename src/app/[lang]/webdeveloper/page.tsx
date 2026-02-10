@@ -6,15 +6,12 @@ export default function Webdeveloper() {
   const t = useTranslations("Web");
   return (
     <div>
-      <h1 className="title m-0 d-flex align-items-center">Web developer</h1>
+      <h1 className="title m-0 d-flex align-items-center">{t("top")}</h1>
       <div className="container1">
-        <p
-          className="py-5 pt-5 m-0 text-center fs-5"
-          style={{ whiteSpace: "pre-line" }}
-        >
+        <p className="desc" style={{ whiteSpace: "pre-line" }}>
           {t("Web.p1")}
         </p>
-        <p className="pb-5 text-center fs-5">{t("Web.examples")}</p>
+        <p className="pb-5 text-center fs-5 fw-bold">{t("Web.examples")}</p>
         <div className={`row ${styles.demoRow} pb-5`}>
           <div className="col-lg-6 d-flex flex-column text-center">
             <div className={styles.demo}>
@@ -36,7 +33,7 @@ export default function Webdeveloper() {
                   height={450}
                 />
               </a>
-              <p className="pt-2">{t("Web.bwave")}</p>
+              <p className={styles.caption}>{t("Web.bwave")}</p>
             </div>
           </div>
           <div className="col-lg-6 d-flex flex-column text-center">
@@ -58,7 +55,7 @@ export default function Webdeveloper() {
                   height={450}
                 />
               </a>
-              <p className="pt-2">{t("Web.dtokyo")}</p>
+              <p className={styles.caption}>{t("Web.dtokyo")}</p>
             </div>
           </div>
         </div>

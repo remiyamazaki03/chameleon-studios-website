@@ -19,12 +19,12 @@ export default function About() {
           height={350}
         />
         <div className="col-md-8 p-5">
-          <h2 className={styles.subhead}>{t("About.Remi")}</h2>
+          <h2 className="subhead">{t("About.Remi")}</h2>
           <div className="mt-4">
-            <p className={styles.bio}>{t("About.bio.tldr")}</p>
-            <h3 className={styles.subtitle}>Performer</h3>
+            <p className="bio">{t("About.bio.tldr")}</p>
+            <h3 className="subtitle">Performer</h3>
 
-            <p className={styles.bio}>
+            <p className="bio">
               {t.rich("About.bio.performer", {
                 btc: (chunks) => (
                   <a
@@ -69,10 +69,10 @@ export default function About() {
                 ),
               })}
             </p>
-            <h3 className={styles.subtitle}>Teacher</h3>
-            <p className={styles.bio}>{t("About.bio.teacher")}</p>
-            <h3 className={styles.subtitle}>Now in Tokyo</h3>
-            <p className={styles.bio}>
+            <h3 className="subtitle">Teacher</h3>
+            <p className="bio">{t("About.bio.teacher")}</p>
+            <h3 className="subtitle">Now in Tokyo</h3>
+            <p className="bio">
               {t.rich("About.bio.tokyo", {
                 tuc: (chunks) => (
                   <a
