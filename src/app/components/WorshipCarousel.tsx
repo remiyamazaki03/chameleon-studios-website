@@ -17,26 +17,30 @@ export default function WorshipCarousel() {
         <div className={styles.embla__container}>
           <div className={styles.embla__slide}>
             <article className={styles.card2}>
-              <Image
-                src="/logo-small.png"
-                alt="student review"
-                width={72}
-                height={72}
-                className={styles.avatar}
-              />
+              <div className={styles.avatar2}>
+                <Image
+                  src="/rainbow.png"
+                  alt="student review"
+                  width={72}
+                  height={72}
+                  style={{ objectFit: "contain" }}
+                />
+              </div>
               <p className={styles.quote}> {t("testimonial1")}</p>
               <footer className={styles.name}>{t("name1")}</footer>
             </article>
           </div>
           <div className={styles.embla__slide}>
             <article className={styles.card2}>
-              <Image
-                src="/logo-small.png"
-                alt="student review"
-                width={72}
-                height={72}
-                className={styles.avatar}
-              />
+              <div className={styles.avatar2}>
+                <Image
+                  src="/rainbow.png"
+                  alt="student review"
+                  width={72}
+                  height={72}
+                  style={{ objectFit: "contain" }}
+                />
+              </div>
               <p className={styles.quote}>{t("testimonial2")}</p>
               <footer className={styles.name}>{t("name2")}</footer>
             </article>

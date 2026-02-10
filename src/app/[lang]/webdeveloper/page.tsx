@@ -8,10 +8,11 @@ export default function Webdeveloper() {
     <div>
       <h1 className="title m-0 d-flex align-items-center">{t("top")}</h1>
       <div className="container1">
+        <h2 className="subhead2">{t("title")}</h2>
         <p className="desc" style={{ whiteSpace: "pre-line" }}>
-          {t("Web.p1")}
+          {t("p1")}
         </p>
-        <p className="pb-5 text-center fs-5 fw-bold">{t("Web.examples")}</p>
+        <p className="pb-5 text-center fs-5 fw-bold">{t("examples")}</p>
         <div className={`row ${styles.demoRow} pb-5`}>
           <div className="col-lg-6 d-flex flex-column text-center">
             <div className={styles.demo}>
@@ -33,7 +34,7 @@ export default function Webdeveloper() {
                   height={450}
                 />
               </a>
-              <p className={styles.caption}>{t("Web.bwave")}</p>
+              <p className={styles.caption}>{t("bwave")}</p>
             </div>
           </div>
           <div className="col-lg-6 d-flex flex-column text-center">
@@ -55,7 +56,7 @@ export default function Webdeveloper() {
                   height={450}
                 />
               </a>
-              <p className={styles.caption}>{t("Web.dtokyo")}</p>
+              <p className={styles.caption}>{t("dtokyo")}</p>
             </div>
           </div>
         </div>

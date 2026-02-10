@@ -1,27 +1,24 @@
 {
-  "Carousel": {
-    "slides": [
-      {
-        "quote": "During the lessons Remi always encouraged me. One of the exercises was making a pig face. She said “making an ugly face is part of the vocal lesson. Nothing to be ashamed of!” That's it. I had nothing to be ashamed of. After two months of training, I could sing songs which I never expected to sing.",
-        "name": "- T. K. (online, Brazil)"
-      },
-      {
-        "quote": "I didn't know I had this side of my voice!!! Given proper instruction, it was an amazing feeling to push past the limits I thought I had.",
-        "name": "- J. L. (online, USA)"
-      },
-      {
-        "quote": "I've been singing in a choral way for more than 20 years and singing in a different style was very challenging for me. Remi's way of teaching was very fun and also very easy to understand. Now I can use my chest voice to sing powerful songs and I even performed in front of an audience!! Her lessons definitely gave me confidence in singing!",
-        "name": "- A. T. (online, Japan)"
-      },
-      {
-        "quote": "I can’t believe I was able to do it… I thought [this song] was impossible. It was a dream come true to sing it.",
-        "name": "- Z. P. (in person, Japan)"
-      },
-      { "quote": "one two three", "name": "- hello" },
-      {
-        "quote": "After Remi's coaching, [the coachee, one of the musical actors] sang notes I (thought I) knew he couldn't hit, all with 100% presence and confidence onstage. Remi encouraged and helped many of us to step up and boosted our production level, and I'm very grateful to have had the opportunity to work with her.",
-        "name": "- W. R-L. (Musical director, USA)"
-      }
-    ]
-  }
+  "slides": [
+    {
+      "quote": "During the lessons Remi always encouraged me. One of the exercises was making a pig face. She said “making an ugly face is part of the vocal lesson. Nothing to be ashamed of!” That's it. I had nothing to be ashamed of. After two months of training, I could sing songs which I never expected to sing.",
+      "name": "- T. K. (online, Brazil)"
+    },
+    {
+      "quote": "I didn't know I had this side of my voice!!! Given proper instruction, it was an amazing feeling to push past the limits I thought I had.",
+      "name": "- J. L. (online, USA)"
+    },
+    {
+      "quote": "I've been singing in a choral way for more than 20 years and singing in a different style was very challenging for me. Remi's way of teaching was very fun and also very easy to understand. Now I can sing powerful songs and I even performed in front of an audience!! Her lessons definitely gave me confidence in singing!",
+      "name": "- A. T. (online, Japan)"
+    },
+    {
+      "quote": "I can’t believe I was able to do it… I thought [this song] was impossible. It was a dream come true to sing it.",
+      "name": "- Z. P. (in person, Japan)"
+    },
+    {
+      "quote": "After Remi's coaching, [the coachee, one of the musical actors] sang notes I (thought I) knew he couldn't hit, all with 100% presence and confidence onstage. Remi encouraged and helped many of us to step up and boosted our production level, and I'm very grateful to have had the opportunity to work with her.",
+      "name": "- W. R-L. (Musical director, USA)"
+    }
+  ]
 }

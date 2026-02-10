@@ -1,4 +1,4 @@
 .aboutImg {
   border-radius: 50px;
-  max-width: 60%;
+  width: clamp(300px, 400px, 450px);
 }

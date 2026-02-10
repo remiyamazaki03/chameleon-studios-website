@@ -6,26 +6,26 @@ export default function About() {
   const t = useTranslations("About");
   return (
     <div>
-      <h1 className="title mt-2 mb-0 d-flex align-items-center">
-        {t("About.top")}
-      </h1>
+      <h1 className="title mt-2 mb-0 d-flex align-items-center">{t("top")}</h1>
 
       <div className="container1 m-0 row text-center align-items-center">
-        <Image
-          className={`img-fluid col-md-4 d-block mx-auto ${styles.aboutImg}`}
-          src="/Remi2.jpg"
-          alt="Remi2"
-          width={350}
-          height={350}
-        />
+        <div className="col-lg-4">
+          <Image
+            className={`img-fluid d-block mx-auto ${styles.aboutImg}`}
+            src="/Remi2.jpg"
+            alt="Remi2"
+            width={350}
+            height={350}
+          />
+        </div>
         <div className="col-md-8 p-5">
-          <h2 className="subhead">{t("About.Remi")}</h2>
+          <h2 className="subhead">{t("Remi")}</h2>
           <div className="mt-4">
-            <p className="bio">{t("About.bio.tldr")}</p>
+            <p className="bio">{t("bio.tldr")}</p>
             <h3 className="subtitle">Performer</h3>
 
             <p className="bio">
-              {t.rich("About.bio.performer", {
+              {t.rich("bio.performer", {
                 btc: (chunks) => (
                   <a
                     href="https://www.brooklyntabernacle.org/music/"
@@ -70,10 +70,10 @@ export default function About() {
               })}
             </p>
             <h3 className="subtitle">Teacher</h3>
-            <p className="bio">{t("About.bio.teacher")}</p>
+            <p className="bio">{t("bio.teacher")}</p>
             <h3 className="subtitle">Now in Tokyo</h3>
             <p className="bio">
-              {t.rich("About.bio.tokyo", {
+              {t.rich("bio.tokyo", {
                 tuc: (chunks) => (
                   <a
                     href="https://www.tokyounion.org/"

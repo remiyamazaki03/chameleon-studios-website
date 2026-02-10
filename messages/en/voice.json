@@ -1,21 +1,34 @@
 {
-  "Voice": {
-    "top": "Voice lessons",
-    "Chameleon": "Why \"Chameleon\" ? 🦎",
-    "studio": {
-      "p1": "Chameleon Studios was founded in March 2024 by Remi Yamazaki.\nThe name reflects both her teaching philosophy and style:",
-      "p2": "Remi believes that everyone has a rainbow inside of them! 🌈\nBringing out the different “colors” of students' voices (even the ones we don't realize we have!) is one of her favorite things to do.",
-      "p3": "Because singing relies on subtle muscle coordination, Remi uses simple, memorable animal imagery to explain complex vocal concepts. This makes lessons both effective and engaging, especially for younger students (ages 8+).",
-      "p4": "<strong>Lesson flow:</strong>\n<strong>1) targeted warm-ups:</strong> customized to individual student strengths and needs \n<strong>2) targeted vocal exercises:</strong> this is where the hard work happens. Students work on targeted exercises to help them acquire new abilities and progress towards their personal singing goals and dreams.\n<strong>3) song work:</strong> students practice applying learned vocal techniques to a song of their choice."
-    },
-    "kids": {
-      "kids": "For kids 🥳",
-      "p1": "In addition to the above lesson flow, kids' lessons also include:\n\n- progress tracking in a notebook\n- stickers for successfully completed lessons (yay!)\n- lesson reports (every lesson for kids under 13, and every month for ages 13 to 16)\n- a full video/recording of a song at completion (sent to parents)"
-    },
-    "worship": {
-      "worship": "For worship leaders",
-      "p1": "Worship leaders sing in a special setting where singing is not a performance but an invitation to join in worship, as well as an act of worship itself.\n\nWith experience in various forms of church music including contemporary worship bands, gospel choirs as well as traditional hymn leading, Remi loves to help worship leaders develop their vocal skills to [FINISH THIS SENTENCE]."
-    },
-    "reviews": "What students are saying:"
+  "top": "Voice lessons",
+  "Chameleon": "Why \"Chameleon\" ? 🦎",
+  "intro": {
+    "p1": "Chameleon Studios was founded in March 2024 by Remi Yamazaki.\nThe name reflects both her teaching philosophy and style:",
+    "philosophy": "Remi believes that everyone has a rainbow inside of them! 🌈\nBringing out the different “colors” of students' voices (even the ones we don't realize we have!) is one of her favorite things to do.",
+    "style": "Because singing relies on subtle muscle coordination, Remi uses simple, memorable animal imagery to explain complex vocal concepts. This makes lessons both effective and engaging, especially for younger students (ages 8+)."
+  },
+  "flow": {
+    "lesson": "🧐 How does a lesson go?",
+    "p1": "Targeted warm-ups customized for each student",
+    "p2": "Focused vocal exercises to build new skills",
+    "p3": "Applying the techniques to songs you love"
+  },
+  "kids": {
+    "kids": "🥳 For kids",
+    "include": "In addition to the above lesson flow, kids' lessons also include:",
+
+    "p1": "progress tracking in a notebook",
+    "p2": "stickers for successfully completed lessons (yay!)",
+    "p3": "lesson reports",
+    "p4": "a full video/recording of a song at completion (sent to parents)"
+  },
+  "reviews": "What students are saying",
+  "adults": "While Remi is known for making vocal concepts fun and accessible for kids, students of all ages enjoy the lessons - as well as the results.",
+  "worship": {
+    "worship": "For worship leaders",
+    "special": "Worship leaders sing in a special setting where singing is not a performance but an invitation to join in worship, as well as an act of worship itself.\n\nWith experience in contemporary worship bands, gospel choirs, and traditional hymn leading, Remi helps worship leaders to:",
+    "p1": "sing high notes freely and without tension",
+    "p2": "develop a clear, warm and inviting tone people want to follow",
+    "p3": "use expression and stylistic touches without over-singing",
+    "p4": "build stamina and protect your voice long-term"
   }
 }

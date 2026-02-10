@@ -17,13 +17,15 @@ export default function WorshipCarousel() {
         <div className={styles.embla__container}>
           <div className={styles.embla__slide}>
             <article className={styles.cardKids}>
-              <Image
-                src="/unicorn.png"
-                alt="show off your singing"
-                className={`img-fluid p-4 d-block mx-auto ${styles.avatar}`}
-                width={200}
-                height={200}
-              />
+              <div className={styles.avatarKids}>
+                <Image
+                  src="/unicorn.png"
+                  alt="show off your singing"
+                  width={150}
+                  height={150}
+                  style={{ objectFit: "contain" }}
+                />
+              </div>
               <p className={styles.quoteKids}>{t("testimonial1")}</p>
               <footer className={styles.name}>{t("name1")}</footer>
             </article>
@@ -46,14 +48,14 @@ export default function WorshipCarousel() {
       <div></div>
       <div className={styles.embla__buttons}>
         <button
-          className={`${styles.embla__button} ${styles.embla__button1}`}
+          className={`${styles.embla__button} ${styles.embla__button2}`}
           onClick={() => emblaApi?.scrollPrev()}
         >
           ‹
         </button>
 
         <button
-          className={`${styles.embla__button} ${styles.embla__button1}`}
+          className={`${styles.embla__button} ${styles.embla__button2}`}
           onClick={() => emblaApi?.scrollNext()}
         >
           ›

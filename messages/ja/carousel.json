@@ -1,27 +1,24 @@
 {
-  "Carousel": {
-    "slides": [
-      {
-        "quote": "nihongo During the lessons Remi always encouraged me. One of the exercises was making a pig face. She said “making an ugly face is part of the vocal lesson. Nothing to be ashamed of!” That's it. I had nothing to be ashamed of. After two months of training, I could sing songs which I never expected to sing.",
-        "name": "- T. K. (online, Brazil)"
-      },
-      {
-        "quote": "nihongo I didn't know I had this side of my voice!!! Given proper instruction, it was an amazing feeling to push past the limits I thought I had.",
-        "name": "- J. L. (online, USA)"
-      },
-      {
-        "quote": "I've been singing in a choral way for more than 20 years and singing in a different style was very challenging for me. Remi's way of teaching was very fun and also very easy to understand. Now I can use my chest voice to sing powerful songs and I even performed in front of an audience!! Her lessons definitely gave me confidence in singing!",
-        "name": "- A. T. (online, Japan)"
-      },
-      {
-        "quote": "I can’t believe I was able to do it… I thought [this song] was impossible. It was a dream come true to sing it.",
-        "name": "- Z. P. (in person, Japan)"
-      },
-      { "quote": "one two three", "name": "- hello" },
-      {
-        "quote": "After Remi's coaching, [the coachee, one of the musical actors] sang notes I (thought I) knew he couldn't hit, all with 100% presence and confidence onstage. Remi encouraged and helped many of us to step up and boosted our production level, and I'm very grateful to have had the opportunity to work with her.",
-        "name": "- W. R-L. (Musical director, USA)"
-      }
-    ]
-  }
+  "slides": [
+    {
+      "quote": "レッスン中、Remiはいつも励ましてくれました。ある日「ぶたの顔」をする練習があって、「変な顔も発声練習の一つだから、恥ずかしくないよ！」と言ってくれたんです。その言葉で本当に気持ちが楽になりました。2か月後には、自分でも信じられないような曲が歌えるようになっていました。",
+      "name": "- T.K.（オンライン・ブラジル）"
+    },
+    {
+      "quote": "自分の声にこんな一面があるなんて知りませんでした！ 指導を受けて、自分の限界と思っていたラインを越えられて最高の気分でした。",
+      "name": "- J.L.（オンライン・アメリカ）"
+    },
+    {
+      "quote": "20年以上合唱スタイルで歌ってきたので、違うジャンルに挑戦するのはとても難しく感じていました。でもRemiのレッスンは楽しく、とても分かりやすかったです。今ではパワフルなソロ曲も歌えるようになり、人前でパフォーマンスもできました！自信を持って歌えるようになったのはRemiのレッスンのおかげです！",
+      "name": "- A.T.（オンライン・日本）"
+    },
+    {
+      "quote": "まさか自分にできるなんて思いませんでした… この曲は無理だと思っていたので、歌えたときは本当に夢が叶った気持ちでした。",
+      "name": "- Z.P.（対面レッスン・日本）"
+    },
+    {
+      "quote": "Remiのコーチングの後、彼（ミュージカル俳優）は今まで出せないと思っていた音域までしっかり響かせ、ステージ上でも自信に満ちたパフォーマンスを見せてくれました。彼女は私たち一人ひとりを励まし、作品全体のレベルを引き上げてくれました。一緒に仕事ができたことに心から感謝しています。",
+      "name": "- W.R-L.（ミュージカルディレクター・アメリカ）"
+    }
+  ]
 }

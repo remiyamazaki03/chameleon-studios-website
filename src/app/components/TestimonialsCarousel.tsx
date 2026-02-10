@@ -22,7 +22,7 @@ export default function TestimonialsCarousel() {
     ],
   );
   const [selectedIndex, setSelectedIndex] = useState(0);
-  const slides = t.raw("Carousel.slides") as {
+  const slides = t.raw("slides") as {
     quote: string;
     name: string;
   }[];
@@ -43,14 +43,15 @@ export default function TestimonialsCarousel() {
         <div className={styles.embla__container}>
           {slides.map((slide, i) => (
             <div key={i} className={styles.embla__slide}>
-              <article className={styles.card}>
+              <article className={styles.card1}>
                 <Image
                   src="/logo-small.png"
                   alt="student review"
                   width={72}
                   height={72}
-                  className={styles.avatar}
+                  className={styles.avatar1}
                 />
+
                 <p className={styles.quote}>{slide.quote}</p>
                 <footer className={styles.name}>{slide.name}</footer>
               </article>

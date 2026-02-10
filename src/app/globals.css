@@ -59,6 +59,14 @@ body {
   text-align: left;
   letter-spacing: 0.02em;
 }
+.subhead2 {
+  font-size: clamp(1.3rem, 2vw, 1.6rem);
+  font-weight: 600;
+  text-align: left;
+  letter-spacing: 0.02em;
+  max-width: clamp(35ch, 63vw, 60ch);
+  margin: 2rem auto;
+}
 .subtitle {
   font-size: clamp(1.05rem, 1rem + 0.3vw, 1.25rem);
   font-weight: 500;
@@ -71,21 +79,19 @@ body {
 
 .bio {
   text-align: left;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   line-height: 1.7;
   color: #222;
-
-  max-width: 60ch;
+  max-width: clamp(40ch, 50vw, 60ch);
   margin: 0 auto 1.25rem auto;
 }
 .desc {
   text-align: left;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   line-height: 1.7;
   color: #222;
-
-  max-width: 75ch;
-  margin: 2rem auto 2rem;
+  max-width: clamp(40ch, 60vw, 75ch);
+  margin: 2rem auto;
 }
 @media (max-width: 1260px) {
   .title {
@@ -101,9 +107,6 @@ body {
     height: 12.5rem;
     background-position-y: 90%;
   }
-  .desc {
-    max-width: 60ch;
-  }
 }
 @media (max-width: 767px) {
   .title {
@@ -111,9 +114,6 @@ body {
 
     padding-top: 100px;
     padding-bottom: 25px;
-  }
-  .desc {
-    max-width: 40ch;
   }
 }
 @media (max-width: 576px) {

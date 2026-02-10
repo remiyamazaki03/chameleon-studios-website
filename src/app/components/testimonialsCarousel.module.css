@@ -14,7 +14,7 @@
   text-align: center;
   justify-content: center;
 }
-.card {
+.card1 {
   background: var(--secondary-color);
   position: relative;
   max-width: 640px;
@@ -49,14 +49,13 @@
   gap: 1.25rem;
 }
 .cardKids {
-  background: var(--secondary-color);
+  background: var(--secondary-background-color);
   position: relative;
   max-width: 640px;
   border-radius: 1.25rem;
   padding: 2.75rem 2rem;
   text-align: center;
 
-  border: var(--highlight-color) dotted 0.5px;
   box-shadow:
     0 2px 8px rgba(0, 0, 0, 0.04),
     0 8px 28px rgba(0, 0, 0, 0.06);
@@ -66,9 +65,24 @@
   align-items: center;
   gap: 1.25rem;
 }
-.avatar {
+.avatarKids {
+  background: var(--secondary-background-color);
+  border-radius: 9999px;
+  padding: 15px;
+
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+}
+.avatar1 {
+  background: var(--secondary-color);
   border-radius: 9999px;
   object-fit: cover;
+
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+}
+.avatar2 {
+  background: var(--secondary-background-color);
+  border-radius: 9999px;
+  padding: 10px;
 
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
 }
@@ -79,6 +93,7 @@
   font-weight: 500;
   color: #222;
   margin: 0;
+  padding-top: 1rem;
   max-width: 48ch;
 }
 .quoteKids {
@@ -114,10 +129,10 @@
   transition: all 0.2s ease;
 }
 .embla__button1 {
-  background-color: var(--secondary-background-color);
+  background-color: var(--secondary-color);
 }
 .embla__button2 {
-  background-color: var(--secondary-color);
+  background-color: var(--secondary-background-color);
 }
 
 .embla__button:hover {

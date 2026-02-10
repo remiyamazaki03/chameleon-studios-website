@@ -9,29 +9,23 @@ export default function Voicecoach() {
   const t = useTranslations("Voice");
   return (
     <div>
-      <h1 className="title d-flex align-items-center m-0">{t("Voice.top")}</h1>
+      <h1 className="title d-flex align-items-center m-0">{t("top")}</h1>
 
-      <div className="container1 row align-items-center">
+      <div className="container1 px-4 row align-items-center">
         <div className="col-lg-8 px-5 py-lg-5 order-2 order-lg-1">
-          <h2 className="subhead">{t("Voice.Chameleon")}</h2>
+          <h2 className="subhead">{t("Chameleon")}</h2>
           <div>
             <p className="bio mt-4" style={{ whiteSpace: "pre-line" }}>
-              {t("Voice.studio.p1")}
+              {t("intro.p1")}
             </p>
             <h3 className="subtitle">Philosophy</h3>
-            <p className="bio">{t("Voice.studio.p2")}</p>
+            <p className="bio">{t("intro.philosophy")}</p>
             <h3 className="subtitle">Style</h3>
-            <p className="bio">{t.rich("Voice.studio.p3")}</p>
-            <h3 className="subtitle"> Lesson flow</h3>
-            <ol className="bio">
-              <li>Targeted warm-ups tailored to each student</li>
-              <li>Focused vocal exercises to build new skills</li>
-              <li>Song work to apply technique to real music</li>
-            </ol>
+            <p className="bio">{t.rich("intro.style")}</p>
           </div>
         </div>
         <Image
-          className={`img-fluid col-lg-4 h-md-100 d-block mx-auto pe-md-5 order-1 order-lg-2 ${styles.voicecoachLogo}`}
+          className={`img-fluid col-lg-4 h-md-100 d-block mx-auto pe-md-5 pb-2 order-1 order-lg-2 ${styles.voicecoachLogo}`}
           src="/logo.png"
           alt="logo"
           width={400}
@@ -40,46 +34,54 @@ export default function Voicecoach() {
       </div>
 
       <div className="row px-md-5 container2 d-flex align-items-center flex-wrap">
-        <div className="col-md-4 order-2 order-lg-1">
+        <div className="col-md-6 order-2 order-lg-1">
           <KidsCarousel />
         </div>
-        <div className="col-md-8 order-1 order-lg-2">
-          <div>
-            <h2 className="text-center px-4 px-md-0 pt-5">
-              {t("Voice.kids.kids")}
-            </h2>
-            <p
-              className="text-md-center px-5 px-md-2 pt-4 pb-2"
-              style={{ whiteSpace: "pre-line" }}
-            >
-              {t("Voice.kids.p1")}
-            </p>{" "}
+        <div className="col-md-6 order-1 order-lg-2">
+          <div className="ps-5 ps-md-4">
+            <h2 className="subhead">{t("flow.lesson")}</h2>
+            <ol className="bio pb-5">
+              <li>{t("flow.p1")}</li>
+              <li>{t("flow.p2")}</li>
+              <li>{t("flow.p3")}</li>
+            </ol>
+            <h2 className="subhead">{t("kids.kids")}</h2>
+            <p className="bio">{t("kids.include")}</p>
+            <ul className="bio">
+              <li>{t("kids.p1")}</li>
+              <li>{t("kids.p2")}</li>
+              <li>{t("kids.p3")}</li>
+              <li>{t("kids.p4")}</li>
+            </ul>
           </div>
         </div>
       </div>
+
       <div className="row px-md-5 container1 d-flex align-items-center flex-wrap">
-        <div className="col-md-4">
-          <h2 className="text-center px-4 px-md-0 pt-5">
-            {t("Voice.worship.worship")}
-          </h2>
-          <p
-            className="text-center px-5 px-md-2 pt-4 pb-5"
-            style={{ whiteSpace: "pre-line" }}
-          >
-            {t("Voice.worship.p1")}
-          </p>
-        </div>
-        <div className="col-md-8">
-          <WorshipCarousel />
+        <div>
+          <h2 className="subhead pt-3">{t("reviews")} 🎤</h2>
+          <p className="subtitle pb-3">{t("adults")}</p>
+          <div>
+            <TestimonialsCarousel />
+          </div>
         </div>
       </div>
 
       <div className="row px-md-5 container2 d-flex align-items-center flex-wrap">
-        <div>
-          <h3 className="text-center my-5">{t("Voice.reviews")}</h3>
-          <div>
-            <TestimonialsCarousel />
-          </div>
+        <div className="col-md-6">
+          <h2 className="subhead">{t("worship.worship")} ⛪️</h2>
+          <p className="bio" style={{ whiteSpace: "pre-line" }}>
+            {t("worship.special")}
+          </p>
+          <ul className="bio">
+            <li>{t("worship.p1")}</li>
+            <li>{t("worship.p2")}</li>
+            <li>{t("worship.p3")}</li>
+            <li>{t("worship.p4")}</li>
+          </ul>
+        </div>
+        <div className="col-md-6">
+          <WorshipCarousel />
         </div>
       </div>
 
