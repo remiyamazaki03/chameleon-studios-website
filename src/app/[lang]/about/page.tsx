@@ -19,13 +19,13 @@ export default function About() {
           height={350}
         />
         <div className="col-md-8 p-5">
-          <h2 className="mt-2 fs-3">{t("About.Remi")}</h2>
-          <div className={`mt-4 ${styles.bio}`}>
-            <h3 className={styles.subhead}>hello hello</h3>
-            <h3 className={styles.subtitle}>hello hello</h3>
-            <p>
-              helo
-              {t.rich("About.teacher.p1", {
+          <h2 className={styles.subhead}>{t("About.Remi")}</h2>
+          <div className="mt-4">
+            <p className={styles.bio}>{t("About.bio.tldr")}</p>
+            <h3 className={styles.subtitle}>Performer</h3>
+
+            <p className={styles.bio}>
+              {t.rich("About.bio.performer", {
                 btc: (chunks) => (
                   <a
                     href="https://www.brooklyntabernacle.org/music/"
@@ -69,34 +69,11 @@ export default function About() {
                 ),
               })}
             </p>
-            <p>{t("About.teacher.p2")}</p>
-
-            <p>
-              {t.rich("About.teacher.p3", {
-                cappon: (chunks) => (
-                  <a
-                    href="https://music.princeton.edu/people/ronald-cappon/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="brand"
-                  >
-                    {chunks}
-                  </a>
-                ),
-                chapel: (chunks) => (
-                  <a
-                    href="https://chapel.princeton.edu/chapel-choir"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="brand"
-                  >
-                    {chunks}
-                  </a>
-                ),
-              })}
-            </p>
-            <p>
-              {t.rich("About.teacher.p4", {
+            <h3 className={styles.subtitle}>Teacher</h3>
+            <p className={styles.bio}>{t("About.bio.teacher")}</p>
+            <h3 className={styles.subtitle}>Now in Tokyo</h3>
+            <p className={styles.bio}>
+              {t.rich("About.bio.tokyo", {
                 tuc: (chunks) => (
                   <a
                     href="https://www.tokyounion.org/"
@@ -119,7 +96,6 @@ export default function About() {
                 ),
               })}
             </p>
-            <p>{t("About.teacher.p5")}</p>
           </div>
         </div>
       </div>

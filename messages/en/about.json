@@ -2,13 +2,11 @@
   "About": {
     "top": "About the instructor",
     "Remi": "About Remi",
-    "teacher": {
-      "p1": "Former member of the multiple Grammy Award-winning gospel choir, the <btc>Brooklyn Tabernacle Choir</btc>, Remi has shared the stage with renowned gospel and contemporary Christian artists like <mcdowell>William McDowell</mcdowell> and <grant>Natalie Grant</grant>. She has also performed in New York City, including Off-Broadway venue <below>54 Below</below> and various jazz clubs.",
-      "p2": "Remi began singing gospel music as a member and soloist of her school choir and was a member of her church worship band by her teens. By her senior year of high school, she was directing an a cappella choir of eight singers, performing at various functions including an international Kanto (regional) choir festival in Tokyo.",
-
-      "p3": "She earned her Bachelor's Degree in Comparative Literature (with a focus on theatrical literature) from Princeton University, where she also received classical vocal training from <cappon>Ronald Cappon</cappon>. As a member of the <chapel>Princeton University Chapel Choir</chapel>, she performed at St. Stephen's Cathedral in Vienna and as a soloist at the University Chapel. She also continued directing - this time for an a cappella group specializing in Southern African gospel and Afropop/Afrobeat.",
-      "p4": "After relocating to New York City, she continued performing and classical training while expanding her musical horizons. Now back in Tokyo, she has performed in live concerts featuring pop and Jpop music, continues her classical choral work, and directs a contemporary/gospel choir at <tuc>Tokyo Union Church</tuc>. She is also represented as a voice actor/voiceover artist with creative agency <ssp>SSP</ssp>.",
-      "p5": "Remi was born into a teachers' family and has been teaching for about 15 years. Her teaching experience includes directing a children's program (ages 4+) and training children's teachers."
+    "bio": {
+      "tldr": "Remi is a versatile vocalist with roots in classical, gospel and pop music, and over 15 years of teaching experience.",
+      "performer": "After studying Comparative Literature and receiving classical vocal training at Princeton University, she went on to perform professionally in New York City and beyond. As a former member of the multiple Grammy Award-winning <btc>Brooklyn Tabernacle Choir</btc>, she has shared the stage with artists such as <mcdowell>William McDowell</mcdowell> and <grant>Natalie Grant</grant>, and has appeared Off-Broadway at <below>54 Below</below>, in jazz venues, and internationally in Vienna and Tokyo.",
+      "teacher": "Raised in a family of educators, Remi has spent more than 15 years working with both children and adults — directing choirs, leading children’s programs, and training children's teachers. Her lessons emphasize healthy technique, confidence, and bringing out each student’s unique voice.",
+      "tokyo": "Now based in Tokyo, Remi performs and teaches across genres, appearing in pop and J-pop concerts, singing in classical choral projects, directing a contemporary/gospel choir at <tuc>Tokyo Union Church</tuc> and continuing her own artist journey as a voice actor at <ssp>SSP</ssp>."
     }
   }
 }
