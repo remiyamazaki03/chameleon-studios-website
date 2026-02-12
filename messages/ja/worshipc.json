@@ -1,6 +1,12 @@
 {
-  "testimonial1": "nihongo I regularly lead worship, but I've never liked the sound of my own voice. I didn't even have the words to describe why, but after a few months with Remi, I began to understand. After that, the muscle memory started to take over. I started to really hear it in my own voice, that openness I associate with trained singers. I now like to listen to myself sing, which helps me trust that other people do, too!",
-  "name1": "- worship leader in Seattle, USA (online)",
-  "testimonial2": "nihongo I started taking online voice training because I wanted to sing more freely as a worship leader at my church and to reach higher notes with ease. Through the lessons, I learned not only how to control the transition into my high range but also how my body actually works. Now I feel much more comfortable expressing myself while singing and truly enjoy using my voice in worship.",
-  "name2": "- worship leader in Tokyo, Japan (online)"
+  "slides": [
+    {
+      "quote": "ワーシップリーダーとしてもっと自由に、そして高音も楽に出せるように歌いたいと思い、オンラインレッスンを始めました。高音域へのスムーズな切り替え方だけでなく、体がどのように機能しているのかも学ぶことができました。今では気負わず心を込めて歌えるようになり、声を捧げることに喜びを感じます。",
+      "name": "ー 東京在住 ワーシップリーダー（オンライン）"
+    },
+    {
+      "quote": "普段からワーシップをリードしていますが、自分の声がずっと好きになれませんでした。Remiとのレッスンを数ヶ月続けるうちに、少しずつ理解が深まり、やがて体が自然に覚えていきました。そして、自分の声の中に、ずっと求めていた“開放感”をはっきりと感じられるようになったんです。今では自分の歌声を聴くのが好きになり、他の人にも心地よく届いていると自信を持てるようになりました。",
+      "name": "ー アメリカ・シアトル在住 ワーシップリーダー（オンライン）"
+    }
+  ]
 }

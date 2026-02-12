@@ -33,19 +33,22 @@ export default function Voicecoach() {
         />
       </div>
 
-      <div className="row px-md-5 container2 d-flex align-items-center flex-wrap">
-        <div className="col-md-6 order-2 order-lg-1">
+      <div className="row px-5 container2 d-flex align-items-center flex-wrap">
+        <div className="col-lg-6 order-2 order-lg-1">
           <KidsCarousel />
         </div>
-        <div className="col-md-6 order-1 order-lg-2">
-          <div className="ps-5 ps-md-4">
-            <h2 className="subhead">{t("flow.lesson")}</h2>
+        <div
+          className="col-lg-6 order-1 pt-5
+     order-lg-2 pt-lg-0"
+        >
+          <div>
+            <h2 className="subhead">🎤 {t("flow.lesson")}</h2>
             <ol className="bio pb-5">
               <li>{t("flow.p1")}</li>
               <li>{t("flow.p2")}</li>
               <li>{t("flow.p3")}</li>
             </ol>
-            <h2 className="subhead">{t("kids.kids")}</h2>
+            <h2 className="subhead">🥳 {t("kids.kids")}</h2>
             <p className="bio">{t("kids.include")}</p>
             <ul className="bio">
               <li>{t("kids.p1")}</li>
@@ -57,18 +60,16 @@ export default function Voicecoach() {
         </div>
       </div>
 
-      <div className="row px-md-5 container1 d-flex align-items-center flex-wrap">
+      <div className="px-5 container1">
+        <h2 className="subhead pt-5">{t("reviews")} 🎤</h2>
+        <p className="bio pt-3 pb-5">{t("adults")}</p>
         <div>
-          <h2 className="subhead pt-3">{t("reviews")} 🎤</h2>
-          <p className="subtitle pb-3">{t("adults")}</p>
-          <div>
-            <TestimonialsCarousel />
-          </div>
+          <TestimonialsCarousel />
         </div>
       </div>
 
-      <div className="row px-md-5 container2 d-flex align-items-center flex-wrap">
-        <div className="col-md-6">
+      <div className="row px-5 container2 d-flex align-items-center flex-wrap">
+        <div className="col-lg-6 pt-5 pt-lg-0">
           <h2 className="subhead">{t("worship.worship")} ⛪️</h2>
           <p className="bio" style={{ whiteSpace: "pre-line" }}>
             {t("worship.special")}
@@ -80,7 +81,7 @@ export default function Voicecoach() {
             <li>{t("worship.p4")}</li>
           </ul>
         </div>
-        <div className="col-md-6">
+        <div className="col-lg-6">
           <WorshipCarousel />
         </div>
       </div>

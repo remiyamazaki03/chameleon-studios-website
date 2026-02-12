@@ -7,6 +7,10 @@ import { useTranslations } from "next-intl";
 
 export default function WorshipCarousel() {
   const t = useTranslations("Worshipc");
+  const slides = t.raw("slides") as {
+    quote: string;
+    name: string;
+  }[];
   const [emblaRef, emblaApi] = useEmblaCarousel({
     loop: true,
   });
@@ -15,36 +19,23 @@ export default function WorshipCarousel() {
     <div className={`max-w-lg mx-auto ${styles.embla}`}>
       <div className={styles.embla__viewport} ref={emblaRef}>
         <div className={styles.embla__container}>
-          <div className={styles.embla__slide}>
-            <article className={styles.card2}>
-              <div className={styles.avatar2}>
-                <Image
-                  src="/rainbow.png"
-                  alt="student review"
-                  width={72}
-                  height={72}
-                  style={{ objectFit: "contain" }}
-                />
-              </div>
-              <p className={styles.quote}> {t("testimonial1")}</p>
-              <footer className={styles.name}>{t("name1")}</footer>
-            </article>
-          </div>
-          <div className={styles.embla__slide}>
-            <article className={styles.card2}>
-              <div className={styles.avatar2}>
-                <Image
-                  src="/rainbow.png"
-                  alt="student review"
-                  width={72}
-                  height={72}
-                  style={{ objectFit: "contain" }}
-                />
-              </div>
-              <p className={styles.quote}>{t("testimonial2")}</p>
-              <footer className={styles.name}>{t("name2")}</footer>
-            </article>
-          </div>
+          {slides.map((slide, i) => (
+            <div key={i} className={styles.embla__slide}>
+              <article className={`${styles.card} ${styles.carouselW}`}>
+                <div className={styles.avatar2}>
+                  <Image
+                    src="/rainbow.png"
+                    alt="student review"
+                    width={72}
+                    height={72}
+                    style={{ objectFit: "contain" }}
+                  />
+                </div>
+                <p className={styles.quote}>{slide.quote}</p>
+                <footer className={styles.name}>{slide.name}</footer>
+              </article>
+            </div>
+          ))}
         </div>
       </div>
       <div></div>

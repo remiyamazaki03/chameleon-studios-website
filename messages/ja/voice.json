@@ -7,13 +7,13 @@
     "style": "歌うことは、実はとても繊細な筋肉の動きの積み重ねです。レミは動物などのイメージを使い、難しい発声の仕組みを楽しく分かりやすく指導します。そのため、特に8歳以上のお子さまでも、楽しみながらしっかり上達できます。"
   },
   "flow": {
-    "lesson": "🧐 レッスンの流れ",
+    "lesson": "レッスンの流れ",
     "p1": "一人ひとりに合わせたウォームアップ",
     "p2": "新しいスキルを身につけるための集中ボイストレーニング",
     "p3": "身につけたテクニックを好きな曲で実践！"
   },
   "kids": {
-    "kids": "🥳 子供のレッスン",
+    "kids": "子供のレッスン",
     "include": "上記のレッスン内容に加えて、子供のレッスンには以下も含まれます：",
     "p1": "ノートでレッスン内容を記録",
     "p2": "できたらシール！（がんばったね♪）",
@@ -21,13 +21,13 @@
     "p4": "曲が仕上ったら録画／録音（保護者の方へお送りします）"
   },
   "reviews": "生徒さんの感想",
-  "adults": "子どもが楽しければ、年齢を問わず多くの生徒さんがレッスンを楽しみながら、声の自由を掴み取って行きます。",
+  "adults": "子どもだけでなく、年齢を問わず多くの生徒さんがレッスンを楽しみながら、声の自由と成果を見られます。",
   "worship": {
-    "worship": "For worship leaders",
-    "special": "Worship leaders sing in a special setting where singing is not a performance but an invitation to join in worship, as well as an act of worship itself.\n\nWith experience in contemporary worship bands, gospel choirs, and traditional hymn leading, Remi helps worship leaders to:",
-    "p1": "sing high notes freely and without tension",
-    "p2": "develop a clear, warm and inviting tone people want to follow",
-    "p3": "use expression and stylistic touches without over-singing",
-    "p4": "build stamina and protect your voice long-term"
+    "worship": "ワーシップリーダー向け",
+    "special": "礼拝では、歌はパフォーマンスではなく、賛美への招待であり、歌いこと自体が賛美でもあります。\n\nワーシップバンド、ゴスペルクワイア、そして賛美歌のリードなどの経験を踏まえて、ワーシップリーダーの皆さんをサポートします：",
+    "p1": "高音を力まず、楽に歌えるようになる",
+    "p2": "クリアで温い、自然について行けるリードの声を育てる",
+    "p3": "礼拝に適切に、さりげなく表現やスタイルを加える ",
+    "p4": "スタミナを高め、長期的に声を守る"
   }
 }

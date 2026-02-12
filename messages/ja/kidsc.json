@@ -1,6 +1,12 @@
 {
-  "testimonial1": "nihongo [My child] showed me how he does space and egg voice. He does it well! I’m happy to see he is enjoying your lessons.",
-  "name1": "- parent of 8-year-old student",
-  "testimonial2": "nihongo She looks so happy and very expressive [in the video]. I love how she seems more confident in her voice.",
-  "name2": "- parent of 14-year-old student"
+  "slides": [
+    {
+      "quote": "息子が space voice と egg voice のやり方を見せてくれました。とても上手にできています！レッスンを楽しんでいる様子が見られて、とても嬉しいです。",
+      "name": "ー 8歳の生徒さんの保護者"
+    },
+    {
+      "quote": "（動画で）とても嬉しそうで、表情も豊かでした。声にも自信がついてきたように感じられて、本当に嬉しいです。",
+      "name": "ー 14歳の生徒さんの保護者"
+    }
+  ]
 }

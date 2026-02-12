@@ -9,7 +9,7 @@ export default function Webdeveloper() {
       <h1 className="title m-0 d-flex align-items-center">{t("top")}</h1>
       <div className="container1">
         <h2 className="subhead2">{t("title")}</h2>
-        <p className="desc" style={{ whiteSpace: "pre-line" }}>
+        <p className="bio" style={{ whiteSpace: "pre-line" }}>
           {t("p1")}
         </p>
         <p className="pb-5 text-center fs-5 fw-bold">{t("examples")}</p>

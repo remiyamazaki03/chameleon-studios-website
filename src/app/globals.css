@@ -6,7 +6,6 @@
   --highlight-color: #8763ff;
   --secondary-background-color: #d2cce5;
   --box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
-  --heavy-box-shadow: 0 3px 3px rgba(0, 0, 0, 1);
 }
 
 html,
@@ -83,14 +82,6 @@ body {
   color: #222;
   max-width: clamp(40ch, 50vw, 60ch);
   margin: 0 auto 1.25rem auto;
-}
-.desc {
-  text-align: left;
-  font-size: 1.2rem;
-  line-height: 1.7;
-  color: #222;
-  max-width: clamp(40ch, 60vw, 75ch);
-  margin: 2rem auto;
 }
 @media (max-width: 1260px) {
   .title {

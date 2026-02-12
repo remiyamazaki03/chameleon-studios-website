@@ -14,12 +14,12 @@
   text-align: center;
   justify-content: center;
 }
-.card1 {
-  background: var(--secondary-color);
+.card {
   position: relative;
   max-width: 640px;
   border-radius: 1.25rem;
   padding: 2.75rem 2rem;
+  margin-bottom: 32px;
   text-align: center;
 
   box-shadow:
@@ -31,22 +31,11 @@
   align-items: center;
   gap: 1.25rem;
 }
-.card2 {
+.carouselA {
+  background: var(--secondary-color);
+}
+.carouselW {
   background: var(--secondary-background-color);
-  position: relative;
-  max-width: 640px;
-  border-radius: 1.25rem;
-  padding: 2.75rem 2rem;
-  text-align: center;
-
-  box-shadow:
-    0 2px 8px rgba(0, 0, 0, 0.04),
-    0 8px 28px rgba(0, 0, 0, 0.06);
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 1.25rem;
 }
 .cardKids {
   background: var(--secondary-background-color);
@@ -54,6 +43,7 @@
   max-width: 640px;
   border-radius: 1.25rem;
   padding: 2.75rem 2rem;
+  margin-bottom: 32px;
   text-align: center;
 
   box-shadow:
@@ -136,7 +126,7 @@
 }
 
 .embla__button:hover {
-  text-shadow: var(--heavy-box-shadow);
+  text-shadow: var(--box-shadow);
 }
 .embla__dots {
   display: flex;

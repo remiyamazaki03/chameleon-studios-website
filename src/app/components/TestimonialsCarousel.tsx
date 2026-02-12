@@ -9,6 +9,11 @@ import { useTranslations } from "next-intl";
 
 export default function TestimonialsCarousel() {
   const t = useTranslations("Carousel");
+  const slides = t.raw("slides") as {
+    quote: string;
+    name: string;
+  }[];
+
   const [emblaRef, emblaApi] = useEmblaCarousel(
     {
       loop: true,
@@ -22,10 +27,7 @@ export default function TestimonialsCarousel() {
     ],
   );
   const [selectedIndex, setSelectedIndex] = useState(0);
-  const slides = t.raw("slides") as {
-    quote: string;
-    name: string;
-  }[];
+
   const onSelect = useCallback(() => {
     if (!emblaApi) return;
     setSelectedIndex(emblaApi.selectedScrollSnap());
@@ -43,7 +45,7 @@ export default function TestimonialsCarousel() {
         <div className={styles.embla__container}>
           {slides.map((slide, i) => (
             <div key={i} className={styles.embla__slide}>
-              <article className={styles.card1}>
+              <article className={`${styles.card} ${styles.carouselA}`}>
                 <Image
                   src="/logo-small.png"
                   alt="student review"
