@@ -1,9 +1,7 @@
 export default function Policies() {
   return (
     <div>
-      <h2 className="title m-0 d-flex align-items-center">
-        Chameleon Studios voice lesson policies
-      </h2>
+      <h2 className="title">Chameleon Studios voice lesson policies</h2>
       <div className="py-5 px-5 m-0 container2">
         (Japanese follows) <br />
         <br />

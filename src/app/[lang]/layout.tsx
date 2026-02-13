@@ -18,7 +18,7 @@ export default async function RootLayout({
   const lang = await getLocale();
   const messages = await getMessages();
   return (
-    <html lang={lang}>
+    <html lang={lang} data-scroll-behavior="smooth">
       <NextIntlClientProvider messages={messages}>
         <body>
           <BootstrapClient />

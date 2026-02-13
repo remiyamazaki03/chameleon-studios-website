@@ -3,9 +3,7 @@ import Link from "next/link";
 export default function Disclosure() {
   return (
     <div>
-      <h2 className="title m-0 d-flex align-items-center">
-        Commercial Disclosure・特定商取引法に基づく表示
-      </h2>
+      <h2 className="title">Commercial Disclosure・特定商取引法に基づく表示</h2>
       <div className="py-5 px-5 m-0 container2">
         <div className="row pb-2">
           <div className="col-4">販売業社の名称・Name</div>

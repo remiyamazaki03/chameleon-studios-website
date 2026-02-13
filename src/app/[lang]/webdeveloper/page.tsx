@@ -6,7 +6,7 @@ export default function Webdeveloper() {
   const t = useTranslations("Web");
   return (
     <div>
-      <h1 className="title m-0 d-flex align-items-center">{t("top")}</h1>
+      <h1 className="title">{t("top")}</h1>
       <div className="container1">
         <h2 className="subhead2">{t("title")}</h2>
         <p className="bio" style={{ whiteSpace: "pre-line" }}>

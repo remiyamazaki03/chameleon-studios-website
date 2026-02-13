@@ -13,6 +13,7 @@ export default function LanguageSwitch() {
     <Link
       href={pathname}
       locale={nextLocale}
+      scroll={false}
       className={`${styles.transLink} ${styles.language}`}
     >
       {locale === "en" ? "日本語" : "English"}

@@ -6,7 +6,7 @@ export default function About() {
   const t = useTranslations("About");
   return (
     <div>
-      <h1 className="title mt-2 mb-0 d-flex align-items-center">{t("top")}</h1>
+      <h1 className="title">{t("top")}</h1>
 
       <div className="container1 m-0 row text-center align-items-center">
         <div className="col-lg-4">
