@@ -22,16 +22,17 @@ export default function WorshipCarousel() {
           {slides.map((slide, i) => (
             <div key={i} className={styles.embla__slide}>
               <article className={`${styles.card} ${styles.carouselW}`}>
-                <div className={styles.avatar2}>
+                <div className={`${styles.avatar} ${styles.avatarW}`}>
                   <Image
                     src="/rainbow.png"
                     alt="student review"
-                    width={72}
-                    height={72}
-                    style={{ objectFit: "contain" }}
+                    width={100}
+                    height={100}
                   />
                 </div>
-                <p className={styles.quote}>{slide.quote}</p>
+                <p className={`${styles.quote} ${styles.quoteW}`}>
+                  {slide.quote}
+                </p>
                 <footer className={styles.name}>{slide.name}</footer>
               </article>
             </div>

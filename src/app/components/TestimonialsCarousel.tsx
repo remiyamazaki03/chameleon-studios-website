@@ -46,15 +46,18 @@ export default function TestimonialsCarousel() {
           {slides.map((slide, i) => (
             <div key={i} className={styles.embla__slide}>
               <article className={`${styles.card} ${styles.carouselA}`}>
-                <Image
-                  src="/logo-small.png"
-                  alt="student review"
-                  width={72}
-                  height={72}
-                  className={styles.avatar1}
-                />
+                <div className={`${styles.avatar} ${styles.avatarA}`}>
+                  <Image
+                    src="/logo-mid.png"
+                    alt="student review"
+                    width={72}
+                    height={72}
+                  />
+                </div>
 
-                <p className={styles.quote}>{slide.quote}</p>
+                <p className={`${styles.quote} ${styles.quoteA}`}>
+                  {slide.quote}
+                </p>
                 <footer className={styles.name}>{slide.name}</footer>
               </article>
             </div>

@@ -1,26 +1,8 @@
 .voicecoachImg {
   max-width: 400px;
 }
-.pricing {
-  background-color: var(--secondary-color);
-  background-image: url(/microphone.jpg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: 100%;
-  height: fit-content;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-}
-@media (max-width: 1260px) {
-  .pricing {
-    background-image: none;
-  }
-}
 @media (max-width: 992px) {
   .voicecoachLogo {
     width: 40%;
-  }
-  .pricing {
-    height: fit-content;
   }
 }

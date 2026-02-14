@@ -21,8 +21,8 @@ export default function WorshipCarousel() {
         <div className={styles.embla__container}>
           {slides.map((slide, i) => (
             <div key={i} className={styles.embla__slide}>
-              <article className={styles.cardKids}>
-                <div className={styles.avatarKids}>
+              <article className={`${styles.card} ${styles.carouselK}`}>
+                <div className={`${styles.avatar} ${styles.avatarK}`}>
                   <Image
                     src="/unicorn.png"
                     alt="show off your singing"
@@ -31,7 +31,9 @@ export default function WorshipCarousel() {
                     style={{ objectFit: "contain" }}
                   />
                 </div>
-                <p className={styles.quoteKids}>{slide.quote}</p>
+                <p className={`${styles.quote} ${styles.quoteK}`}>
+                  {slide.quote}
+                </p>
                 <footer className={styles.name}>{slide.name}</footer>
               </article>
             </div>

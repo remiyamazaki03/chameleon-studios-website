@@ -15,7 +15,7 @@
 .launchButton {
   background-color: var(--brand-color);
   border: solid 1.5px var(--highlight-color);
-  color: var(--secondary-color);
+  color: var(--background-color);
   opacity: 0.85;
   transition: ease-in-out 160ms;
   padding: 7px;
@@ -26,7 +26,7 @@
   box-shadow: var(--box-shadow);
 }
 .launchButton:hover {
-  background-color: var(--secondary-color);
+  background-color: var(--background-color);
   color: var(--brand-color);
 }
 .overlay {
@@ -40,7 +40,7 @@
   top: 0;
   left: 0;
   background-color: var(--overlay-color);
-  color: var(--secondary-color);
+  color: var(--background-color);
   text-shadow: var(--box-shadow);
 }
 .workImg {

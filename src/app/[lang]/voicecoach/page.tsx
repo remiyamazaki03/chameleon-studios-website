@@ -61,8 +61,8 @@ export default function Voicecoach() {
       </div>
 
       <div className="px-5 container1">
-        <h2 className="subhead pt-5">{t("reviews")} 🎤</h2>
-        <p className="bio pt-3 pb-5">{t("adults")}</p>
+        <h2 className="subhead pt-5 pt-md-3">{t("reviews")} 🎤</h2>
+        <p className="bio pt-2 pb-1">{t("adults")}</p>
         <div>
           <TestimonialsCarousel />
         </div>
@@ -86,7 +86,7 @@ export default function Voicecoach() {
         </div>
       </div>
 
-      <div className={`row ${styles.pricing} d-flex align-items-center`}>
+      <div className={`row container1 d-flex align-items-center`}>
         <div className="col-xl-9">
           <div>
             <h2 className="text-center pt-5 text-decoration-underline">
