@@ -24,7 +24,7 @@ export default function WorshipCarousel() {
               <article className={`${styles.card} ${styles.carouselW}`}>
                 <div className={`${styles.avatar} ${styles.avatarW}`}>
                   <Image
-                    src="/rainbow.png"
+                    src="/logo-mid.png"
                     alt="student review"
                     width={100}
                     height={100}

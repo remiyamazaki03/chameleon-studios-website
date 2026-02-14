@@ -25,11 +25,11 @@ export default function Voicecoach() {
           </div>
         </div>
         <Image
-          className={`img-fluid col-lg-4 h-md-100 d-block mx-auto pe-md-5 pb-2 order-1 order-lg-2 ${styles.voicecoachLogo}`}
+          className={`img-fluid col-lg-4 h-md-100 d-block mx-auto pe-md-5 pb-2 order-1 order-lg-2 ${styles.voicecoachImg}`}
           src="/logo.png"
           alt="logo"
-          width={400}
-          height={400}
+          width={250}
+          height={250}
         />
       </div>
 
@@ -78,7 +78,6 @@ export default function Voicecoach() {
             <li>{t("worship.p1")}</li>
             <li>{t("worship.p2")}</li>
             <li>{t("worship.p3")}</li>
-            <li>{t("worship.p4")}</li>
           </ul>
         </div>
         <div className="col-lg-6">
@@ -86,66 +85,68 @@ export default function Voicecoach() {
         </div>
       </div>
 
-      <div className={`row container1 d-flex align-items-center`}>
-        <div className="col-xl-9">
-          <div>
-            <h2 className="text-center pt-5 text-decoration-underline">
-              pricing
-            </h2>
-            <ul className="ps-0 py-3 px-md-5 mx-5 prices">
-              <li className="mainList">
-                price 1
-                <ul className="subList">
-                  <li>menu 1</li>
-                  <li>menu 2</li>
-                </ul>
-                <br />
+      <div className="container1 px-4 row align-items-center">
+        <Image
+          className={`img-fluid col-lg-5 h-md-100 d-block mx-auto pe-md-5 pb-2  ${styles.pricingImg}`}
+          src="/rainbow.png"
+          alt="chameleon"
+          width={250}
+          height={250}
+        />
+        <div className="col-lg-7 px-5 py-lg-5 ">
+          <div className={`pt-4 pt-lg-0 ${styles.pricing}`}>
+            <h2 className="subhead">{t("pricing")}</h2>
+
+            <ul className={styles.priceList}>
+              <li>
+                <strong>Trial Lesson</strong>
+                <div className={styles.priceGroup}>
+                  <span>in person ¥3,000 / 30 min</span>
+                  <span>online ¥2,000 / 30 min</span>
+                </div>
               </li>
-              <li className="mainList">price2</li>
-              <ul className="subList">
-                <li>menu 3</li>
-                <li>
-                  <small>
-                    menu 4a
-                    <a
-                      href="https://wise.com/gb/currency-converter/jpy-to-usd-rate?amount=4500"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      style={{
-                        color: "#6347ff",
-                      }}
-                    >
-                      {" "}
-                      menu4link
-                    </a>
-                    menu4b
-                  </small>
-                </li>
-              </ul>{" "}
-              <br />
-              <li className="mainList">
-                price3
-                <ul className="subList">
-                  <li>menu5</li>
-                  <li>menu6</li>
-                </ul>{" "}
-                <br />
+
+              <li>
+                <strong>Online Lessons</strong>
+                <div className={styles.priceGroup}>
+                  <span>
+                    ¥3,000 / 45 min
+                    <small>USD $30</small>
+                  </span>
+
+                  <span>
+                    ¥2,000 / 60 min
+                    <small>USD $20</small>
+                  </span>
+                  <p className={styles.priceNote}>
+                    * USD prices are adjusted using purchasing power parity for
+                    fairness across regions.
+                  </p>
+                </div>
               </li>
-              <li className="mainList">
-                price4
-                <ul className="subList">
-                  <li>menu7</li>
-                </ul>
+
+              <li>
+                <strong className="d-flex flex-column">
+                  In Person Lessons
+                  <span className={styles.locations}>
+                    (Tokyo: Ikebukuro / Akabane / Shibuya-Omotesando)
+                  </span>
+                </strong>
+                <div className={styles.priceGroup}>
+                  <span>¥3,000 / 45 min</span>
+                  <span>¥2,000 / 60 min</span>
+                </div>
               </li>
             </ul>
-            <p className="text-start text-xl-center ms-md-5 ps-5 pe-2 me-5 px-md-5 pb-3 fw-bold">
-              cta1
-              <br className="d-lg-none" />
-              cta2
+
+            <p className={styles.cta}>
+              Please contact me for availability and packages. discount pkgs
+              available etc Please contact me via the form or email below if you
+              would like to book a trial or have any questions. I look forward
+              to hearing from you!
             </p>
           </div>
         </div>
-        <div className="col-md-3 d-none d-xl-block"></div>
       </div>
     </div>
   );

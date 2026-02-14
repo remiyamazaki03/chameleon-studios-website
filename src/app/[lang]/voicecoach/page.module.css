@@ -1,8 +1,53 @@
 .voicecoachImg {
-  max-width: 400px;
+  max-width: clamp(400px, 50vw, 500px);
 }
-@media (max-width: 992px) {
-  .voicecoachLogo {
-    width: 40%;
-  }
+.pricingImg {
+  max-width: clamp(200px, 30vw, 350px);
+  opacity: 0.85;
+}
+.pricing {
+  max-width: 640px;
+}
+
+.priceList {
+  list-style: none;
+  padding: 0;
+  margin: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.priceList li {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+.priceGroup span {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  line-height: 1.7;
+}
+.priceGroup small {
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+.locations {
+  line-height: 1.7;
+}
+.priceNote {
+  text-align: end;
+  font-size: 0.8rem;
+  margin-top: 0.5rem;
+}
+
+.priceList strong {
+  font-weight: 600;
+}
+
+.cta {
+  margin-top: 1.5rem;
 }

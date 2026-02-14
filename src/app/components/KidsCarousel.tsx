@@ -28,7 +28,7 @@ export default function WorshipCarousel() {
                     alt="show off your singing"
                     width={150}
                     height={150}
-                    style={{ objectFit: "contain" }}
+                    style={{ objectFit: "contain", opacity: 0.9 }}
                   />
                 </div>
                 <p className={`${styles.quote} ${styles.quoteK}`}>
