@@ -95,7 +95,7 @@ export default function Voicecoach() {
         />
         <div className="col-lg-7 px-5 py-lg-5 ">
           <div className={`pt-4 pt-lg-0 ${styles.pricing}`}>
-            <h2 className="subhead">{t("pricing")}</h2>
+            <h2 className="subhead">{t("pricing")} Under construction</h2>
 
             <ul className={styles.priceList}>
               <li>

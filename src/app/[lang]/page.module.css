@@ -13,21 +13,31 @@
   max-width: 600px;
 }
 .launchButton {
+  color: white;
+  transition:
+    background-color 160ms ease,
+    color 160ms ease,
+    transform 160ms ease,
+    box-shadow 160ms ease;
+  text-decoration: none;
+  text-align: center;
+  width: 180px;
+  padding: 0.7rem 1.2rem;
+  border-radius: 12px;
+  font-weight: 600;
+}
+.primaryButton {
   background-color: var(--brand-color);
   border: solid 1.5px var(--highlight-color);
-  color: var(--background-color);
-  opacity: 0.85;
-  transition: ease-in-out 160ms;
-  padding: 7px;
-  padding-left: 15px;
-  padding-right: 15px;
-  border-radius: 16px;
-  text-decoration: none;
-  box-shadow: var(--box-shadow);
 }
-.launchButton:hover {
-  background-color: var(--background-color);
-  color: var(--brand-color);
+.secondaryButton {
+  background: transparent;
+  border: 1.5px solid var(--brand-color);
+}
+.launchButton:hover,
+.secondaryButton:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
 }
 .overlay {
   position: absolute;
@@ -39,9 +49,14 @@
   justify-content: center;
   top: 0;
   left: 0;
+  color: white;
+  text-shadow: 0 4px 14px rgba(0, 0, 0, 0.35);
+}
+.primaryOverlay {
+  background-color: #8763ff74;
+}
+.secondaryOverlay {
   background-color: var(--overlay-color);
-  color: var(--background-color);
-  text-shadow: var(--box-shadow);
 }
 .workImg {
   position: relative;
@@ -61,12 +76,12 @@
   .overlay {
     opacity: 1;
   }
-  #vocalOverlay {
+  .primaryOverlay {
     background-color: var(--overlay-color);
     opacity: 1;
     color: var(--secondary-color);
   }
-  #vocalButton {
+  .primaryButton {
     color: var(--secondary-color);
     opacity: 1;
   }

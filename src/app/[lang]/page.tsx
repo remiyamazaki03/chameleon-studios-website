@@ -32,12 +32,15 @@ export default function Home() {
               objectFit: "cover",
             }}
           />
-          <div className={`${styles.overlay}`}>
+          <div className={`${styles.overlay} ${styles.secondaryOverlay}`}>
             <h2>{t("Home.title1")}</h2>
             <h3 className="p-5 text-center fs-4 subheader">
               {t("Home.details1")}
             </h3>
-            <Link href="/about" className={`${styles.launchButton}`}>
+            <Link
+              href="/about"
+              className={`${styles.launchButton} ${styles.secondaryButton}`}
+            >
               {t("Home.button1")}
             </Link>
           </div>
@@ -53,14 +56,14 @@ export default function Home() {
               objectFit: "cover",
             }}
           />
-          <div className={`${styles.overlay}`} id={`${styles.vocalOverlay}`}>
+          <div className={`${styles.overlay} ${styles.primaryOverlay}`}>
             <h2 className="overlayTitle">{t("Home.title2")}</h2>
             <h3 className="p-5 text-center fs-4 subheader">
               {t("Home.details2")}
             </h3>
             <Link
               href="/voicecoach"
-              className={`${styles.launchButton}`}
+              className={`${styles.launchButton} ${styles.primaryButton}`}
               id={`${styles.vocalButton}`}
             >
               {t("Home.button2")}
@@ -78,13 +81,16 @@ export default function Home() {
               objectFit: "cover",
             }}
           />
-          <div className={`${styles.overlay}`}>
+          <div className={`${styles.overlay} ${styles.secondaryOverlay}`}>
             <h2 className="overlayTitle">{t("Home.title3")}</h2>
             <h3 className="p-5 text-center fs-4 subheader">
               {t("Home.details3")}
             </h3>
 
-            <Link href="/webdeveloper" className={`${styles.launchButton}`}>
+            <Link
+              href="/webdeveloper"
+              className={`${styles.launchButton} ${styles.secondaryButton}`}
+            >
               {t("Home.button3")}
             </Link>
           </div>
