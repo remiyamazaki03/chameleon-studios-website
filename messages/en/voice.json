@@ -30,5 +30,25 @@
     "p2": "develop a clear, warm and inviting tone people want to follow",
     "p3": "incorporate authentic expression and stylizing"
   },
-  "pricing": "Pricing"
+  "pricing": "Pricing",
+  "trial": {
+    "title": "Trial Lesson",
+    "p1": "in person ¥5,000 / 45~60min",
+    "p2": "online free / 20~30min"
+  },
+  "online": {
+    "title": "Online Lessons",
+    "p1": "¥5,000 / 45 min",
+    "p1usd": "USD $50",
+    "p2": "¥6,000 / 60 min",
+    "p2usd": "USD $60",
+    "usd": "* USD prices are adjusted using purchasing power parity for fairness across regions."
+  },
+  "f2f": {
+    "title": "In Person Lessons",
+    "locations": "(Tokyo: Ikebukuro / Akabane / Shibuya-Omotesando)",
+    "p1": "¥6,500 / 45 min",
+    "p2": "¥8,000 / 60 min"
+  },
+  "cta": "please contact for availability. discount/hybird arr available contact me book a trial lookforward to hearing"
 }

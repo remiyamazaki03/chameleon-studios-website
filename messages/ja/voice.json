@@ -29,5 +29,25 @@
     "p2": "クリアで温い響きで賛美をリード",
     "p3": "礼拝に適切に、本心からの感情をのせる "
   },
-  "pricing": "料金"
+  "pricing": "料金",
+  "trial": {
+    "title": "Trial Lesson",
+    "p1": "in person ¥5,000 / 45~60min",
+    "p2": "online free / 20~30min"
+  },
+  "online": {
+    "title": "Online Lessons",
+    "p1": "¥5,000 / 45 min",
+    "p1usd": "USD $50",
+    "p2": "¥6,000 / 60 min",
+    "p2usd": "USD $60",
+    "usd": "* USD prices are adjusted using purchasing power parity for fairness across regions."
+  },
+  "f2f": {
+    "title": "In Person Lessons",
+    "locations": "(Tokyo: Ikebukuro / Akabane / Shibuya-Omotesando)",
+    "p1": "¥6,500 / 45 min",
+    "p2": "¥8,000 / 60 min"
+  },
+  "cta": "please contact for availability. discount/hybird arr available contact me book a trial lookforward to hearing"
 }

@@ -99,52 +99,42 @@ export default function Voicecoach() {
 
             <ul className={styles.priceList}>
               <li>
-                <strong>Trial Lesson</strong>
+                <strong>{t("trial.title")}</strong>
                 <div className={styles.priceGroup}>
-                  <span>in person ¥3,000 / 30 min</span>
-                  <span>online ¥2,000 / 30 min</span>
+                  <span>{t("trial.p1")}</span>
+                  <span>{t("trial.p2")}</span>
                 </div>
               </li>
 
               <li>
-                <strong>Online Lessons</strong>
+                <strong>{t("online.title")}</strong>
                 <div className={styles.priceGroup}>
                   <span>
-                    ¥3,000 / 45 min
-                    <small>USD $30</small>
+                    {t("online.p1")}
+                    <small>{t("online.p1usd")}</small>
                   </span>
 
                   <span>
-                    ¥2,000 / 60 min
-                    <small>USD $20</small>
+                    {t("online.p2")}
+                    <small>{t("online.p2usd")}</small>
                   </span>
-                  <p className={styles.priceNote}>
-                    * USD prices are adjusted using purchasing power parity for
-                    fairness across regions.
-                  </p>
+                  <p className={styles.priceNote}>{t("online.usd")}</p>
                 </div>
               </li>
 
               <li>
                 <strong className="d-flex flex-column">
-                  In Person Lessons
-                  <span className={styles.locations}>
-                    (Tokyo: Ikebukuro / Akabane / Shibuya-Omotesando)
-                  </span>
+                  {t("f2f.title")}
+                  <span className={styles.locations}>{t("f2f.locations")}</span>
                 </strong>
                 <div className={styles.priceGroup}>
-                  <span>¥3,000 / 45 min</span>
-                  <span>¥2,000 / 60 min</span>
+                  <span>{t("f2f.p1")}</span>
+                  <span>{t("f2f.p2")}</span>
                 </div>
               </li>
             </ul>
 
-            <p className={styles.cta}>
-              Please contact me for availability and packages. discount pkgs
-              available etc Please contact me via the form or email below if you
-              would like to book a trial or have any questions. I look forward
-              to hearing from you!
-            </p>
+            <p className={styles.cta}>{t("cta")}</p>
           </div>
         </div>
       </div>
