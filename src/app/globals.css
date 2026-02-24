@@ -1,11 +1,12 @@
 :root {
   --brand-color: #6347ff;
-  --background-color: #e0e0e0;
-  --secondary-background-color: #d2cce5;
+  --background-color: #e6e5e2;
+  --secondary-background-color: #d6d0e9;
   --card-background-color: #ebe8f7;
   --secondary-card-background-color: #ececf1;
   --overlay-color: #8763ffb0;
   --highlight-color: #8763ff;
+  --whiteish: #fafafa;
 }
 body {
   padding-top: 65px;
@@ -42,7 +43,7 @@ body {
   align-items: center;
   padding-left: 18%;
   font-weight: bold;
-  color: var(--secondary-background-color);
+  color: var(--whiteish);
   text-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
   background-image:
     url(/logo-mid.png),
