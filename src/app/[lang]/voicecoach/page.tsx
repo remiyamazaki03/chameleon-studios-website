@@ -95,11 +95,11 @@ export default function Voicecoach() {
         />
         <div className="col-lg-7 px-5 py-lg-5 ">
           <div className={`pt-4 pt-lg-0 ${styles.pricing}`}>
-            <h2 className="subhead">{t("pricing")} Under construction</h2>
+            <h2 className="subhead">{t("pricing")}</h2>
 
             <ul className={styles.priceList}>
               <li>
-                <strong>{t("trial.title")}</strong>
+                <strong className="text-nowrap">{t("trial.title")}</strong>
                 <div className={styles.priceGroup}>
                   <span>{t("trial.p1")}</span>
                   <span>{t("trial.p2")}</span>
@@ -107,29 +107,39 @@ export default function Voicecoach() {
               </li>
 
               <li>
-                <strong>{t("online.title")}</strong>
+                <strong className="text-nowrap">{t("online.title")}</strong>
                 <div className={styles.priceGroup}>
-                  <span>
-                    {t("online.p1")}
-                    <small>{t("online.p1usd")}</small>
-                  </span>
-
-                  <span>
-                    {t("online.p2")}
-                    <small>{t("online.p2usd")}</small>
-                  </span>
-                  <p className={styles.priceNote}>{t("online.usd")}</p>
+                  <span>{t("online.p1")}</span>
+                  <span className={styles.package}>{t("online.package1")}</span>
+                  <span className={styles.usd}>{t("online.p1usd")}</span>
+                  <span>{t("online.p2")}</span>
+                  <span className={styles.package}>
+                    {t("online.package2")}
+                  </span>{" "}
+                  <span className={styles.usd}>{t("online.p2usd")}</span>
+                  <p
+                    className={styles.priceNote}
+                    style={{ whiteSpace: "pre-line" }}
+                  >
+                    {t("online.usd")}
+                  </p>
                 </div>
               </li>
 
               <li>
                 <strong className="d-flex flex-column">
-                  {t("f2f.title")}
+                  <span className="text-nowrap">{t("f2f.title")}</span>
                   <span className={styles.locations}>{t("f2f.locations")}</span>
                 </strong>
                 <div className={styles.priceGroup}>
-                  <span>{t("f2f.p1")}</span>
-                  <span>{t("f2f.p2")}</span>
+                  <span className="text-nowrap">{t("f2f.p1")}</span>
+                  <span className={`text-nowrap ${styles.package}`}>
+                    {t("f2f.package1")}
+                  </span>
+                  <span className="text-nowrap">{t("f2f.p2")}</span>
+                  <span className={`text-nowrap ${styles.package}`}>
+                    {t("f2f.package2")}
+                  </span>
                 </div>
               </li>
             </ul>

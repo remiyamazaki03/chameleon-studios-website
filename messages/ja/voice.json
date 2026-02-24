@@ -31,23 +31,27 @@
   },
   "pricing": "料金",
   "trial": {
-    "title": "Trial Lesson",
-    "p1": "in person ¥5,000 / 45~60min",
-    "p2": "online free / 20~30min"
+    "title": "トライアル レッスン",
+    "p1": "対面式 ¥5,000 / 45~60min",
+    "p2": "オンライン 無料 / 20~30min"
   },
   "online": {
-    "title": "Online Lessons",
-    "p1": "¥5,000 / 45 min",
-    "p1usd": "USD $50",
-    "p2": "¥6,000 / 60 min",
-    "p2usd": "USD $60",
-    "usd": "* USD prices are adjusted using purchasing power parity for fairness across regions."
+    "title": "オンライン レッスン",
+    "p1": "¥5,000 / 45分",
+    "p1usd": "",
+    "package1": "月４回 ¥18,000",
+    "p2": "¥6,000 / 60分",
+    "p2usd": "",
+    "package2": "月４回 ¥22,000",
+    "usd": ""
   },
   "f2f": {
-    "title": "In Person Lessons",
-    "locations": "(Tokyo: Ikebukuro / Akabane / Shibuya-Omotesando)",
-    "p1": "¥6,500 / 45 min",
-    "p2": "¥8,000 / 60 min"
+    "title": "対面式レッスン",
+    "locations": "（池袋・赤羽・渋谷・表参道）",
+    "p1": "¥6,500 / 45分",
+    "package1": "月４回 ¥24,000",
+    "p2": "¥8,000 / 60分",
+    "package2": "月４回 ¥26,000"
   },
-  "cta": "please contact for availability. discount/hybird arr available contact me book a trial lookforward to hearing"
+  "cta": "体験レッスンのご予約やご質問など、お気軽にご連絡ください。"
 }
