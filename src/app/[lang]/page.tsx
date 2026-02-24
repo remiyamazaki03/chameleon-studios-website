@@ -64,7 +64,6 @@ export default function Home() {
             <Link
               href="/voicecoach"
               className={`${styles.launchButton} ${styles.primaryButton}`}
-              id={`${styles.vocalButton}`}
             >
               {t("Home.button2")}
             </Link>

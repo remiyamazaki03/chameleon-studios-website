@@ -14,17 +14,17 @@ export default function Footer({ lang }: { lang: string }) {
     {
       href: "https://www.instagram.com/remi.0.3",
       icon: faInstagram,
-      className: styles.instLogo,
+      className: `${styles.instLogo} ${styles.snsLogo}`,
     },
     {
       href: "https://www.youtube.com/@remi03",
       icon: faYoutube,
-      className: styles.youtubeLogo,
+      className: `${styles.youtubeLogo} ${styles.snsLogo}`,
     },
     {
       href: "https://www.linkedin.com/in/remi-yamazaki-77580b55/",
       icon: faLinkedin,
-      className: styles.linkedinLogo,
+      className: `${styles.linkedinLog} ${styles.snsLogo}`,
     },
   ];
   type SocialLinksProps = {
@@ -38,7 +38,7 @@ export default function Footer({ lang }: { lang: string }) {
           href={href}
           target="_blank"
           rel="noreferrer"
-          className="fs-1 mx-3"
+          className="fs-1"
         >
           <FontAwesomeIcon icon={icon} className={iconClass} />
         </a>
@@ -48,15 +48,15 @@ export default function Footer({ lang }: { lang: string }) {
   return (
     <div>
       <div className={`row ${styles.contact}`}>
-        <div className="col-md-6">
-          <h1 className="mt-5 mb-2 mb-md-5 ps-md-5 d-flex justify-content-center justify-content-md-start">
+        <div className="col-md-6 ps-md-5">
+          <h1 className="mt-5 d-flex justify-content-center justify-content-md-start">
             <div className={`brand ${styles.cta}`}>{t("cta")}</div>
           </h1>
-          <div className="ps-4">
+          <div>
             <SocialLinks className="justify-content-center justify-content-md-start" />
           </div>
           <p
-            className={`mt-5 mb-2 mb-md-5 ps-md-5 d-flex justify-content-center justify-content-md-start ${styles.email}`}
+            className={`mb-2 mb-md-5 d-flex justify-content-center justify-content-md-start ${styles.email}`}
           >
             hello@chameleon-studios.com
           </p>
@@ -77,7 +77,7 @@ export default function Footer({ lang }: { lang: string }) {
           </div>
         </div>
       </div>
-      <footer className={`${styles.copyright}`}>
+      <footer className={styles.copyright}>
         <div className="brand pt-2">
           © 2026 &nbsp;
           <a

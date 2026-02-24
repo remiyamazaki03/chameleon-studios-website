@@ -3,38 +3,34 @@
   background-color: var(--secondary-background-color);
   min-height: 90vh;
 }
-.youtubeLogo {
-  color: #ff0200;
+.snsLogo {
+  color: var(--highlight-color);
+  padding-right: 1.5rem;
 }
-
 .instLogo {
-  color: var(--secondary-background-color);
-  background: #d6249f;
-  background: radial-gradient(
-    circle at 30% 107%,
-    #fdf497 0%,
-    #fdf497 5%,
-    #fd5949 45%,
-    #d6249f 60%,
-    #285aeb 90%
-  );
   border-radius: 5px;
 }
-.linkedinLogo {
-  color: #0c66c2;
-}
 .cta {
+  font-size: clamp(2.2rem, 4vw, 3.6rem);
+  font-weight: 600;
+  line-height: 1.1;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.08);
+  padding-bottom: clamp(1rem, 3vw, 2rem);
 }
 .email {
   font-weight: 500;
-  font-size: 1.4rem;
+  font-size: clamp(1.2rem, 2vw, 1.4rem);
   color: var(--brand-color);
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.03);
+  padding-top: clamp(1rem, 3vw, 2rem);
 }
 .footerLink:hover {
   color: var(--highlight-color);
 }
 .copyright {
   background-color: var(--secondary-background-color);
+  font-size: clamp(0.75rem, 1.2vw, 0.9rem);
+}
+.snsLogo:hover {
+  transform: translateY(-2px);
 }
