@@ -1,6 +1,7 @@
 "use client";
 
 import useEmblaCarousel from "embla-carousel-react";
+import WheelGesturesPlugin from "embla-carousel-wheel-gestures";
 import Image from "next/image";
 import styles from "./testimonialsCarousel.module.css";
 import { useTranslations } from "next-intl";
@@ -11,9 +12,13 @@ export default function WorshipCarousel() {
     quote: string;
     name: string;
   }[];
-  const [emblaRef, emblaApi] = useEmblaCarousel({
-    loop: true,
-  });
+  const [emblaRef, emblaApi] = useEmblaCarousel(
+    {
+      loop: true,
+      dragFree: false,
+    },
+    [WheelGesturesPlugin()],
+  );
 
   return (
     <div className={`max-w-lg mx-auto ${styles.embla}`}>
