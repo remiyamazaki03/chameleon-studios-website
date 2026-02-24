@@ -1,10 +1,18 @@
 .embla__viewport {
   overflow: hidden;
+  position: relative;
 }
-
+.viewportA {
+  mask-image: linear-gradient(
+    to right,
+    transparent 0%,
+    black 8%,
+    black 92%,
+    transparent 100%
+  );
+}
 .embla__container {
   display: flex;
-  touch-action: pan-y pinch-zoom;
 }
 
 .embla__slide {
@@ -13,6 +21,9 @@
   min-width: 0;
   text-align: center;
   justify-content: center;
+}
+.slideA {
+  flex: 0 0 88% !important;
 }
 .card {
   max-width: 640px;

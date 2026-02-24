@@ -2,6 +2,7 @@
 
 import useEmblaCarousel from "embla-carousel-react";
 import Autoplay from "embla-carousel-autoplay";
+import WheelGesturesPlugin from "embla-carousel-wheel-gestures";
 import Image from "next/image";
 import { useEffect, useState, useCallback } from "react";
 import styles from "./testimonialsCarousel.module.css";
@@ -17,6 +18,7 @@ export default function TestimonialsCarousel() {
   const [emblaRef, emblaApi] = useEmblaCarousel(
     {
       loop: true,
+      dragFree: false,
     },
     [
       Autoplay({
@@ -24,6 +26,7 @@ export default function TestimonialsCarousel() {
         stopOnInteraction: false,
         stopOnMouseEnter: true,
       }),
+      WheelGesturesPlugin(),
     ],
   );
   const [selectedIndex, setSelectedIndex] = useState(0);
@@ -41,10 +44,13 @@ export default function TestimonialsCarousel() {
   }, [emblaApi, onSelect]);
   return (
     <div className={`max-w-lg mx-auto ${styles.embla}`}>
-      <div className={styles.embla__viewport} ref={emblaRef}>
+      <div
+        className={`${styles.embla__viewport} ${styles.viewportA}`}
+        ref={emblaRef}
+      >
         <div className={styles.embla__container}>
           {slides.map((slide, i) => (
-            <div key={i} className={styles.embla__slide}>
+            <div key={i} className={`${styles.embla__slide} ${styles.slideA}`}>
               <article className={`${styles.card} ${styles.carouselA}`}>
                 <div className={`${styles.avatar} ${styles.avatarA}`}>
                   <Image
