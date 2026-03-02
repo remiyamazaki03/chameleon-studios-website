@@ -7,6 +7,7 @@ import {
   faYoutube,
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
+import Form from "@/app/components/Form";
 
 export default function Footer({ lang }: { lang: string }) {
   const t = useTranslations("Footer");
@@ -66,14 +67,7 @@ export default function Footer({ lang }: { lang: string }) {
             className="me-sm-5 d-flex align-items-center justify-content-center"
             style={{ height: "100vh", width: "100%" }}
           >
-            <iframe
-              src="https://docs.google.com/forms/d/e/1FAIpQLScGNmvJZi7y5zQztyhrSeGIe_HVPr-uCRwYfh4U0UDX8XQXtA/viewform?embedded=true"
-              width="100%"
-              style={{ height: "100vh" }}
-              allowFullScreen
-            >
-              Loading…
-            </iframe>
+            <Form />
           </div>
         </div>
       </div>
