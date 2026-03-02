@@ -1,19 +1,8 @@
 export default function Form() {
   return (
     <div>
-      <form
-        name="contact"
-        method="POST"
-        data-netlify="true"
-        netlify-honeypot="bot-field"
-        className="w-100"
-      >
+      <form name="contact" method="POST" data-netlify="true" className="w-100">
         <input type="hidden" name="form-name" value="contact" />
-        <p hidden>
-          <label>
-            Don’t fill this out: <input name="bot-field" type="text" />
-          </label>
-        </p>
 
         <div className="mb-3">
           <label>Full name・フルネーム </label>
