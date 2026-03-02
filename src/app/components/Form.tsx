@@ -1,28 +1,17 @@
 "use client";
 
 export default function Form() {
-  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
-    const form = e.currentTarget;
-    const email = (form.elements.namedItem("email") as HTMLInputElement).value;
-    const confirm = (
-      form.elements.namedItem("confirm-email") as HTMLInputElement
-    ).value;
-
-    if (email !== confirm) {
-      e.preventDefault();
-      alert("Emails do not match");
-    }
-  };
   return (
     <div>
       <form
         name="Contact Form"
         method="POST"
+        action="/"
         data-netlify="true"
         netlify-honeypot="bot-field"
         className="w-100"
-        onSubmit={handleSubmit}
       >
+        <input type="hidden" name="form-name" value="Contact Form" />
         <p hidden>
           <label>
             Don’t fill this out: <input name="bot-field" type="text" />
@@ -30,7 +19,7 @@ export default function Form() {
         </p>
 
         <div className="mb-3">
-          <label>Full name・フルネーム</label>
+          <label>Full name・フルネーム </label>
           <input type="text" name="name" required className="form-control" />
         </div>
 
