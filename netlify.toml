@@ -1,6 +1,6 @@
 [[redirects]]
-  from = "/opengraph-image"
-  to = "/opengraph-image"
+  from = "/opengraph-image.jpg"
+  to = "/opengraph-image.jpg"
   status = 200
 
 [[redirects]]
