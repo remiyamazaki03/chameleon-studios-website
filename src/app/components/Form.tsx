@@ -4,13 +4,14 @@ export default function Form() {
   return (
     <div>
       <form
-        name="Contact Form"
+        name="contact"
         method="POST"
         action="/"
         data-netlify="true"
         netlify-honeypot="bot-field"
         className="w-100"
       >
+        <input type="hidden" name="form-name" value="contact" />
         <p hidden>
           <label>
             Don’t fill this out: <input name="bot-field" type="text" />
