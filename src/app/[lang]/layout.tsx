@@ -16,6 +16,7 @@ export const metadata: Metadata = {
     default: "Chameleon Studios",
     template: "%s | Chameleon Studios",
   },
+  openGraph: { images: ["https://chameleon-studios.com/opengraph-image.jpg"] },
 };
 
 export default async function RootLayout({
