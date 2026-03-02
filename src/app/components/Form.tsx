@@ -1,7 +1,13 @@
 export default function Form() {
   return (
     <div>
-      <form name="contact" method="POST" data-netlify="true" className="w-100">
+      <form
+        name="contact"
+        method="POST"
+        data-netlify="true"
+        className="w-100"
+        action="/favicon.ico"
+      >
         <input type="hidden" name="form-name" value="contact" />
 
         <div className="mb-3">
