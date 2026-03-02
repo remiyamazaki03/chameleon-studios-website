@@ -1,12 +1,9 @@
-"use client";
-
 export default function Form() {
   return (
     <div>
       <form
         name="contact"
         method="POST"
-        action="/"
         data-netlify="true"
         netlify-honeypot="bot-field"
         className="w-100"
