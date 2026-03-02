@@ -1,9 +1,18 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import styles from "./page.module.css";
 import KidsCarousel from "@/app/components/KidsCarousel";
 import WorshipCarousel from "@/app/components/WorshipCarousel";
 import TestimonialsCarousel from "@/app/components/TestimonialsCarousel";
 import { getTranslations } from "next-intl/server";
+
+export async function generateMetadata(): Promise<Metadata> {
+  const t = await getTranslations("Meta.Voice");
+  return {
+    title: t("title"),
+    description: t("description"),
+  };
+}
 
 export default async function Voicecoach() {
   const t = await getTranslations("Voice");

@@ -1,5 +1,14 @@
+import type { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
 import styles from "./page.module.css";
+
+export async function generateMetadata(): Promise<Metadata> {
+  const t = await getTranslations("Meta.Events");
+  return {
+    title: t("title"),
+    description: t("description"),
+  };
+}
 
 export default async function Events() {
   const t = await getTranslations("Events");

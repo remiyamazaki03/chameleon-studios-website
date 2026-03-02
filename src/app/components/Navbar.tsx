@@ -52,10 +52,10 @@ export default function Navbar({ lang }: { lang: string }) {
             <NavLink href="/voicecoach">{t("Navbar.Voice")}</NavLink>
           </li>
           <li className={`${styles.navItem}`}>
-            <NavLink href="/events">{t("Navbar.Events")}</NavLink>
+            <NavLink href="/about">{t("Navbar.About")}</NavLink>
           </li>
           <li className={`${styles.navItem}`}>
-            <NavLink href="/about">{t("Navbar.About")}</NavLink>
+            <NavLink href="/events">{t("Navbar.Events")}</NavLink>
           </li>
           <li className={`${styles.navItem}`}>
             <NavLink href="/webdeveloper">{t("Navbar.Web")}</NavLink>

@@ -1,7 +1,16 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import { Link } from "@/i18n/routing";
 import styles from "./page.module.css";
 import { getTranslations } from "next-intl/server";
+
+export async function generateMetadata(): Promise<Metadata> {
+  const t = await getTranslations("Meta.Home");
+  return {
+    title: t("title"),
+    description: t("description"),
+  };
+}
 
 export default async function Home() {
   const t = await getTranslations("Home");

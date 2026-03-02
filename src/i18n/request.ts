@@ -4,6 +4,7 @@ export default getRequestConfig(async ({ requestLocale }) => {
   const locale = (await requestLocale) || "en";
   const messages = {
     Navbar: (await import(`../../messages/${locale}/navbar.json`)).default,
+    Meta: (await import(`../../messages/${locale}/meta.json`)).default,
     Home: (await import(`../../messages/${locale}/home.json`)).default,
     About: (await import(`../../messages/${locale}/about.json`)).default,
     Voice: (await import(`../../messages/${locale}/voice.json`)).default,

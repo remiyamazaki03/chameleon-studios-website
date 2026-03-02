@@ -1,0 +1,22 @@
+{
+  "Home": {
+    "title": "スタジオカメレオン",
+    "description": "こんにちは"
+  },
+  "Voice": {
+    "title": "ボイスレッスン",
+    "description": "とは"
+  },
+  "About": {
+    "title": "レミ",
+    "description": "レミのこと"
+  },
+  "Events": {
+    "title": "イベント",
+    "description": "発表会"
+  },
+  "Web": {
+    "title": "ウェブ",
+    "description": "詳細"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "Home": {
+    "title": "Chameleon Studios",
+    "description": "hello"
+  },
+  "Voice": {
+    "title": "voice lessons",
+    "description": "lessons description"
+  },
+  "About": {
+    "title": "About me",
+    "description": "about description"
+  },
+  "Events": {
+    "title": "events",
+    "description": "details"
+  },
+  "Web": {
+    "title": "web services",
+    "description": "web description"
+  }
+}
