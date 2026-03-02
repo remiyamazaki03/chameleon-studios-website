@@ -1,22 +1,22 @@
 {
   "Home": {
-    "title": "Chameleon Studios",
-    "description": "hello"
+    "title": "Chameleon Studios: voice lessons in Tokyo and online",
+    "description": "Sing with freedom and confidence. Personalized voice lessons in Tokyo for kids, adults and church worship leaders. Book a trial lesson."
   },
   "Voice": {
-    "title": "voice lessons",
-    "description": "lessons description"
+    "title": "Private voice lessons",
+    "description": "Vocal lessons at Chameleon Studios are enjoyable as well as effective. Learn more about how lessons go, or read student reviews."
   },
   "About": {
-    "title": "About me",
-    "description": "about description"
+    "title": "About the instructor: Remi",
+    "description": "Remi is a versatile vocalist with roots in classical, gospel and pop music, and over 15 years of teaching experience. Read more about her background."
   },
   "Events": {
-    "title": "events",
-    "description": "details"
+    "title": "Events at Chameleon Studios",
+    "description": "Chameleon Studios held its first annual recital in November 2025. See highlights."
   },
   "Web": {
-    "title": "web services",
-    "description": "web description"
+    "title": "Web services for artists",
+    "description": "Limited web development services available for artists based in Japan. See examples."
   }
 }
