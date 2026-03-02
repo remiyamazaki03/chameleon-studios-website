@@ -34,7 +34,7 @@ export default function Voicecoach() {
       </div>
 
       <div className="row px-5 container2 d-flex align-items-center flex-wrap">
-        <div className="col-lg-6 order-2 order-lg-1">
+        <div className="col-lg-6 order-2 pt-3 pt-lg-0 order-lg-1">
           <KidsCarousel />
         </div>
         <div
@@ -60,10 +60,8 @@ export default function Voicecoach() {
         </div>
       </div>
 
-      <div className="px-5 container1">
-        <h2 className="subhead pt-5 pt-md-3">{t("reviews")} 🎤</h2>
-        <p className="bio pt-2 pb-1">{t("adults")}</p>
-        <div>
+      <div className="container1 pt-5">
+        <div className="pt-3">
           <TestimonialsCarousel />
         </div>
       </div>
@@ -80,7 +78,7 @@ export default function Voicecoach() {
             <li>{t("worship.p3")}</li>
           </ul>
         </div>
-        <div className="col-lg-6">
+        <div className="col-lg-6  pt-3 pt-lg-0">
           <WorshipCarousel />
         </div>
       </div>
