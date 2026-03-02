@@ -1,8 +1,8 @@
+import { getTranslations } from "next-intl/server";
 import styles from "./page.module.css";
-import { useTranslations } from "next-intl";
 
-export default function Events() {
-  const t = useTranslations("Events");
+export default async function Events() {
+  const t = await getTranslations("Events");
   return (
     <div>
       <h1 className="title">{t("top")}</h1>

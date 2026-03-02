@@ -4,14 +4,12 @@ import useEmblaCarousel from "embla-carousel-react";
 import WheelGesturesPlugin from "embla-carousel-wheel-gestures";
 import Image from "next/image";
 import styles from "./testimonialsCarousel.module.css";
-import { useTranslations } from "next-intl";
 
-export default function WorshipCarousel() {
-  const t = useTranslations("Kidsc");
-  const slides = t.raw("slides") as {
-    quote: string;
-    name: string;
-  }[];
+export default function KidsCarousel({
+  slides,
+}: {
+  slides: { quote: string; name: string }[];
+}) {
   const [emblaRef, emblaApi] = useEmblaCarousel(
     {
       loop: true,

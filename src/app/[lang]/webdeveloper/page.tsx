@@ -1,9 +1,9 @@
+import { getTranslations } from "next-intl/server";
 import Image from "next/image";
 import styles from "./page.module.css";
-import { useTranslations } from "next-intl";
 
-export default function Webdeveloper() {
-  const t = useTranslations("Web");
+export default async function Webdeveloper() {
+  const t = await getTranslations("Web");
   return (
     <div>
       <h1 className="title">{t("top")}</h1>

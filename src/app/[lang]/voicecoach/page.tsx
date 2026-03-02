@@ -3,10 +3,26 @@ import styles from "./page.module.css";
 import KidsCarousel from "@/app/components/KidsCarousel";
 import WorshipCarousel from "@/app/components/WorshipCarousel";
 import TestimonialsCarousel from "@/app/components/TestimonialsCarousel";
-import { useTranslations } from "next-intl";
+import { getTranslations } from "next-intl/server";
 
-export default function Voicecoach() {
-  const t = useTranslations("Voice");
+export default async function Voicecoach() {
+  const t = await getTranslations("Voice");
+  const kt = await getTranslations("Kidsc");
+  const kslides = kt.raw("slides") as {
+    quote: string;
+    name: string;
+  }[];
+  const ct = await getTranslations("Carousel");
+  const slides = ct.raw("slides") as {
+    quote: string;
+    name: string;
+  }[];
+  const wt = await getTranslations("Worshipc");
+  const wslides = wt.raw("slides") as {
+    quote: string;
+    name: string;
+  }[];
+
   return (
     <div>
       <h1 className="title">{t("top")}</h1>
@@ -35,7 +51,7 @@ export default function Voicecoach() {
 
       <div className="row px-5 container2 d-flex align-items-center flex-wrap">
         <div className="col-lg-6 order-2 pt-3 pt-lg-0 order-lg-1">
-          <KidsCarousel />
+          <KidsCarousel slides={kslides} />
         </div>
         <div
           className="col-lg-6 order-1 pt-5
@@ -62,7 +78,7 @@ export default function Voicecoach() {
 
       <div className="container1 pt-5">
         <div className="pt-3">
-          <TestimonialsCarousel />
+          <TestimonialsCarousel slides={slides} />
         </div>
       </div>
 
@@ -79,7 +95,7 @@ export default function Voicecoach() {
           </ul>
         </div>
         <div className="col-lg-6  pt-3 pt-lg-0">
-          <WorshipCarousel />
+          <WorshipCarousel slides={wslides} />
         </div>
       </div>
 

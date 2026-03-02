@@ -6,15 +6,12 @@ import WheelGesturesPlugin from "embla-carousel-wheel-gestures";
 import Image from "next/image";
 import { useEffect, useState, useCallback } from "react";
 import styles from "./testimonialsCarousel.module.css";
-import { useTranslations } from "next-intl";
 
-export default function TestimonialsCarousel() {
-  const t = useTranslations("Carousel");
-  const slides = t.raw("slides") as {
-    quote: string;
-    name: string;
-  }[];
-
+export default function TestimonialsCarousel({
+  slides,
+}: {
+  slides: { quote: string; name: string }[];
+}) {
   const [emblaRef, emblaApi] = useEmblaCarousel(
     {
       loop: true,

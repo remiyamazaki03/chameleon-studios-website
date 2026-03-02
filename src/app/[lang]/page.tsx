@@ -1,10 +1,10 @@
 import Image from "next/image";
 import { Link } from "@/i18n/routing";
 import styles from "./page.module.css";
-import { useTranslations } from "next-intl";
+import { getTranslations } from "next-intl/server";
 
-export default function Home() {
-  const t = useTranslations("Home");
+export default async function Home() {
+  const t = await getTranslations("Home");
   return (
     <main>
       <div className={styles.hero}>

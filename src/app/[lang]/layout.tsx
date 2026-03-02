@@ -1,6 +1,7 @@
 import "../globals.css";
+import type { Metadata } from "next";
 import { NextIntlClientProvider } from "next-intl";
-import { getLocale, getMessages } from "next-intl/server";
+import { getLocale, getMessages, getTranslations } from "next-intl/server";
 import { config } from "@fortawesome/fontawesome-svg-core";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -9,6 +10,11 @@ import Navbar from "@/app/components/Navbar";
 import Footer from "@/app/components/Footer";
 
 config.autoAddCss = false;
+
+export const metadata: Metadata = {
+  title: "Chameleon Studios",
+  description: "Voice lessons in Tokyo and online",
+};
 
 export default async function RootLayout({
   children,
