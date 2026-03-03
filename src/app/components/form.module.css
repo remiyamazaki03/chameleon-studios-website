@@ -1,6 +1,9 @@
 /* ===== Form container ===== */
 .form {
   max-width: 640px;
+  padding: 3rem;
+
+  border-radius: 12px;
 }
 
 /* ===== Label layout ===== */
