@@ -83,7 +83,7 @@ body {
 
 .bio {
   text-align: left;
-  font-size: 1.2rem;
+  font-size: clamp(1rem, 2.2vw, 1.2rem);
   line-height: 1.7;
   color: #222;
   max-width: clamp(40ch, 50vw, 60ch);

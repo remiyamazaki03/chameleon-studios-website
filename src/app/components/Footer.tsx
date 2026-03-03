@@ -49,7 +49,7 @@ export default function Footer({ lang }: { lang: string }) {
   return (
     <div>
       <div className={`row ${styles.contact}`}>
-        <div className="col-md-6 ps-md-5">
+        <section className="col-md-6 ps-md-5">
           <h1 className="mt-5 d-flex justify-content-center justify-content-md-start">
             <div className={`brand ${styles.cta}`}>{t("cta")}</div>
           </h1>
@@ -61,15 +61,12 @@ export default function Footer({ lang }: { lang: string }) {
           >
             hello@chameleon-studios.com
           </p>
-        </div>
-        <div className="col-md-6 d-flex flex-column">
-          <div
-            className="me-sm-5 d-flex align-items-center justify-content-center"
-            style={{ height: "100vh", width: "100%" }}
-          >
+        </section>
+        <section className="col-md-6 d-flex flex-column">
+          <div className="me-sm-5 d-flex align-items-center justify-content-center">
             <Form />
           </div>
-        </div>
+        </section>
       </div>
       <footer className={styles.copyright}>
         <div className="brand pt-2">
