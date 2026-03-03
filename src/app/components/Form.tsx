@@ -7,7 +7,7 @@ export default function Form() {
     const form = event.currentTarget;
     const formData = new FormData(form);
 
-    await fetch("/favicon.ico", {
+    await fetch("/contact.html", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: new URLSearchParams(formData as any).toString(),

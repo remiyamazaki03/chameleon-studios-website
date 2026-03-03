@@ -12,6 +12,14 @@ import Footer from "@/app/components/Footer";
 config.autoAddCss = false;
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://tiny-empanada-37f0cd.netlify.app/"),
+  alternates: {
+    canonical: "/",
+    languages: {
+      en: "/en",
+      ja: "/ja",
+    },
+  },
   title: {
     default: "Chameleon Studios",
     template: "%s | Chameleon Studios",
