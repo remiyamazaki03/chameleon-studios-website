@@ -1,0 +1,67 @@
+/* ===== Form container ===== */
+.form {
+  max-width: 640px;
+}
+
+/* ===== Label layout ===== */
+.form label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: var(--blackish);
+}
+
+/* ===== Inputs + textarea ===== */
+.formBox {
+  border: 0.5px solid var(--highlight-color);
+  border-radius: 12px;
+
+  font-size: 1rem;
+
+  transition: all 0.2s ease;
+}
+
+/* focus */
+.formBox:focus {
+  outline: none;
+  border-color: #6347ff;
+  box-shadow: 0 0 0 2px rgba(99, 71, 255, 0.25);
+  background-color: var(--whiteish);
+}
+
+/* ===== Button ===== */
+.submitButton {
+  width: 27%;
+  margin-top: 0.5rem;
+
+  padding: 0.9rem 1.2rem;
+  border-radius: 14px;
+
+  font-weight: 600;
+  letter-spacing: 0.04em;
+
+  background: #6347ff;
+  color: var(--whiteish);
+  border: none;
+
+  transition: all 0.18s ease;
+}
+
+.submitButton:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 18px rgba(99, 71, 255, 0.35);
+}
+
+.submitButton:active {
+  transform: translateY(0);
+}
+
+/* ===== Mobile ===== */
+@media (max-width: 640px) {
+  .form {
+    padding: 1.5rem;
+  }
+}

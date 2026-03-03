@@ -1,5 +1,7 @@
 "use client";
 
+import styles from "./form.module.css";
+
 export default function Form() {
   const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
@@ -19,44 +21,72 @@ export default function Form() {
         name="contact"
         method="POST"
         data-netlify="true"
-        className="w-100"
+        netlify-honeypot="bot-field"
+        className={`w-100 ${styles.form}`}
         onSubmit={handleSubmit}
       >
         <input type="hidden" name="form-name" value="contact" />
-
+        <p hidden>
+          <label>
+            Don’t fill this out if you’re human:{" "}
+            <input name="bot-field" type="text" />
+          </label>
+        </p>
         <div className="mb-3">
-          <label>Full name・フルネーム </label>
-          <input type="text" name="name" required className="form-control" />
-        </div>
-
-        <div className="mb-3">
-          <label>Email・メールアドレス</label>
-          <input type="email" name="email" required className="form-control" />
-        </div>
-
-        <div className="mb-3">
-          <label>Confirm Email・メールアドレス確認</label>
+          <label htmlFor="name">Full name・フルネーム</label>
           <input
-            type="email"
-            name="confirm-email"
+            type="text"
+            name="name"
             required
-            className="form-control"
+            className={`form-control ${styles.formBox}`}
           />
         </div>
 
         <div className="mb-3">
-          <label>
-            Location (e.g. Tokyo, Japan / CA, USA)・お住まい（例：札幌、東京）
-          </label>
-          <input type="text" name="location" className="form-control" />
+          <label htmlFor="email">Email・メールアドレス </label>
+          <input
+            type="email"
+            name="email"
+            required
+            className={`form-control ${styles.formBox}`}
+          />
         </div>
 
         <div className="mb-3">
-          <label>Message・お問合せ内容</label>
-          <textarea name="message" required className="form-control" rows={4} />
+          <label htmlFor="confirm-email">
+            Confirm Email・メールアドレス確認{" "}
+          </label>
+          <input
+            type="email"
+            name="confirm-email"
+            required
+            className={`form-control ${styles.formBox}`}
+          />
         </div>
 
-        <button type="submit" className="btn btn-primary">
+        <div className="mb-3">
+          <label htmlFor="location">
+            Location (e.g. Tokyo, Japan / CA,
+            USA)・お住まい（例：札幌、東京）{" "}
+          </label>
+          <input
+            type="text"
+            name="location"
+            className={`form-control ${styles.formBox}`}
+          />
+        </div>
+
+        <div className="mb-3">
+          <label htmlFor="message">Message・お問合せ内容 </label>
+          <textarea
+            name="message"
+            required
+            className={`form-control ${styles.formBox}`}
+            rows={4}
+          />
+        </div>
+
+        <button type="submit" className={`btn ${styles.submitButton}`}>
           Send
         </button>
       </form>
