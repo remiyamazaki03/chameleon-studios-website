@@ -121,7 +121,7 @@ export default async function Voicecoach() {
               <li>
                 <strong className="text-nowrap">{t("trial.title")}</strong>
                 <div className={styles.priceGroup}>
-                  <span>{t("trial.p1")}</span>
+                  <span className="text-end">{t("trial.p1")}</span>
                   <span>{t("trial.p2")}</span>
                 </div>
               </li>
