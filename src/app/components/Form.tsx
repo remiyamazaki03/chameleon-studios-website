@@ -1,4 +1,18 @@
+"use client";
+
 export default function Form() {
+  const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
+
+    const form = event.currentTarget;
+    const formData = new FormData(form);
+
+    await fetch("/favicon.ico", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: new URLSearchParams(formData as any).toString(),
+    });
+  };
   return (
     <div>
       <form
@@ -6,7 +20,7 @@ export default function Form() {
         method="POST"
         data-netlify="true"
         className="w-100"
-        action="/favicon.ico"
+        onSubmit={handleSubmit}
       >
         <input type="hidden" name="form-name" value="contact" />
 
