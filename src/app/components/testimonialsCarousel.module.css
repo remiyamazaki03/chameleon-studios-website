@@ -51,20 +51,25 @@
   background: var(--secondary-card-background-color);
 }
 .avatar {
+  position: relative;
+  aspect-ratio: 1;
   border-radius: 9999px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
 }
 .avatarK {
   background: var(--card-background-color);
   padding: 15px;
+  width: clamp(5rem, 12vw, 9.375rem);
 }
 .avatarA {
   background: var(--secondary-card-background-color);
   padding: 4px;
+  width: clamp(3rem, 6vw, 4.5rem);
 }
 .avatarW {
   background: var(--card-background-color);
   padding: 4px;
+  width: clamp(3rem, 8vw, 6.25rem);
 }
 .quote {
   font-weight: 500;
@@ -91,7 +96,7 @@
   flex-direction: column;
   gap: 0.25rem;
   font-weight: 600;
-  font-size: clamp(0.8rem, 0.4vw + 0.9rem, 1rem);
+  font-size: clamp(0.8rem, 0.25vw + 0.8rem, 1rem);
 }
 
 .embla__buttons {
@@ -145,4 +150,12 @@
 
 .embla__dotActive {
   background: var(--brand-color);
+}
+@media (max-width: 767px) {
+  .quote {
+    font-weight: 400;
+  }
+  .name {
+    font-weight: 500;
+  }
 }

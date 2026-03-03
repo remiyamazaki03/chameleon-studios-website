@@ -26,12 +26,7 @@ export default function WorshipCarousel({
             <div key={i} className={styles.embla__slide}>
               <article className={`${styles.card} ${styles.carouselW}`}>
                 <div className={`${styles.avatar} ${styles.avatarW}`}>
-                  <Image
-                    src="/logo-mid.png"
-                    alt="student review"
-                    width={100}
-                    height={100}
-                  />
+                  <Image src="/logo-mid.png" alt="student review" fill />
                 </div>
                 <p className={`${styles.quote} ${styles.quoteW}`}>
                   {slide.quote}

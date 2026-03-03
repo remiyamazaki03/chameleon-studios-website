@@ -29,8 +29,7 @@ export default function KidsCarousel({
                   <Image
                     src="/unicorn.png"
                     alt="show off your singing"
-                    width={150}
-                    height={150}
+                    fill
                     style={{ objectFit: "contain", opacity: 0.9 }}
                   />
                 </div>

@@ -33,7 +33,10 @@ export default function Navbar({ lang }: { lang: string }) {
       <Link
         className={`${styles.navbarIcon} ms-3 my-1`}
         href="/"
-        onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+        onClick={() => {
+          closeMenu();
+          window.scrollTo({ top: 0, behavior: "smooth" });
+        }}
       >
         <Image
           src="/logo-small.png"

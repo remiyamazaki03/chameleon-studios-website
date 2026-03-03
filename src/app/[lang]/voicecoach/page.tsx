@@ -82,14 +82,14 @@ export default async function Voicecoach() {
         </div>
       </section>
 
-      <section className="container1 pt-5">
+      <section className="row container1 d-flex align-items-center ">
         <div className="pt-3">
           <TestimonialsCarousel slides={slides} />
         </div>
       </section>
 
       <section className="row px-4 container2 d-flex align-items-center flex-wrap">
-        <div className="col-lg-6 pt-5 pt-lg-0">
+        <div className="col-lg-6 px-md-5 pt-5 pt-lg-0">
           <h2 className="subhead">{t("worship.worship")} ⛪️</h2>
           <p className="bio" style={{ whiteSpace: "pre-line" }}>
             {t("worship.special")}
@@ -105,7 +105,7 @@ export default async function Voicecoach() {
         </div>
       </section>
 
-      <section className="container1 px-4 row align-items-center">
+      <section className="container1 px-4 row d-flex align-items-center flex-wrap">
         <Image
           className={`img-fluid col-lg-5 h-md-100 d-block mx-auto pe-md-5 pb-2  ${styles.pricingImg}`}
           src="/rainbow.png"

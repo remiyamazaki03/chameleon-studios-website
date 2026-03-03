@@ -50,12 +50,7 @@ export default function TestimonialsCarousel({
             <div key={i} className={`${styles.embla__slide} ${styles.slideA}`}>
               <article className={`${styles.card} ${styles.carouselA}`}>
                 <div className={`${styles.avatar} ${styles.avatarA}`}>
-                  <Image
-                    src="/logo-mid.png"
-                    alt="student review"
-                    width={72}
-                    height={72}
-                  />
+                  <Image src="/logo-mid.png" alt="student review" fill />
                 </div>
 
                 <p className={`${styles.quote} ${styles.quoteA}`}>
