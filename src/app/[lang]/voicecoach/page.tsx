@@ -37,7 +37,7 @@ export default async function Voicecoach() {
       <h1 className="title">{t("top")}</h1>
 
       <section className="container1 px-4 row align-items-center">
-        <div className="col-lg-8 px-5 py-lg-5 order-2 order-lg-1">
+        <div className="col-lg-8 px-md-5 py-lg-5 order-2 order-lg-1">
           <h2 className="subhead">{t("Chameleon")}</h2>
           <div>
             <p className="bio mt-4" style={{ whiteSpace: "pre-line" }}>
@@ -58,7 +58,7 @@ export default async function Voicecoach() {
         />
       </section>
 
-      <section className="row px-5 container2 d-flex align-items-center flex-wrap">
+      <section className="row px-4 container2 d-flex align-items-center flex-wrap">
         <div className="col-lg-6 order-2 pt-3 pt-lg-0 order-lg-1">
           <KidsCarousel slides={kslides} />
         </div>
@@ -88,7 +88,7 @@ export default async function Voicecoach() {
         </div>
       </section>
 
-      <section className="row px-5 container2 d-flex align-items-center flex-wrap">
+      <section className="row px-4 container2 d-flex align-items-center flex-wrap">
         <div className="col-lg-6 pt-5 pt-lg-0">
           <h2 className="subhead">{t("worship.worship")} ⛪️</h2>
           <p className="bio" style={{ whiteSpace: "pre-line" }}>
@@ -113,7 +113,7 @@ export default async function Voicecoach() {
           width={250}
           height={250}
         />
-        <div className="col-lg-7 px-5 py-lg-5 ">
+        <div className="col-lg-7 px-md-5 py-lg-5 ">
           <div className={`pt-4 pt-lg-0 ${styles.pricing}`}>
             <h2 className="subhead">{t("pricing")}</h2>
 

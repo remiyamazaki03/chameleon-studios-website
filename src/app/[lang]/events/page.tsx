@@ -15,7 +15,7 @@ export default async function Events() {
   return (
     <div>
       <h1 className="title">{t("top")}</h1>
-      <section className="container1">
+      <section className="container1 px-3 px-md-0">
         <h2 className="subhead2">{t("title")}</h2>
         <p className="bio" style={{ whiteSpace: "pre-line" }}>
           {t("p1")}

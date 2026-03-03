@@ -16,7 +16,7 @@ export default async function Webdeveloper() {
   return (
     <div>
       <h1 className="title">{t("top")}</h1>
-      <section className="container1">
+      <section className="container1 px-3 px-md-0">
         <h2 className="subhead2">{t("title")}</h2>
         <p className="bio" style={{ whiteSpace: "pre-line" }}>
           {t("p1")}
@@ -25,10 +25,10 @@ export default async function Webdeveloper() {
         <div className={`row ${styles.demoRow} pb-5`}>
           <div className="col-lg-6 d-flex flex-column text-center">
             <div className={styles.demo}>
-              <a href="https://bwave-entertainment.com" className="link">
+              <a href="https://bwave-entertainment.com">
                 <h2 className="brand">Bwave Entertainment</h2>
                 <Image
-                  className={`img-fluid mt-4 mb-4 mx-auto ${styles.demoThumbnail} d-none d-md-block`}
+                  className={`img-fluid my-4 mx-auto ${styles.demoThumbnail} d-none d-md-block`}
                   src="/bwave-demo.png"
                   alt="bwave ホームページ デモ"
                   width={500}
@@ -36,7 +36,7 @@ export default async function Webdeveloper() {
                 />
 
                 <Image
-                  className={`img-fluid mt-4 mb-4 mx-auto ${styles.demoThumbnail} d-md-none`}
+                  className={`img-fluid my-4 mx-auto ${styles.demoThumbnail} d-md-none`}
                   src="/bwavemobile.jpg"
                   alt="bwave ホームページ デモ"
                   width={300}
@@ -48,17 +48,17 @@ export default async function Webdeveloper() {
           </div>
           <div className="col-lg-6 d-flex flex-column text-center">
             <div className={styles.demo}>
-              <a href="https://d-tokyo-wadaiko.com" className="link">
+              <a href="https://d-tokyo-wadaiko.com">
                 <h2 className="brand">:D-Tokyo</h2>
                 <Image
-                  className={`img-fluid mt-4 mb-4 mx-auto ${styles.demoThumbnail} d-none d-md-block`}
+                  className={`img-fluid my-4 mx-auto ${styles.demoThumbnail} d-none d-md-block`}
                   src="/dtokyo-demo.png"
                   alt="dtokyo ホームページ デモ"
                   width={500}
                   height={150}
                 />
                 <Image
-                  className={`img-fluid mt-4 mb-4 mx-auto ${styles.demoThumbnail} d-md-none`}
+                  className={`img-fluid my-4 mx-auto ${styles.demoThumbnail} d-md-none`}
                   src="/dtokyomobile.jpg"
                   alt="dtokyo ホームページ デモ"
                   width={300}

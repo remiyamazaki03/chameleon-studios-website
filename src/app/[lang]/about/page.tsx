@@ -27,7 +27,7 @@ export default async function About() {
             height={350}
           />
         </div>
-        <div className="col-md-8 p-5">
+        <div className="col-md-8 p-3 p-md-5">
           <h2 className="subhead">{t("Remi")}</h2>
           <div className="mt-4">
             <p className="bio">{t("bio.tldr")}</p>
