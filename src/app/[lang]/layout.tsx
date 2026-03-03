@@ -1,10 +1,11 @@
-import "../globals.css";
 import type { Metadata } from "next";
+import { GoogleAnalytics } from "@next/third-parties/google";
 import { NextIntlClientProvider } from "next-intl";
 import { getLocale, getMessages } from "next-intl/server";
 import { config } from "@fortawesome/fontawesome-svg-core";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "../globals.css";
 import BootstrapClient from "../components/BootstrapClient";
 import Navbar from "@/app/components/Navbar";
 import Footer from "@/app/components/Footer";
@@ -44,6 +45,7 @@ export default async function RootLayout({
           <Footer lang={lang} />
         </body>
       </NextIntlClientProvider>
+      <GoogleAnalytics gaId="G-BRFJXTY6WF" />
     </html>
   );
 }

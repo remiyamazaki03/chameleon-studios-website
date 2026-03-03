@@ -17,10 +17,10 @@ export default async function Events() {
       <h1 className="title">{t("top")}</h1>
       <section className="container1 px-3 px-md-0">
         <h2 className="subhead2">{t("title")}</h2>
-        <p className="bio" style={{ whiteSpace: "pre-line" }}>
+        <div className="bio" style={{ whiteSpace: "pre-line" }}>
           {t("p1")}
-        </p>
-        <p className="bio">{t("p2")}</p>
+        </div>
+        <div className="bio">{t("p2")}</div>
 
         <div className={styles.video}>
           <div className="ratio ratio-16x9">
