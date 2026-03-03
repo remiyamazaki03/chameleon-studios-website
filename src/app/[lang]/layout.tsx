@@ -12,7 +12,7 @@ import Footer from "@/app/components/Footer";
 config.autoAddCss = false;
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://tiny-empanada-37f0cd.netlify.app/"),
+  metadataBase: new URL("https://chameleon-studios.com"),
   alternates: {
     canonical: "/",
     languages: {
