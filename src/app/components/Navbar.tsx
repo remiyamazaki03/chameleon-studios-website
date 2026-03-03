@@ -17,7 +17,10 @@ export default function Navbar({ lang }: { lang: string }) {
     <Link
       href={href}
       className={`${styles.navLink} nav-link`}
-      onClick={closeMenu}
+      onClick={() => {
+        closeMenu();
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      }}
     >
       {children}
     </Link>
@@ -27,7 +30,11 @@ export default function Navbar({ lang }: { lang: string }) {
     <nav
       className={`navbar navbar-expand-lg navbar-light fixed-top ${styles.navbarCss}`}
     >
-      <Link className={`${styles.navbarIcon} ms-3 my-1`} href="/">
+      <Link
+        className={`${styles.navbarIcon} ms-3 my-1`}
+        href="/"
+        onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+      >
         <Image
           src="/logo-small.png"
           alt="Chameleon Studios logo"

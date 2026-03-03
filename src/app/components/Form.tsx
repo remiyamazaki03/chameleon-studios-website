@@ -35,7 +35,7 @@ export default function Form() {
   };
   if (submitted) {
     return (
-      <div className="p-5 w-75 text-center">
+      <div className="fs-5 p-5 w-75 text-center">
         <p>
           Thank you for your inquiry! We'll be in touch soon. <br />
           (Please check your spam folder if you don't see a reply within a few
@@ -67,12 +67,12 @@ export default function Form() {
         onSubmit={handleSubmit}
       >
         <input type="hidden" name="form-name" value="contact" />
-        <p hidden>
+        <div hidden>
           <label>
             Don’t fill this out if you’re human:{" "}
             <input name="bot-field" type="text" />
           </label>
-        </p>
+        </div>
         <div className="mb-3">
           <label htmlFor="name">Full name・フルネーム</label>
           <input
@@ -127,7 +127,7 @@ export default function Form() {
           />
         </div>
 
-        <button type="submit" className={`btn ${styles.submitButton}`}>
+        <button type="submit" className={styles.submitButton}>
           Send
         </button>
       </form>

@@ -17,7 +17,7 @@ export default async function About() {
     <div>
       <h1 className="title">{t("top")}</h1>
 
-      <div className="container1 m-0 row text-center align-items-center">
+      <section className="container1 m-0 row text-center align-items-center">
         <div className="col-lg-4">
           <Image
             className={`img-fluid d-block mx-auto ${styles.aboutImg}`}
@@ -107,7 +107,7 @@ export default async function About() {
             </p>
           </div>
         </div>
-      </div>
+      </section>
     </div>
   );
 }

@@ -36,7 +36,7 @@ export default async function Voicecoach() {
     <div>
       <h1 className="title">{t("top")}</h1>
 
-      <div className="container1 px-4 row align-items-center">
+      <section className="container1 px-4 row align-items-center">
         <div className="col-lg-8 px-5 py-lg-5 order-2 order-lg-1">
           <h2 className="subhead">{t("Chameleon")}</h2>
           <div>
@@ -56,16 +56,13 @@ export default async function Voicecoach() {
           width={250}
           height={250}
         />
-      </div>
+      </section>
 
-      <div className="row px-5 container2 d-flex align-items-center flex-wrap">
+      <section className="row px-5 container2 d-flex align-items-center flex-wrap">
         <div className="col-lg-6 order-2 pt-3 pt-lg-0 order-lg-1">
           <KidsCarousel slides={kslides} />
         </div>
-        <div
-          className="col-lg-6 order-1 pt-5
-     order-lg-2 pt-lg-0"
-        >
+        <div className="col-lg-6 order-1 pt-5 order-lg-2 pt-lg-0">
           <div>
             <h2 className="subhead">🎤 {t("flow.lesson")}</h2>
             <ol className="bio pb-5">
@@ -83,15 +80,15 @@ export default async function Voicecoach() {
             </ul>
           </div>
         </div>
-      </div>
+      </section>
 
-      <div className="container1 pt-5">
+      <section className="container1 pt-5">
         <div className="pt-3">
           <TestimonialsCarousel slides={slides} />
         </div>
-      </div>
+      </section>
 
-      <div className="row px-5 container2 d-flex align-items-center flex-wrap">
+      <section className="row px-5 container2 d-flex align-items-center flex-wrap">
         <div className="col-lg-6 pt-5 pt-lg-0">
           <h2 className="subhead">{t("worship.worship")} ⛪️</h2>
           <p className="bio" style={{ whiteSpace: "pre-line" }}>
@@ -106,9 +103,9 @@ export default async function Voicecoach() {
         <div className="col-lg-6  pt-3 pt-lg-0">
           <WorshipCarousel slides={wslides} />
         </div>
-      </div>
+      </section>
 
-      <div className="container1 px-4 row align-items-center">
+      <section className="container1 px-4 row align-items-center">
         <Image
           className={`img-fluid col-lg-5 h-md-100 d-block mx-auto pe-md-5 pb-2  ${styles.pricingImg}`}
           src="/rainbow.png"
@@ -170,7 +167,7 @@ export default async function Voicecoach() {
             <p className={styles.cta}>{t("cta")}</p>
           </div>
         </div>
-      </div>
+      </section>
     </div>
   );
 }

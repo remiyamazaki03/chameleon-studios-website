@@ -16,7 +16,7 @@ export default async function Webdeveloper() {
   return (
     <div>
       <h1 className="title">{t("top")}</h1>
-      <div className="container1">
+      <section className="container1">
         <h2 className="subhead2">{t("title")}</h2>
         <p className="bio" style={{ whiteSpace: "pre-line" }}>
           {t("p1")}
@@ -69,7 +69,7 @@ export default async function Webdeveloper() {
             </div>
           </div>
         </div>
-      </div>
+      </section>
     </div>
   );
 }

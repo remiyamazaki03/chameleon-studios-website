@@ -29,7 +29,7 @@ export default async function Home() {
           priority
         />
       </div>
-      <div className="row">
+      <section className="row">
         <div className={`col-md-4 p-0 ${styles.workImg}`}>
           <Image
             className="img-fluid"
@@ -103,7 +103,7 @@ export default async function Home() {
             </Link>
           </div>
         </div>
-      </div>
+      </section>
     </main>
   );
 }
